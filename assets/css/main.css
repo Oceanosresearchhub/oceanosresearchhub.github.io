@@ -3156,6 +3156,6 @@ input, select, textarea {
 /* Si necesitas que suba aún más y los márgenes ya están a cero,
    puedes usar un margen negativo: */
 .container.special article.special header {
-    margin-top: -10px; /* Prueba con un valor negativo, por ejemplo, -10px, y ajústalo */
+    margin-top: -100px; /* Prueba con un valor negativo, por ejemplo, -10px, y ajústalo */
     /* padding-top: 0;  Si ya usaste 0 antes, no necesitas repetirlo */
 }
