@@ -2281,74 +2281,66 @@ input, select, textarea {
 
 /* Nav */
 
-	/* Nav */
 	#nav {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
-		/* text-align: center; */ /* <--- COMENTA O ELIMINA ESTA LÍNEA */
+		/* text-align: center; */ /* ELIMINA o COMENTA esta línea */
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
-        /* No necesitamos display flex directamente en #nav si el ul lo va a ser */
 	}
 
 		#nav > ul {
 			line-height: 0px;
 			position: relative;
-			/* display: inline-block; */ /* <--- COMENTA O ELIMINA ESTA LÍNEA */
+			/* display: inline-block; */ /* ELIMINA o COMENTA esta línea */
 			margin: 0;
 			height: 21px; /* Mantén la altura si es necesaria para el diseño */
 			border-left: none;
 			border-right: none;
+            list-style: none; /* Asegura que no haya marcadores de lista estándar */
 
-            /* AÑADIMOS LAS PROPIEDADES FLEXBOX DIRECTAMENTE AL UL */
+            /* PROPIEDADES FLEXBOX PARA ALINEAR A LA DERECHA */
             display: flex;                 /* Convierte el <ul> en un contenedor flex */
             justify-content: flex-end;     /* Alinea los <li> al final (derecha) */
-            width: 100%;                   /* Asegura que el <ul> ocupe todo el ancho disponible de su padre */
+            width: 100%;                   /* Ocupa todo el ancho de su padre #nav */
             box-sizing: border-box;        /* Para que el padding no desborde el width */
             padding-right: 2em;            /* Añade un espacio desde el borde derecho */
+            padding-left: 0;               /* Asegura que no haya padding izquierdo que pueda desplazar */
 		}
 
-			/* !!! IMPORTANTE: Comenta o elimina completamente los pseudo-elementos :before y :after
-			   ya que están diseñados para un menú centrado y se verán extraños aquí. */
-			/* #nav > ul:before, #nav > ul:after {
-				content: '';
-				display: block;
-				width: 300%;
-				position: absolute;
-				top: 50%;
-				margin-top: -2px;
-				height: 5px;
-				border-top: none;
-				border-bottom: none;
-			} */
-
-			/* #nav > ul:before {
-				left: 100%;
-				margin-left: 1px;
-			} */
-
-			/* #nav > ul:after {
-				right: 100%;
-				margin-right: 1px;
-			} */
-
+			/* ELIMINA ESTOS PSEUDO-ELEMENTOS :before y :after del UL, si no lo hiciste antes.
+			   Estaban destinados a la línea decorativa y no tienen sentido aquí. */
+			#nav > ul:before,
+			#nav > ul:after {
+				content: none;
+				display: none;
+			}
 
 			#nav > ul > li {
-				/* display: inline-block; */ /* <--- COMENTA O ELIMINA ESTA LÍNEA (ya son flex items) */
-				margin: -9px 0.5em 0 0.5em; /* Mantén tus márgenes, ajusta el horizontal si lo necesitas.
-                                                Si quieres controlar el espacio entre ellos con flexbox,
-                                                puedes usar 'gap' en #nav > ul en lugar de margin-left/right */
+				/* display: inline-block; */ /* ELIMINA o COMENTA esta línea (ya son flex items) */
+				margin: -9px 0.5em 0 0.5em; /* Mantén tus márgenes actuales o ajusta.
+                                               Si deseas más control del espaciado entre los elementos,
+                                               considera usar 'gap' en #nav > ul en lugar de margin-left/right.
+                                               Por ejemplo, en #nav > ul podrías añadir `gap: 1.5em;` y luego quitar los `0.5em` de margin. */
 				border-radius: 0.5em;
-				padding: 0.85em;
+				padding: 0.85em; /* Mantén el padding para el área clickeable de cada elemento */
 				border: none;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 			}
+
+            /* ESTO ES CLAVE: Eliminar los puntos blancos de los elementos de la lista */
+            #nav > ul > li::before,
+            #nav > ul > li::after {
+                content: none;  /* Esto borra cualquier caracter o contenido generado */
+                display: none;  /* Esto asegura que no ocupen ningún espacio */
+            }
+
 
 				#nav > ul > li.active {
 					border-color: none;
@@ -2365,6 +2357,7 @@ input, select, textarea {
 				#nav > ul > li > ul {
 					display: none;
 				}
+
 	.dropotron {
 		background: rgba(255, 255, 255, 0.975);
 		padding: 1em 1.25em 1em 1.25em;
