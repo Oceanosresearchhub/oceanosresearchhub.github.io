@@ -2286,24 +2286,38 @@ input, select, textarea {
 		top: 0;
 		left: 0;
 		width: 100%;
-		text-align: center;
+		/* text-align: center; */ /* <--- ELIMINA O COMENTA ESTA LÍNEA */
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+
+		/* AÑADE ESTAS PROPIEDADES FLEXBOX */
+		display: flex;              /* Convierte #nav en un contenedor flexible */
+		justify-content: flex-end;  /* Alinea el contenido (tu ul) al final (derecha) */
+		align-items: center;        /* Opcional: Centra verticalmente el menú dentro de #nav si hay espacio */
+        padding-right: 2em;         /* Añade un poco de espacio desde el borde derecho de la ventana */
 	}
 
 		#nav > ul {
 			line-height: 0px;
 			position: relative;
-			display: inline-block;
-			margin: 0;
+			/* display: inline-block; */ /* <--- ELIMINA O COMENTA ESTA LÍNEA (ya no es necesaria) */
+			margin: 0; /* Asegura que no haya márgenes que lo desplacen */
 			height: 21px;
 			border-left: none;
 			border-right: none;
+            /* Si quisieras que los <li> fueran flexibles entre sí, podrías añadir aquí:
+            display: flex;
+            gap: 1.5em; // Para espacio entre los elementos
+            */
 		}
 
+			/* !!! IMPORTANTE: Los siguientes selectores ':before' y ':after' están diseñados para una barra de navegación centrada.
+			   Si el menú se mueve a la derecha, estas líneas se extenderán de forma incorrecta.
+			   Es probable que quieras ELIMINAR O COMENTAR las siguientes 19 líneas de CSS
+			   para que no aparezcan las líneas decorativas. */
 			#nav > ul:before, #nav > ul:after {
-				content: '';
+				/* content: '';
 				display: block;
 				width: 300%;
 				position: absolute;
@@ -2311,22 +2325,24 @@ input, select, textarea {
 				margin-top: -2px;
 				height: 5px;
 				border-top: none;
-				border-bottom: none;
+				border-bottom: none; */
 			}
 
 			#nav > ul:before {
-				left: 100%;
-				margin-left: 1px;
+				/* left: 100%;
+				margin-left: 1px; */
 			}
 
 			#nav > ul:after {
-				right: 100%;
-				margin-right: 1px;
+				/* right: 100%;
+				margin-right: 1px; */
 			}
+            /* !!! FIN DE LA SECCIÓN A COMENTAR/ELIMINAR */
+
 
 			#nav > ul > li {
-				display: inline-block;
-				margin: -9px 0.5em 0 0.5em;
+				display: inline-block; /* Mantén esto para que los elementos <li> se muestren en línea */
+				margin: -9px 0.5em 0 0.5em; /* Mantén tus márgenes, ajusta el horizontal si lo necesitas */
 				border-radius: 0.5em;
 				padding: 0.85em;
 				border: none;
