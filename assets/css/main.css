@@ -3166,3 +3166,8 @@ input, select, textarea {
     justify-content: center; /* Centra los elementos hijos horizontalmente */
     flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
 }
+
+.wrapper.style1 {
+    margin-bottom: 2em; /* Puedes ajustar este valor (por ejemplo, 1em, 1.5em, 0em) */
+                        /* El valor original probablemente sea 4em o más. */
+}
