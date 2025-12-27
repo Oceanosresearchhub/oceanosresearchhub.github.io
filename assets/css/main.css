@@ -3167,7 +3167,14 @@ input, select, textarea {
     flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
 }
 
+
+/* Opción 1: Reducir padding-bottom del contenedor de las imágenes */
+.wrapper.style1 { /* O el selector exacto del div que contiene las imágenes */
+    padding-bottom: 0.5em; /* O el valor que desees, puede ser 0 o un valor pequeño */
+    /* Si ya tiene padding, puedes reducirlo. Si tiene margin-bottom, haz lo mismo. */
+}
+/* O para anular completamente si es muy grande */
 .wrapper.style1 {
-    margin-bottom: -2em; /* Puedes ajustar este valor (por ejemplo, 1em, 1.5em, 0em) */
-                        /* El valor original probablemente sea 4em o más. */
+    padding-bottom: 0 !important; /* Usar !important si no se sobrescribe */
+    margin-bottom: 0 !important;
 }
