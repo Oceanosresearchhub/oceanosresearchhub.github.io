@@ -3141,3 +3141,9 @@ input, select, textarea {
 					}
 
 	}
+/* Ajustes para reducir el espacio superior en la sección de Features */
+.wrapper.style1 {
+    padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
+                      /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
+}
+
