@@ -3147,3 +3147,15 @@ input, select, textarea {
                       /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
 }
 
+/* Para el texto debajo de las imágenes en las columnas especiales */
+.container.special article.special header {
+    margin-top: 0; /* Elimina cualquier margen superior predeterminado */
+    padding-top: 0; /* Asegura que no haya relleno superior */
+}
+
+/* Si necesitas que suba aún más y los márgenes ya están a cero,
+   puedes usar un margen negativo: */
+.container.special article.special header {
+    margin-top: -10px; /* Prueba con un valor negativo, por ejemplo, -10px, y ajústalo */
+    /* padding-top: 0;  Si ya usaste 0 antes, no necesitas repetirlo */
+}
