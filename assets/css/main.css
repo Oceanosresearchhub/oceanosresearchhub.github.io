@@ -2175,20 +2175,14 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		position: relative;
-    /* Las siguientes líneas relacionadas con la imagen de fondo deben ser ELIMINADAS o COMENTADAS */
-    /* background-image: url("../../images/header.jpg"); */
-    /* background-size: cover; */
-    /* background-position: center center; */
-    /* background-attachment: fixed; */
-
-    /* AÑADE ESTA LÍNEA CON EL COLOR QUE QUIERAS */
-    background-color: #336699; /* #E0E0E0; o white; */
-
-    color: #fff; /* Asegúrate de que este color de texto contraste con TU_COLOR_AQUI */
-    text-align: center;
-    padding: 7.5em 0 2em 0;
-    cursor: default;
+		background-image: url("../../images/header.jpg");
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		color: #fff;
+		text-align: center;
+		padding: 7.5em 0 2em 0;
+		cursor: default;
 	}
 
 		#header:before {
