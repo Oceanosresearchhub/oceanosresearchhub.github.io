@@ -3159,3 +3159,10 @@ input, select, textarea {
     margin-top: -55px; /* Prueba con un valor negativo, por ejemplo, -10px, y ajústalo */
     /* padding-top: 0;  Si ya usaste 0 antes, no necesitas repetirlo */
 }
+
+/* Centrado personalizado para el botón 'Our Science' */
+.wrapper.style2 .container .row .col-12 .actions {
+    display: flex;         /* Asegura que sea un contenedor flexbox */
+    justify-content: center; /* Centra los elementos hijos horizontalmente */
+    flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
+}
