@@ -3316,7 +3316,7 @@ body.publications-page #header .inner header h1 {
 .logo-as-button-container {
     position: absolute;
     /* Subir 3mm: Restamos 3mm al valor 'top' actual */
-    top: calc(2em - 18mm);
+    top: calc(2em - 14mm);
 
     /* Desplazar a la derecha 5mm: Sumamos 5mm al valor 'left' actual */
     left: calc(2em + 12mm);
