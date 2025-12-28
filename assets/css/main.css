@@ -2945,10 +2945,10 @@ input, select, textarea {
 				-webkit-transform: translateY(-50vh);
 				-ms-transform: translateY(-50vh);
 				transform: translateY(-50vh);
-				-moz-transition: -moz-transform 0.5s ease;
-				-webkit-transition: -webkit-transform 0.5s ease;
-				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
+				-moz-transition: -moz-transform 0.1s ease;
+				-webkit-transition: -webkit-transform 0.1s ease;
+				-ms-transition: -ms-transform 0.1s ease;
+				transition: transform 0.1s ease;
 				display: block;
 				height: 50vh;
 				left: 0;
