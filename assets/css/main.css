@@ -3179,7 +3179,12 @@ input, select, textarea {
     padding-bottom: 0 !important; /* Usar !important si no se sobrescribe */
     margin-bottom: 0 !important;
 }
+
+
+/* PUBLICACIONES */
 /* --- Estilos para el listado de publicaciones (Publications Page) --- */
+
+
 
 .publications-list {
     margin-top: 2em; /* Espacio superior para la sección de listas de publicaciones */
@@ -3256,7 +3261,7 @@ input, select, textarea {
 
 /* Estilos para el encabezado de la página de Publicaciones */
 body.publications-page #header {
-    /* Ruta a tu imagen específica para esta página. Ajusta la ruta. */
+    position: relative;
     background-image: url('../../images/pic_publi_background.JPG'); /* Si es diferente a la del home */
     background-size: cover;
     background-position: center center; /* Ajusta si quieres cambiar el "recorte" de la imagen */
@@ -3265,4 +3270,31 @@ body.publications-page #header {
     color: #fff; /* Asegúrate de que el texto del menú sea visible */
     /* Si quieres el mismo color de fondo del home pero más pequeño, puedes usar: */
     /* background-color: #3f394c; /* Si tu header tiene un color de fondo definido */
+}
+
+
+/* --- Posicionamiento del Logo en la página de Publicaciones --- */
+
+/* Asegura que el contenedor "inner" no cause problemas de posicionamiento */
+body.publications-page #header .inner {
+    /* Si el tema usa flexbox para centrar .inner, esto lo anulará. */
+    /* display: block; */ /* Opcional: Descomenta si .inner interfiere con flexbox */
+    padding: 0; /* Elimina cualquier padding interno que pudiera empujar el logo */
+    margin: 0;  /* Elimina cualquier margin interno */
+}
+
+/* Posiciona el elemento <header> que contiene el logo */
+body.publications-page #header .inner header {
+    position: absolute; /* Saca el logo del flujo normal para posicionarlo libremente */
+    top: 20px;         /* Distancia desde el borde superior del #header */
+    left: 20px;        /* Distancia desde el borde izquierdo del #header */
+    margin: 0;         /* Asegúrate de que no haya márgenes externos */
+    padding: 0;        /* Asegúrate de que no haya rellenos */
+    z-index: 100;      /* Asegura que el logo esté por encima de otros elementos si se superponen */
+}
+
+/* Asegúrate de que el h1 no tenga márgenes que lo desplacen */
+body.publications-page #header .inner header h1 {
+    margin: 0;
+    padding: 0;
 }
