@@ -3311,3 +3311,11 @@ body.publications-page #header .inner header h1 {
     height: auto;   /* Asegura que la altura del enlace se ajuste al contenido (la imagen) */
     line-height: 1; /* Resetea el line-height para evitar espacio extra vertical */
 }
+
+
+
+/* reducir el tamaño del footer */
+#footer .inner {
+    max-width: 500px; /* Ajusta este valor al ancho deseado */
+    margin: 0 auto;   /* Esto centrará el contenido del footer */
+}
