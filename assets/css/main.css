@@ -3316,8 +3316,8 @@ body.publications-page #header .inner header h1 {
 /* reducir el tamaño del footer */
 
 
-#footer .inner {
-    max-width: 200px; /* Puedes probar con 800px, 700px o cualquier valor que te guste */
-    margin: 0 auto;   /* Esto centrará el contenido de tu footer */
+/* Opción A: Hacer el relleno (padding) más pequeño */
+#footer ul.icons {
+    padding: 0.3em 0.5em; /* Reduce estos valores para encoger el rectángulo */
+    /* El primer valor es arriba/abajo, el segundo izquierda/derecha */
 }
-
