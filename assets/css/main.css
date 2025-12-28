@@ -3302,3 +3302,12 @@ body.publications-page #header .inner header h1 {
 .header-page-title-container {
     margin-top: 45px; /* Ajusta este valor (ej. 10px, 30px, etc.) */
 }
+
+/* logo como enlace directo */
+
+/* Asegura que el enlace del logo abarque toda la imagen */
+#logo {
+    display: block; /* Hace que el enlace se comporte como un bloque, ocupando todo el espacio disponible */
+    height: auto;   /* Asegura que la altura del enlace se ajuste al contenido (la imagen) */
+    line-height: 1; /* Resetea el line-height para evitar espacio extra vertical */
+}
