@@ -3179,3 +3179,77 @@ input, select, textarea {
     padding-bottom: 0 !important; /* Usar !important si no se sobrescribe */
     margin-bottom: 0 !important;
 }
+/* --- Estilos para el listado de publicaciones (Publications Page) --- */
+
+.publications-list {
+    margin-top: 2em; /* Espacio superior para la sección de listas de publicaciones */
+}
+
+.publications-list h3 {
+    margin-top: 2.5em;    /* Espacio entre categorías principales */
+    margin-bottom: 1em;   /* Espacio debajo del título de la categoría */
+    color: #333;          /* Color del título, puedes ajustarlo */
+    padding-bottom: 0.5em;
+}
+
+.publications-list h4 { /* Estilo para el subtítulo del año (ej. "2025") */
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    color: #333;
+    font-weight: bold;
+}
+
+.publications-list ul {
+    list-style: none; /* Elimina los puntos de la lista por defecto */
+    padding: 0;       /* Elimina el padding por defecto de la lista */
+    margin: 0;        /* Elimina el margin por defecto de la lista */
+}
+
+.publications-list li {
+    margin-bottom: 1.5em; /* Espacio entre cada entrada de publicación */
+}
+
+.publication-item {
+    display: flex;         /* Usa flexbox para alinear el número y el contenido */
+    align-items: baseline; /* ¡Ajuste clave! Alinea las líneas base del texto. */
+    line-height: 1.6;      /* Altura de línea para mejorar la legibilidad */
+    font-size: 0.95em;     /* Texto ligeramente más pequeño que el estándar */
+    color: #555;           /* Color de texto más suave */
+}
+
+.publication-number {
+    flex-shrink: 0;        /* Evita que el número se encoja cuando el texto es largo */
+    width: 2.5em;          /* Ancho fijo para el número, ayuda a la alineación */
+    text-align: right;     /* Alinea los números a la derecha dentro de su ancho fijo */
+    padding-right: 0.5em;  /* Espacio entre el número y el contenido de la publicación */
+}
+
+.publication-number strong {
+    font-weight: bold;
+    display: inline; /* Asegura que la negrita no rompa la línea si el CSS del tema tiene display:block para strong */
+}
+
+.publication-content {
+    flex-grow: 1;          /* Permite que el contenido ocupe el espacio restante */
+}
+
+/* Estilo específico para los coautores en negrita (ej. "Dakos V") */
+.publication-content strong {
+    font-weight: bold;
+}
+
+/* Estilo para nombres de revistas o conferencias (cursiva) */
+.publication-content em {
+    font-style: italic;
+}
+
+/* Estilo para enlaces (DOIs) */
+.publication-content a {
+    color: #007bff;            /* Color azul para los enlaces */
+    text-decoration: underline; /* Subrayado por defecto */
+}
+
+.publication-content a:hover {
+    color: #0056b3; /* Color más oscuro al pasar el ratón por el enlace */
+}
