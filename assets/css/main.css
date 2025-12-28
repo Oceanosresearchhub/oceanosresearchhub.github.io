@@ -3286,7 +3286,7 @@ body.publications-page #header .inner {
 /* Posiciona el elemento <header> que contiene el logo */
 body.publications-page #header .inner header {
     position: relative; /* Saca el logo del flujo normal para posicionarlo libremente */
-    top: -70px;         /* Distancia desde el borde superior del #header */
+    top: -60px;         /* Distancia desde el borde superior del #header */
     left: -550px;        /* Distancia desde el borde izquierdo del #header */
     margin: 0;         /* Asegúrate de que no haya márgenes externos */
     padding: 0;        /* Asegúrate de que no haya rellenos */
@@ -3300,5 +3300,5 @@ body.publications-page #header .inner header h1 {
 }
 
 .header-page-title-container {
-    margin-top: 60px; /* Ajusta este valor (ej. 10px, 30px, etc.) */
+    margin-top: 45px; /* Ajusta este valor (ej. 10px, 30px, etc.) */
 }
