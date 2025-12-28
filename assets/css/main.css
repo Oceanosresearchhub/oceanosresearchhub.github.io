@@ -3310,13 +3310,6 @@ body.publications-page #header .inner header h1 {
     height: auto;
     line-height: 1;
 }
-.publications-page header.page-header-logo h1 {
-    margin: 0;
-    padding: 0;
-}
-.publications-page #logo img {
-    display: block;
-}
 
 /* reducir el tamaño del footer */
 
