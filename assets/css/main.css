@@ -2465,7 +2465,7 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 3em 0 3em 0;
+		padding: 1em 0 1em 0;
 		background: #2b252c;
 		color: #fff;
 	}
@@ -3305,21 +3305,7 @@ body.publications-page #header .inner header h1 {
 
 /* logo como enlace directo */
 
-/* Intenta hacer el selector más específico para evitar sobrescrituras */
-body.publications-page #header .inner header.page-header-logo h1 #logo {
-    display: block !important; /* Usar !important como último recurso */
-    height: auto;
-    line-height: 1;
-}
 
-body.publications-page #header .inner header.page-header-logo h1 {
-    margin: 0;
-    padding: 0;
-}
-
-body.publications-page #header .inner header.page-header-logo h1 #logo img {
-    display: block;
-}
 
 /* reducir el tamaño del footer */
 
