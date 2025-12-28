@@ -3314,12 +3314,16 @@ body.publications-page #header .inner header h1 {
 
 /* Posiciona el contenedor del logo-enlace */
 .logo-as-button-container {
-    position: absolute;      /* Saca el elemento del flujo normal y lo posiciona */
-    top: 2em;                /* Distancia desde el borde superior del #header */
-    left: 2em;               /* Distancia desde el borde izquierdo del #header */
-    z-index: 1001;           /* Asegura que esté por encima de otros elementos, como la navegación */
-    margin: 0 !important;    /* Elimina cualquier margen predeterminado */
-    padding: 0 !important;   /* Elimina cualquier relleno predeterminado */
+    position: absolute;
+    /* Subir 3mm: Restamos 3mm al valor 'top' actual */
+    top: calc(2em - 3mm);
+
+    /* Desplazar a la derecha 5mm: Sumamos 5mm al valor 'left' actual */
+    left: calc(2em + 5mm);
+
+    z-index: 1001;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* Resetea los estilos predeterminados del h1 y del a dentro de este contexto */
