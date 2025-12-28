@@ -15,25 +15,29 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<!-- Header -->
-<div id="header">
-    <!-- Inner container -->
-    <div class="inner">
-        <!-- Logo Header -->
-        <header class="page-header-logo">
-            <h1>
-                <a href="index.html" id="logo"> <!-- Asegúrate de que el href sea index.html -->
-    <img src="images/oceano_color_web.png" alt="logo" style="max-width: 150px; height: auto;" />
-</a>
-            </h1>
-        </header>
-		
-        <!-- AÑADIDO: Contenedor para el título de la página, centrado en el header -->
-        <div class="header-page-title-container">
-			<h2> Explore our publications</h2> 
-        </div>
+			<div id="header">
 
-    </div> <!-- End Inner -->
+                <!-- MODIFICADO: El logo es ahora un enlace (botón) posicionado arriba a la izquierda -->
+                <!-- Lo sacamos del div.inner para posicionarlo absolutamente respecto a #header -->
+                <div class="logo-as-button-container"> <!-- Contenedor para posicionar el logo-enlace -->
+                    <h1>
+                        <!-- El enlace a#logo ahora apunta a Our_Science.html y NO tiene clases de botón -->
+                        <a href="index.html" id="logo-button">
+                            <!-- Esta es la imagen de tu logo actual -->
+                            <img src="images/oceano_color_web.png" alt="Our Science Button" style="max-width: 150px; height: auto;" />
+                        </a>
+                    </h1>
+                </div>
+                <!-- Fin del logo como botón -->
+
+                <!-- Inner container (Contiene el resto del contenido del header que sí debe estar centrado) -->
+                <div class="inner">
+                    <!-- AÑADIDO: Contenedor para el título de la página, centrado en el header -->
+                    <div class="header-page-title-container">
+                        <h2> Explore our publications</h2>
+                    </div>
+
+                </div>
 
     <!-- Nav (como estaba, fuera del inner div) -->
     <nav id="nav">
