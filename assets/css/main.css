@@ -3286,8 +3286,8 @@ body.publications-page #header .inner {
 /* Posiciona el elemento <header> que contiene el logo */
 body.publications-page #header .inner header {
     position: absolute; /* Saca el logo del flujo normal para posicionarlo libremente */
-    top: 20px;         /* Distancia desde el borde superior del #header */
-    left: 20px;        /* Distancia desde el borde izquierdo del #header */
+    top: 80px;         /* Distancia desde el borde superior del #header */
+    left: 50px;        /* Distancia desde el borde izquierdo del #header */
     margin: 0;         /* Asegúrate de que no haya márgenes externos */
     padding: 0;        /* Asegúrate de que no haya rellenos */
     z-index: 100;      /* Asegura que el logo esté por encima de otros elementos si se superponen */
