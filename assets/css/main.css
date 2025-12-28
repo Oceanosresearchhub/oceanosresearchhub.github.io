@@ -3343,11 +3343,11 @@ body.publications-page #header .inner header h1 {
     line-height: normal !important;     /* Evita que el line-height añada altura extra */
 }
 
-/* reducir el tamaño del footer */
 
-
-/* Añade esto al final de tu CSS */
+/* Modificación para el fondo blanco del icono del footer */
 #footer ul.icons {
-    padding: 0.1em 0.3em; /* Pon aquí los valores pequeños que quieras */
-    /* Ejemplo: 0.1em arriba/abajo, 0.3em izquierda/derecha */
+    background-color: white !important; /* Fondo blanco */
+    padding: 0.1em 0.3em; /* Mantengo tus valores de padding */
+    /* Asegúrate de que `rgba(128, 128, 128, 0.05)` no esté sobrescribiendo aquí o en media queries específicas para el footer.
+       El `!important` debería ser suficiente para asegurarlo. */
 }
