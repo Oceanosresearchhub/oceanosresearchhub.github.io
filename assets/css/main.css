@@ -3346,3 +3346,11 @@ body.publications-page #header .inner header h1 {
     height: auto !important;
     line-height: normal !important;
 }
+
+#footer .copyright {
+    color: #5b5b5b !important;
+}
+
+#footer .copyright a {
+    color: #5b5b5b !important;
+}
