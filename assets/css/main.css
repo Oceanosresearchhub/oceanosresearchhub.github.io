@@ -3316,6 +3316,6 @@ body.publications-page #header .inner header h1 {
 
 /* reducir el tamaño del footer */
 #footer .inner {
-    max-width: 500px; /* Ajusta este valor al ancho deseado */
+    max-width: 200px; /* Ajusta este valor al ancho deseado */
     margin: 0 auto;   /* Esto centrará el contenido del footer */
 }
