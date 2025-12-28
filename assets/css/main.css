@@ -2936,7 +2936,7 @@ input, select, textarea {
 						border-radius: 0 0 0.35em 0.35em;
 					}
 
-			#navPanel {opacity: 0;
+			#navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
