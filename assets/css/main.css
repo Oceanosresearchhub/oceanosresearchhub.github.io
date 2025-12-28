@@ -2460,6 +2460,14 @@ input, select, textarea {
 			padding-top: 2em;
 		}
 
+.main.style2 {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			background-image: url("images/pic_publi_background.png");
+			background-size: auto,							cover;
+		}
+
 /* Footer */
 
 	#footer {
