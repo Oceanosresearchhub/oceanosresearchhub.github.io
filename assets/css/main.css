@@ -3298,3 +3298,7 @@ body.publications-page #header .inner header h1 {
     margin: 0;
     padding: 0;
 }
+
+.header-page-title-container {
+    margin-top: 40px; /* Ajusta este valor (ej. 10px, 30px, etc.) */
+}
