@@ -3344,10 +3344,9 @@ body.publications-page #header .inner header h1 {
 }
 
 
-/* Modificación para el fondo blanco del icono del footer */
+/* Intento para ELIMINAR COMPLETAMENTE el fondo del icono del footer */
 #footer ul.icons {
-    background-color: white !important; /* Fondo blanco */
-    padding: 0.1em 0.3em; /* Mantengo tus valores de padding */
-    /* Asegúrate de que `rgba(128, 128, 128, 0.05)` no esté sobrescribiendo aquí o en media queries específicas para el footer.
-       El `!important` debería ser suficiente para asegurarlo. */
+    background: transparent !important; /* Hace el fondo completamente transparente */
+    box-shadow: none !important;      /* Elimina cualquier sombra que pueda estar creando el efecto gris */
+    border: none !important;          /* Elimina cualquier borde */
 }
