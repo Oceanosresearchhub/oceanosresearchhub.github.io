@@ -3354,3 +3354,12 @@ body.publications-page #header .inner header h1 {
 #footer .copyright a {
     color: #5b5b5b !important;
 }
+
+/* --- 1. Ajuste del fondo y color de texto para todo el footer --- */
+#footer {
+    background: red !important;  /* Fuerza el fondo a blanco */
+    color: #5b5b5b !important;    /* Fuerza el color del texto a gris oscuro */
+    /* Puedes ajustar el padding del footer si ves que la altura no es la deseada */
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
