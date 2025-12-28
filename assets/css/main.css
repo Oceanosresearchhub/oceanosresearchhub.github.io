@@ -3260,7 +3260,7 @@ body.publications-page #header {
     background-image: url('../../images/pic_publi_background.JPG'); /* Si es diferente a la del home */
     background-size: cover;
     background-position: center center; /* Ajusta si quieres cambiar el "recorte" de la imagen */
-    height: 400px; /* <--- ¡Este es el valor para reducir la altura de la parte marrón! */
+    height: 300px; /* <--- ¡Este es el valor para reducir la altura de la parte marrón! */
     padding-top: 4em; /* <--- Ajusta este padding para que el contenido (menú/logo) suba */
     color: #fff; /* Asegúrate de que el texto del menú sea visible */
     /* Si quieres el mismo color de fondo del home pero más pequeño, puedes usar: */
