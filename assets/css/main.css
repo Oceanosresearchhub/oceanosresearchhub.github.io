@@ -3305,11 +3305,6 @@ body.publications-page #header .inner header h1 {
 
 /* logo como enlace directo */
 
-.publications-page #logo {
-    display: block;
-    height: auto;
-    line-height: 1;
-}
 
 /* reducir el tamaño del footer */
 
