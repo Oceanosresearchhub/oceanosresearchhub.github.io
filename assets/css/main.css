@@ -2473,8 +2473,8 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 0.25em 0 0.25em 0;
-		background: #2b252c;
-		color: #fff;
+		background: white;  /* ¡Fondo blanco para todo el footer! */
+    color: #5b5b5b; 
 	}
 
 		#footer .icon.circled {
@@ -3326,27 +3326,23 @@ body.publications-page #header .inner header h1 {
     padding: 0 !important;
 }
 
-/* Resetea los estilos predeterminados del h1 y del a dentro de este contexto */
-.logo-as-button-container h1 {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: normal !important; /* Evita que el h1 añada altura extra */
-}
-
-/* Para asegurar que el enlace #logo-button no tenga estilos de botón no deseados */
-#logo-button {
-    background: transparent !important; /* Asegura que no tenga fondo */
-    border: none !important;            /* Elimina cualquier borde */
-    box-shadow: none !important;        /* Elimina cualquier sombra */
-    padding: 0 !important;              /* Elimina cualquier padding */
-    display: inline-block !important;   /* Ocupa solo el espacio de la imagen */
-    line-height: normal !important;     /* Evita que el line-height añada altura extra */
-}
-
-
-/* Intento para ELIMINAR COMPLETAMENTE el fondo del icono del footer */
 #footer ul.icons {
-    background: transparent !important; /* Hace el fondo completamente transparente */
-    box-shadow: none !important;      /* Elimina cualquier sombra que pueda estar creando el efecto gris */
-    border: none !important;          /* Elimina cualquier borde */
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    margin: 0 auto 2em auto !important; /* Ajuste de margen para espaciar del copyright */
+    display: block !important;
+    width: fit-content !important;
+}
+
+#footer ul.icons li a {
+    background: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: #5b5b5b !important; /* Color del icono (negro/gris oscuro) */
+    width: auto !important; /* Asegura que el enlace se ajuste al contenido */
+    height: auto !important;
+    line-height: normal !important;
 }
