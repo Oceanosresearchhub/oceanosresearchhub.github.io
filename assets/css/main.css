@@ -3311,7 +3311,7 @@ body.publications-page #header .inner header h1 {
 
 
 #footer .inner {
-    max-width: 500px; /* Puedes probar con 800px, 700px o cualquier valor que te guste */
+    max-width: 200px; /* Puedes probar con 800px, 700px o cualquier valor que te guste */
     margin: 0 auto;   /* Esto centrará el contenido de tu footer */
 }
 
