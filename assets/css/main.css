@@ -2185,6 +2185,7 @@ input, select, textarea {
 		cursor: default;
 	}
 
+
 		#header:before {
 			content: '';
 			display: inline-block;
