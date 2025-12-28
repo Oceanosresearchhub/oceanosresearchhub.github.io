@@ -3316,8 +3316,8 @@ body.publications-page #header .inner header h1 {
 /* reducir el tamaño del footer */
 
 
-/* Opción A: Hacer el relleno (padding) más pequeño */
+/* Añade esto al final de tu CSS */
 #footer ul.icons {
-    padding: 0.1em 0.5em; /* Reduce estos valores para encoger el rectángulo */
-    /* El primer valor es arriba/abajo, el segundo izquierda/derecha */
+    padding: 0.1em 0.3em; /* Pon aquí los valores pequeños que quieras */
+    /* Ejemplo: 0.1em arriba/abajo, 0.3em izquierda/derecha */
 }
