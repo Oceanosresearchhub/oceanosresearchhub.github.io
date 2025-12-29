@@ -291,6 +291,22 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
+#news .row {
+    display: flex;                /* Hace que la fila sea un contenedor flexbox */
+    justify-content: center;      /* Centra los artículos dentro de la fila */
+    gap: 20px;                   /* Espacio adicional entre los artículos */
+}
+
+#news article {
+    text-align: center;           /* Centra el contenido dentro de cada artículo */
+}
+
+#news img {
+    max-width: 100%;             /* Asegura que la imagen no sea mayor que su contenedor */
+    height: auto;                /* Mantiene la proporción de la imagen */
+    width: 300px;                /* Ajusta el tamaño deseado de la imagen (puedes cambiar este valor) */
+}
+
 		.row > * {
 			box-sizing: border-box;
 		}
