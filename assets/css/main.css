@@ -3342,6 +3342,16 @@ body.publications-page #header .inner header h1 {
 
 /* Si el body en Our_Science.html tiene la clase 'our-science-page' */
 body.our-science-page #header {
+	position: relative;
+    background-image: url('../../images/pic_publi_background.jpg'); /* Si es diferente a la del home */
+    background-size: cover;
+    background-position: center center; /* Ajusta si quieres cambiar el "recorte" de la imagen */
+    height: 300px; /* <--- ¡Este es el valor para reducir la altura de la parte marrón! */
+    padding-top: 4em; /* <--- Ajusta este padding para que el contenido (menú/logo) suba */
+    color: #fff; /* Asegúrate de que el texto del menú sea visible */
+    /* Si quieres el mismo color de fondo del home pero más pequeño, puedes usar: */
+    /* background-color: #3f394c; /* Si tu header tiene un color de fondo definido */
     background-image: url('../images/pic_publi_background.jpg') !important;
 }
+
 
