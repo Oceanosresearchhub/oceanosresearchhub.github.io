@@ -282,6 +282,18 @@ input, select, textarea {
 
 		}
 
+.container {
+    padding: 20px 0; /* Espacio vertical alrededor de todo el contenido del contenedor */
+}
+
+#four h2 {
+    margin: 20px 0; /* Espacio vertical arriba y abajo del encabezado */
+}
+
+#four p {
+    margin: 20px 0; /* Espacio vertical arriba y abajo del párrafo */
+}
+
 /* Row */
 
 	.row {
