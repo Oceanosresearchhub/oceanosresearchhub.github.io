@@ -115,6 +115,14 @@ input, select, textarea {
 		line-height: 1.25em;
 	}
 
+#four h2 {
+    color: white; /* Cambia 'blue' por el color deseado */
+}
+
+#four p {
+    color: white; /* Cambia 'green' por el color deseado */
+}
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
