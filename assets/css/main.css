@@ -3343,11 +3343,5 @@ body.publications-page #header .inner header h1 {
 /* Si el body en Our_Science.html tiene la clase 'our-science-page' */
 body.our-science-page #header {
     background-image: url('../images/pic_publi_background.jpg') !important;
-    background-size: cover !important;
-    background-position: center center !important;
 }
 
-/* Y para el fondo del wrapper principal, si lo necesitas */
-body.our-science-page .wrapper.style1 {
-    background-color: white !important;
-}
