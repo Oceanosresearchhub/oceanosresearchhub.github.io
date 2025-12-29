@@ -3334,7 +3334,3 @@ body.publications-page #header .inner header h1 {
     padding: 0 !important;
 }
 
-
-.wrapper.style1 {
-    background-color: white !important; /* Usamos !important para asegurar que sobreescriba cualquier otro estilo */
-}
