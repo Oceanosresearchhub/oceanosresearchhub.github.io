@@ -2480,6 +2480,7 @@ input, select, textarea {
     background-attachment: fixed; /* Se aplica solo una vez si el efecto parallax es deseado */
     background-image: url("../../images/pic_publi_background.jpg");
     background-size: cover; /* Asegura que la imagen cubra toda la sección */
+	text-align: center;
 }
 
 /* Footer */
