@@ -3186,28 +3186,33 @@ input, select, textarea {
 					}
 
 	}
-/* Ajustes para reducir el espacio superior en la sección de Features */
-.wrapper.style1 {
-    padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
-                      /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
-	background-color: white !important;
-}
+
 
 /* Para el texto debajo de las imágenes en las columnas especiales */
 .container.special article.special header {
-    margin-top: 0; /* Elimina cualquier margen superior predeterminado */
+    margin-top: 2em; 
     padding-top: 0; /* Asegura que no haya relleno superior */
 }
 
 
 
 /* Centrado personalizado para el botón 'Our Science' */
+
 .wrapper.style2 .container .row .col-12 .actions {
-    display: flex;         /* Asegura que sea un contenedor flexbox */
-    justify-content: center; /* Centra los elementos hijos horizontalmente */
-    flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
+    background-color: #081b39ff; /* Cambia el color de fondo del botón (puedes usar cualquier color) */
+    color: white;               /* Cambia el color del texto del botón */
+    padding: 10px 20px;        /* Espaciado interno del botón */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    text-align: center;         /* Centra el texto en el botón */
+    text-decoration: none;      /* Elimina el subrayado en el texto si es un enlace */
+    cursor: pointer;           /* Cambia el cursor a mano al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
 }
 
+.wrapper.style2 .container .row .col-12 .actions .button:hover {
+    background-color: #06555bff; /* Color en estado hover (cuando el mouse está sobre el botón) */
+}
 
 /* Opción 1: Reducir padding-bottom del contenedor de las imágenes */
 .wrapper.style1 { /* O el selector exacto del div que contiene las imágenes */
