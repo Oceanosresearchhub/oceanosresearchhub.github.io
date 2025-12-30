@@ -116,12 +116,14 @@ input, select, textarea {
 	}
 
 #four h2 {
-    color: white; text-align: center;
+    color: white; text-align: center; top: 50%;
+  left: 50%;width: 300px; padding: 20px;
 }
 
 #four p {
     color: white; text-align: center;
 }
+
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
@@ -233,6 +235,8 @@ input, select, textarea {
 		color: rgba(128, 128, 128, 0.75);
 		font-size: 0.8em;
 	}
+
+
 
 /* Container */
 
