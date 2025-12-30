@@ -3190,19 +3190,19 @@ input, select, textarea {
 
 /* Para el texto debajo de las imágenes en las columnas especiales */
 .container.special article.special header {
-    margin-top: 2em; 
+    margin-top: 0; 
     padding-top: 0; /* Asegura que no haya relleno superior */
 }
 
-
-
-/* Centrado personalizado para el botón 'Our Science' */
 
 /* Centrado personalizado para el botón 'Our Science' */
 .wrapper.style2 .container .row .col-12 .actions {
     display: flex;         /* Asegura que sea un contenedor flexbox */
     justify-content: center; /* Centra los elementos hijos horizontalmente */
     flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
+}
+.wrapper.style2 .container .row .col-12 .actions .button {
+    background-color: #081837ff; /* Color en estado hover (cuando el mouse está sobre el botón) */
 }
 
 .wrapper.style2 .container .row .col-12 .actions .button:hover {
