@@ -2200,7 +2200,6 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			margin: 0 0 0 0;
-			padding-top: 0;
 		}
 
 /* Header */
@@ -3195,12 +3194,6 @@ input, select, textarea {
     padding-top: 0; /* Asegura que no haya relleno superior */
 }
 
-/* Si necesitas que suba aún más y los márgenes ya están a cero,
-   puedes usar un margen negativo: */
-.container.special article.special header {
-    margin-top: -55px; /* Prueba con un valor negativo, por ejemplo, -10px, y ajústalo */
-    /* padding-top: 0;  Si ya usaste 0 antes, no necesitas repetirlo */
-}
 
 /* Centrado personalizado para el botón 'Our Science' */
 .wrapper.style2 .container .row .col-12 .actions {
