@@ -241,7 +241,6 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 		text-align: center; 
-		display: flex; 
 	}
 
 		@media screen and (max-width: 1680px) {
