@@ -116,11 +116,11 @@ input, select, textarea {
 	}
 
 #four h2 {
-    color: white; /* Cambia 'blue' por el color deseado */
+    color: white; text-align: center;
 }
 
 #four p {
-    color: white; /* Cambia 'green' por el color deseado */
+    color: white; text-align: center;
 }
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
