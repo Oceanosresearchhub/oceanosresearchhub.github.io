@@ -132,7 +132,7 @@ input, select, textarea {
 }
 
 #features h3 {
-    color: #072d47ff; margin-top: -20px;
+    color: #072d47ff; margin-top: -50px;
 }
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2109,8 +2109,11 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		justify-content: center;
 	}
+#features button {
+   justify-content: center;
+	border-radius: 0.25em;
+}
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
