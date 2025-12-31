@@ -3224,15 +3224,22 @@ input, select, textarea {
 }
 
 .wrapper.style2 .container .row .col-12 .actions .button {
-    background-color: #072d47ff; 
-    display: flex; /* Esto no es necesario aquí */
-    justify-content: center; /* Esto no es necesario aquí */
-    flex-wrap: wrap; /* Esto no es necesario aquí */
+    background-color: #072d47ff;   /* Color de fondo del botón */
+    color: white;                  /* Color del texto */
+    width: 150px;                  /* Ancho del botón, ajusta según sea necesario */
+    height: 150px;                 /* Altura del botón, ajusta según sea necesario */
+    text-align: center;            /* Centra el texto */
+    line-height: 150px;            /* Centra verticalmente el texto en el botón */
+    border: none;                  /* Sin borde */
+    border-radius: 0;              /* Esquinas cuadradas (0 para no redondear) */
+    cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
 }
 
 .wrapper.style2 .container .row .col-12 .actions .button:hover {
-    background-color: #338a98ff; /* Cambia de color al pasar el mouse */
+    background-color: #338a98ff; /* Color en estado hover */
 }
+
 
 /* Opción 1: Reducir padding-bottom del contenedor de las imágenes */
 .wrapper.style1 { /* O el selector exacto del div que contiene las imágenes */
