@@ -3396,7 +3396,7 @@ body.our-science-page #header {
 /* --- Ajustes para la página de Noticias (News) --- */
 body.news-page #header {
     margin-bottom: 0 !important; /* Elimina el margen inferior del header */
-    padding-bottom: 50 !important; /* Elimina el padding inferior del header */
+    padding-bottom: 0 !important; /* Elimina el padding inferior del header */
 }
 
 /* Si el contenido principal está dentro de un div.wrapper */
@@ -3414,7 +3414,7 @@ body.news-page .container {
 /* Para la línea horizontal <hr> */
 body.news-page hr {
     margin-top: 0 !important;
-    margin-bottom: 2em !important; /* Puedes ajustar este margen inferior si quieres un poco de espacio debajo de la línea */
+    margin-bottom: 10em !important; /* Puedes ajustar este margen inferior si quieres un poco de espacio debajo de la línea */
 }
 
 /* Asegura que el contenedor del título de la página no tenga márgenes excesivos */
