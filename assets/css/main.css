@@ -3217,6 +3217,23 @@ input, select, textarea {
 	background-color: white !important;
 }
 
+.wrapper.style2 .container .row .col-12 .actions {
+    display: flex; /* Contenedor flexbox */
+    justify-content: center; /* Centra elementos hijos horizontalmente */
+    flex-wrap: wrap; /* Permite que se envuelvan */
+}
+
+.wrapper.style2 .container .row .col-12 .actions .button {
+    background-color: #072d47ff; 
+    display: flex; /* Esto no es necesario aquí */
+    justify-content: center; /* Esto no es necesario aquí */
+    flex-wrap: wrap; /* Esto no es necesario aquí */
+}
+
+.wrapper.style2 .container .row .col-12 .actions .button:hover {
+    background-color: #338a98ff; /* Cambia de color al pasar el mouse */
+}
+
 /* Opción 1: Reducir padding-bottom del contenedor de las imágenes */
 .wrapper.style1 { /* O el selector exacto del div que contiene las imágenes */
     padding-bottom: 0; /* O el valor que desees, puede ser 0 o un valor pequeño */
