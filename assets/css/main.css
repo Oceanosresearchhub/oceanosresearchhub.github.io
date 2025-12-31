@@ -3394,7 +3394,12 @@ body.our-science-page #header {
     
 }
 
-/* Para la página de noticias: Eliminar margen inferior del header */
-body.news-page #header {
-    margin-bottom: 0 !important;
+body.news-page .wrapper {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+/* Si tiene un estilo específico como style1, usa: */
+body.news-page .wrapper.style1 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
 }
