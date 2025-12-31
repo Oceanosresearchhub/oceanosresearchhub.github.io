@@ -3434,3 +3434,8 @@ body.news-page article {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
+
+body.news-page .article-date {
+    font-weight: bold !important; /* Para ponerlo en negrita */
+    color: #000080 !important;   /* Color azul oscuro (Midnight Blue) */
+}
