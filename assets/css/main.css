@@ -3396,7 +3396,7 @@ body.our-science-page #header {
 /* --- Ajustes para la página de Noticias (News) --- */
 body.news-page #header {
     margin-bottom: 0 !important; /* Elimina el margen inferior del header */
-    padding-bottom: 0 !important; /* Elimina el padding inferior del header */
+    padding-bottom: 50 !important; /* Elimina el padding inferior del header */
 }
 
 /* Si el contenido principal está dentro de un div.wrapper */
