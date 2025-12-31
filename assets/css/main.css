@@ -124,7 +124,7 @@ input, select, textarea {
 }
 
 #features h2 {
-    color: #072d47ff; 
+    color: #072d47ff; margin-bottom: 40px;
 }
 
 #features p {
@@ -132,7 +132,7 @@ input, select, textarea {
 }
 
 #features h3 {
-    color: #072d47ff; 
+    color: #072d47ff; margin-top: -20px;
 }
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
