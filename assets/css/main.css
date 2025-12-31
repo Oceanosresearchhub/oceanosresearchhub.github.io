@@ -3387,4 +3387,7 @@ body.our-science-page #header {
     
 }
 
-
+/* Para la página de noticias: Eliminar margen inferior del header */
+body.news-page #header {
+    margin-bottom: 0 !important;
+}
