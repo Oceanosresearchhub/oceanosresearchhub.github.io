@@ -15,20 +15,12 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-<div id="page-wrapper">
-
-    <!-- Header -->
-    <div id="header" style="background-image: url('images/header_publications.jpg'); background-size: cover; background-position: center center; height: 300px;">
-
-
+            <div id="header" style="background-image: url('images/header_publications.jpg'); background-size: cover; background-position: center center; height: 300px;">
 				
                 <!-- MODIFICADO: El logo es ahora un enlace (botón) posicionado arriba a la izquierda -->
-                <!-- Lo sacamos del div.inner para posicionarlo absolutamente respecto a #header -->
-                <div class="logo-as-button-container"> <!-- Contenedor para posicionar el logo-enlace -->
+                <div class="logo-as-button-container"> 
                     <h1>
-                        <!-- El enlace a#logo ahora apunta a Our_Science.html y NO tiene clases de botón -->
                         <a href="index.html" id="logo-button">
-                            <!-- Esta es la imagen de tu logo actual -->
                             <img src="images/oceano_color_web.png" alt="Our Science Button" style="max-width: 150px; height: auto;" />
                         </a>
                     </h1>
@@ -41,101 +33,93 @@
                     <div class="header-page-title-container">
                         <h2> News </h2>
                     </div>
-
                 </div>
 
-    <!-- Nav (como estaba, fuera del inner div) -->
-    <nav id="nav">
-        <ul>
-								<li><a href="science.html">Our Science</a></li>
-								<li><a href="team.html">The Team</a></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="projects.html">Projects</a></li>
-								<li><a href="team_up.html">Team up!</a></li>
-        </ul>
-    </nav>
+                <!-- Nav (como estaba, fuera del inner div) -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="science.html">Our Science</a></li>
+                        <li><a href="team.html">The Team</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="team_up.html">Team up!</a></li>
+                    </ul>
+                </nav>
 
-</div> 
+            </div> 
 			<!-- End #header -->
 
-<!--Main-->
-			<div class="container" style="padding-top: 0;">
-							</section>
-						</article>
-						<hr />
-						<div class="row">
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
-								<p>
-									Date
-								</p>
-								<header>
-									<h3><a href="#">News 1</a></h3>
-								</header>
-								<p>
-									Text here
-								</p>
-								<br>	
-							</article>
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-								<p>
-									Date
-								</p>
-								<header>
-									<h3><a href="#">News 2</a></h3>
-								</header>
-								<p>
-									Text here
-								</p>
-								<br>
-							</article>
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
-								<p>
-									Date
-								</p>
-								<header>
-									<h3><a href="#">News 3</a></h3>
-								</header>
-								<p>
-									Text here
-								</p>
-								<br>
-							</article>
-						</div>
-					</div>
+            <!--Main-->
+            <!-- ATENCIÓN: Se eliminaron las etiquetas </section> y </article> mal colocadas -->
+            <div class="container" style="padding-top: 0; margin-top: 0;"> <!-- Se añadió margin-top: 0; para asegurar -->
+                <hr />
+                <div class="row">
+                    <article class="col-4 col-12-mobile special">
+                        <a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+                        <p>
+                            Date
+                        </p>
+                        <header>
+                            <h3><a href="#">News 1</a></h3>
+                        </header>
+                        <p>
+                            Text here
+                        </p>
+                        <br>	
+                    </article>
+                    <article class="col-4 col-12-mobile special">
+                        <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                        <p>
+                            Date
+                        </p>
+                        <header>
+                            <h3><a href="#">News 2</a></h3>
+                        </header>
+                        <p>
+                            Text here
+                        </p>
+                        <br>
+                    </article>
+                    <article class="col-4 col-12-mobile special">
+                        <a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+                        <p>
+                            Date
+                        </p>
+                        <header>
+                            <h3><a href="#">News 3</a></h3>
+                        </header>
+                        <p>
+                            Text here
+                        </p>
+                        <br>
+                    </article>
+                </div>
+            </div>
 
-				</div>
+            <!-- Aquí debería haber un </div> extra si tenías un </div> envolvente para el main content -->
+            <!-- Si tu estructura original tenía un <div class="wrapper style1"> antes del container,
+                 ese div debería cerrarse aquí -->
 
+			<!-- Contact -->
+            <section class="contact" style="display: flex; justify-content: center; align-items: center; width: 100%; padding-top: 10px; padding-bottom: 10px;">
+                <header>
+                    <ul class="icons" style="display: flex; gap: 10px; list-style: none; padding: 0; margin: 0;">
+                        <li>
+                            <a href="mailto:oceanosresearchhub@gmail.com" class="icon fas fa-envelope">
+                                <span class="label">Contacto Gmail</span>
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+            </section>
 
-
-			
-<!-- Contact -->
-
-  <section class="contact" style="display: flex; justify-content: center; align-items: center; width: 100%; padding-top: 10px; padding-bottom: 10px;">
-	
-	<header>
-    <ul class="icons" style="display: flex; gap: 10px; list-style: none; padding: 0; margin: 0;">
-      <!-- Se ha eliminado el <li> del enlace a Instagram -->
-      <li>
-        <a href="mailto:oceanosresearchhub@gmail.com" class="icon fas fa-envelope">
-          <span class="label">Contacto Gmail</span>
-        </a>
-      </li>
-    </ul>
-  </header>
-</section>
-
-
-<!-- Copyright -->
-<div class="copyright" style="display: flex; justify-content: center; text-align: center; margin-bottom: 25px;">
-    <ul class="menu" style="list-style: none; padding: 0; margin: 0;">
-        <li>&copy; Océanos Research Hub 2026. All rights reserved.</li>
-        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
-</div>
-
+            <!-- Copyright -->
+            <div class="copyright" style="display: flex; justify-content: center; text-align: center; margin-bottom: 25px;">
+                <ul class="menu" style="list-style: none; padding: 0; margin: 0;">
+                    <li>&copy; Océanos Research Hub 2026. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
 			
 			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -147,6 +131,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		</div> <!-- Cierre de #page-wrapper -->
 	</body>
-
 </html>
