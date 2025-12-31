@@ -124,6 +124,13 @@ input, select, textarea {
     color: white; text-align: center;
 }
 
+#features h2 {
+    color: #072d47ff; 
+}
+
+#features p {
+    color: #072d47ff; 
+}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
