@@ -3442,3 +3442,8 @@ body.news-page .article-date {
     font-weight: bold !important; /* Para ponerlo en negrita */
     color: #000080 !important;   /* Color azul oscuro (Midnight Blue) */
 }
+
+body.science-page hr {
+    margin-top: 0 !important;
+    margin-bottom: 7em !important; /* Puedes ajustar este margen inferior si quieres un poco de espacio debajo de la línea */
+}
