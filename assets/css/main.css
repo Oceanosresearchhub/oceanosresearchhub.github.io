@@ -116,8 +116,7 @@ input, select, textarea {
 	}
 
 #four h2 {
-    color: white; text-align: center; top: 50%;
-  left: 50%;width: 300px; padding: 20px;
+    color: white; text-align: center; padding: 20px;
 }
 
 #four p {
