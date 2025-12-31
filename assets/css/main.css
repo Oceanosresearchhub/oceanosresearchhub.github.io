@@ -3459,3 +3459,11 @@ body.team_up-page hr {
     margin-top: 0 !important;
     margin-bottom: 7em !important; /* Puedes ajustar este margen inferior si quieres un poco de espacio debajo de la línea */
 }
+
+/* Estilos específicos para las imágenes de la página del equipo */
+body.team-page .row article.special .image.featured img {
+    max-width: 60% !important; /* Puedes ajustar este porcentaje (ej: 70%, 90%) */
+    height: auto !important;   /* Asegura que la imagen mantenga su proporción */
+    display: block !important; /* Necesario para que 'margin: 0 auto;' funcione */
+    margin: 0 auto !important; /* Centra la imagen */
+}
