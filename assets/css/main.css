@@ -2111,8 +2111,8 @@ input, select, textarea {
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 #features button {
-   justify-content: center;
 	border-radius: 0.25em;
+	padding: 10px 20px;
 }
 
 		input[type="button"]:hover,
@@ -3209,22 +3209,6 @@ input, select, textarea {
 }
 
 
-/* Centrado personalizado para el botón 'Our Science' */
-.wrapper.style2 .container .row .col-12 .actions {
-    display: flex;         /* Asegura que sea un contenedor flexbox */
-    justify-content: center; /* Centra los elementos hijos horizontalmente */
-    flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
-}
-.wrapper.style2 .container .row .col-12 .actions .button {
-    background-color: #081837ff;
-	display: flex;         /* Asegura que sea un contenedor flexbox */
-    justify-content: center; /* Centra los elementos hijos horizontalmente */
-    flex-wrap: wrap;       /* Permite que los botones se envuelvan si hay varios */
-}
-
-.wrapper.style2 .container .row .col-12 .actions .button:hover {
-    background-color: #06555bff; /* Color en estado hover (cuando el mouse está sobre el botón) */
-}
 
 /* Ajustes para reducir el espacio superior en la sección de Features */
 .wrapper.style1 {
