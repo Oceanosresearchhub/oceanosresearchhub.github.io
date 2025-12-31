@@ -2095,7 +2095,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #072d47ff;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2109,6 +2109,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		justify-content: center;
 	}
 
 		input[type="button"]:hover,
@@ -2117,7 +2118,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: transparent;
+			background: #338a98ff;
 		}
 
 		input[type="button"].alt,
