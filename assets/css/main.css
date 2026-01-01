@@ -3500,11 +3500,12 @@ body.team_up-page hr {
 /* 1. Ajustes para el CONTENEDOR de la imagen (.image.featured) */
 body.team-page .row article.special .image.featured {
     /* Las propiedades para el tamaño y recorte de la imagen ya las tienes, aquí añadimos el margen */
-    max-width: 80% !important;
-    height: 350px !important; /* O la altura vertical que hayas establecido */
-    overflow: hidden !important;
-    display: block !important;
-    
+    max-width: 80% !important; /* Puedes ajustar este porcentaje (ej: 70%, 90%) */
+    height: 350px !important;   /* Asegura que la imagen mantenga su proporción */
+    display: block !important; /* Necesario para que 'margin: 0 auto;' funcione */
+    margin: 0 auto !important; 
+	overflow: hidden !important;
+	
     /* Centra el bloque de la imagen y añade un margen inferior */
     margin: 0 auto 1.5em !important; /* El '1.5em' es el margen inferior. Puedes ajustarlo. */
 }
@@ -3524,12 +3525,5 @@ body.team-page .row article.special header {
     margin-bottom: 0.5em !important; /* Opcional: añade un poco de espacio debajo del nombre */
 }
 
-/* 4. Ajustes opcionales para el texto H3 dentro del header, si necesitas más control */
-body.team-page .row article.special header h3 {
-    /* Si quieres asegurar que el texto sea de un color específico o negrita, puedes ponerlo aquí.
-       Generalmente, el text-align del padre es suficiente. */
-    /* color: #333 !important; */
-    /* font-weight: bold !important; */
-}
 
 
