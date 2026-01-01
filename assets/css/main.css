@@ -3503,7 +3503,7 @@ body.team-page .row article.special .image.featured {
     display: block !important; /* Necesario para que margin: 0 auto; funcione */
     margin: 0 auto !important; /* Centra el contenedor de la imagen dentro de su columna */
     
-    height: 350px !important; /* <--- AJUSTA ESTE VALOR: Altura fija deseada para la imagen */
+    height: 200px !important; /* <--- AJUSTA ESTE VALOR: Altura fija deseada para la imagen */
     overflow: hidden !important; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
 }
 
