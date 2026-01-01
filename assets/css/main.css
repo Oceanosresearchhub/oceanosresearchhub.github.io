@@ -3493,10 +3493,25 @@ body.team_up-page hr {
     margin-bottom: 7em !important; /* Puedes ajustar este margen inferior si quieres un poco de espacio debajo de la línea */
 }
 
+
+
 /* Estilos específicos para las imágenes de la página del equipo */
-body.team-page .row article.special .image.featured img {
-    max-width: 80% !important; /* Puedes ajustar este porcentaje (ej: 70%, 90%) */
-    height: auto !important;   /* Asegura que la imagen mantenga su proporción */
-    display: block !important; /* Necesario para que 'margin: 0 auto;' funcione */
-    margin: 0 auto !important; /* Centra la imagen */
+
+/* Regla para el contenedor de la imagen (el enlace <a>) */
+body.team-page .row article.special .image.featured {
+    max-width: 80% !important; /* Controla el ancho máximo del contenedor de la imagen */
+    display: block !important; /* Necesario para que margin: 0 auto; funcione */
+    margin: 0 auto !important; /* Centra el contenedor de la imagen dentro de su columna */
+    
+    height: 350px !important; /* <--- AJUSTA ESTE VALOR: Altura fija deseada para la imagen */
+    overflow: hidden !important; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
 }
+
+/* Regla para la imagen <img> dentro de ese contenedor */
+body.team-page .row article.special .image.featured img {
+    width: 100% !important;  /* La imagen ocupa el 100% del ancho de su contenedor */
+    height: 100% !important; /* La imagen ocupa el 100% de la altura de su contenedor */
+    object-fit: cover !important; /* <--- CLAVE: Escala la imagen para que llene el contenedor, recortando si es necesario */
+    object-position: center center !important; /* Centra el enfoque de la imagen dentro del recorte */
+}
+
