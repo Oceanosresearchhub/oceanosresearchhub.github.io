@@ -2103,7 +2103,7 @@ input, select, textarea {
 .buttonnews {
     background-color: white;   /* Color de fondo del botón */
     color: #072d47ff;                  /* Color del texto */
-    width: 300;                  /* Ancho del botón */
+    width: 300px;                  /* Ancho del botón */
     height: 150px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 150px;            /* Centra el texto verticalmente */
