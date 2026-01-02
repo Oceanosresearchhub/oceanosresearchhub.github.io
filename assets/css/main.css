@@ -2108,11 +2108,15 @@ input, select, textarea {
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 75px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
-    border-radius: 30px;           /* Esquinas redondeadas */
+    border-radius: 50px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
-    transition: background-color 0.3s; /* Transición suave para el color de fondo */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
 	padding-top:2em;
+	font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
 
 .buttonnews:hover {
@@ -2127,11 +2131,15 @@ input, select, textarea {
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 75px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
-    border-radius: 40px;           /* Esquinas redondeadas */
+    border-radius: 50px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
-    transition: background-color 0.3s; /* Transición suave para el color de fondo */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
 	padding-bottom:2em;
+	font-weight: 300;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
 
 .buttonfeatures:hover {
