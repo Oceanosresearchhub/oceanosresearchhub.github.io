@@ -3510,7 +3510,7 @@ body.team-page .row article.special .image.featured {
     display: block !important;
     
     /* Centra el bloque de la imagen y añade un margen inferior */
-    margin: 0 auto 1.5em !important; /* El '1.5em' es el margen inferior. Puedes ajustarlo. */
+    margin: 0 auto 1em !important; /* El '1.5em' es el margen inferior. Puedes ajustarlo. */
 }
 
 /* 2. Ajustes para la IMAGEN real (<img>) */
