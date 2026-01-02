@@ -2111,7 +2111,7 @@ input, select, textarea {
     border-radius: 50px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
-	padding-top:2em;
+	padding: 0.65em 3em 0.65em 3em;
 	font-weight: 300;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2134,7 +2134,7 @@ input, select, textarea {
     border-radius: 50px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
-	padding-bottom:2em;
+	padding: 0.65em 3em 0.65em 3em;
 	font-weight: 300;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
