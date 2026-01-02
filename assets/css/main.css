@@ -2103,8 +2103,8 @@ input, select, textarea {
 .buttonnews {
     background-color: white;   /* Color de fondo del botón */
     color: #072d47ff;                  /* Color del texto */
-    width: 300px;                  /* Ancho del botón */
-    height: 150px;                 /* Altura del botón */
+    width: 150px;                  /* Ancho del botón */
+    height: 75px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 150px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
@@ -2115,6 +2115,24 @@ input, select, textarea {
 }
 
 .buttonnews:hover {
+    background-color: #338a98ff; /* Cambia el color en estado hover */
+}
+
+.buttonfeatures {
+    background-color: #072d47ff;   /* Color de fondo del botón */
+    color: white;                  /* Color del texto */
+    width: 150px;                  /* Ancho del botón */
+    height: 75px;                 /* Altura del botón */
+    text-align: center;            /* Centra el texto horizontalmente */
+    line-height: 150px;            /* Centra el texto verticalmente */
+    border: none;                  /* Sin borde */
+    border-radius: 10px;           /* Esquinas redondeadas */
+    cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
+}
+
+.buttonfeatures:hover {
     background-color: #338a98ff; /* Cambia el color en estado hover */
 }
 
