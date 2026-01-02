@@ -2108,7 +2108,7 @@ input, select, textarea {
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 75px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
-    border-radius: 10px;           /* Esquinas redondeadas */
+    border-radius: 30px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     transition: background-color 0.3s; /* Transición suave para el color de fondo */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
@@ -2126,7 +2126,7 @@ input, select, textarea {
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 75px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
-    border-radius: 10px;           /* Esquinas redondeadas */
+    border-radius: 40px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     transition: background-color 0.3s; /* Transición suave para el color de fondo */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
