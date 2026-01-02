@@ -3497,33 +3497,32 @@ body.team_up-page hr {
 
 /* Estilos específicos para la página del equipo */
 
-/* 1. Ajustes para el CONTENEDOR de la imagen (.image.featured) */
+
+
+* Estilos específicos para las imágenes y texto en la página del equipo */
+
+/* 1. Ajustes para el CONTENEDOR de la imagen (el enlace <a> con clase .image.featured) */
 body.team-page .row article.special .image.featured {
-    /* Las propiedades para el tamaño y recorte de la imagen ya las tienes, aquí añadimos el margen */
-    max-width: 80% !important; /* Puedes ajustar este porcentaje (ej: 70%, 90%) */
-    height: 350px !important;   /* Asegura que la imagen mantenga su proporción */
-    display: block !important; /* Necesario para que 'margin: 0 auto;' funcione */
-    margin: 0 auto !important; 
-	overflow: hidden !important;
-	
-    /* Centra el bloque de la imagen y añade un margen inferior */
-    margin: 0 auto 1.5em !important; /* El '1.5em' es el margen inferior. Puedes ajustarlo. */
+    height: 350px !important;    /* Altura fija para el contenedor de la imagen (lo que la hace 'vertical') */
+    overflow: hidden !important; /* Oculta partes de la imagen que se salgan */
+    display: block !important;   /* Para que margin auto funcione en este bloque */
+    
+    /* Centra el bloque de la imagen dentro de la columna y añade el margen inferior */
+    max-width: 80% !important;   /* Ancho máximo del CONTENEDOR de la imagen */
+    margin: 0 auto 1.5em !important; /* Centra el bloque horizontalmente y añade 1.5em de margen inferior */
 }
 
 /* 2. Ajustes para la IMAGEN real (<img>) */
 body.team-page .row article.special .image.featured img {
-    width: 70% !important;
-    height: 90% !important;
-    object-fit: cover !important;
-    object-position: center center !important;
-}
+    width: 70% !important;      /* La imagen llena el 100% del ANCHO de su contenedor (.image.featured) */
+    height: 90% !important;     /* La imagen llena el 100% de la ALTURA de su contenedor (.image.featured) */
+    object-fit: cover !important;    /* Escala y recorta para cubrir el contenedor */
+    object-position: center center !important; /* Centra la parte visible de la imagen */
 
 /* 3. Ajustes para el CONTENEDOR DEL NOMBRE (<header>) */
 body.team-page .row article.special header {
-    text-align: center !important; /* <-- CLAVE: Centra el texto dentro del header */
-    margin-top: 0 !important;      /* Asegura que no haya un margen superior indeseado en el header */
-    margin-bottom: 0.5em !important; /* Opcional: añade un poco de espacio debajo del nombre */
+    text-align: center !important; /* <-- CLAVE: Centra el texto (el h3 y el <a>) */
+    margin-top: 0 !important;      /* Asegura que no haya un margen superior indeseado */
+    margin-bottom: 0.5em !important; /* Margen inferior opcional si tienes más texto debajo */
 }
-
-
 
