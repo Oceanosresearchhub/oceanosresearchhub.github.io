@@ -2104,15 +2104,15 @@ input, select, textarea {
     background-color: white;   /* Color de fondo del botón */
     color: #072d47ff;                  /* Color del texto */
     width: 150px;                  /* Ancho del botón */
-    height: 75px;                 /* Altura del botón */
+    height: 50px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
-    line-height: 75px;            /* Centra el texto verticalmente */
+    line-height: 50px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
     border-radius: 50px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
 	padding: 0.65em 3em 0.65em 3em;
-	font-weight: 300;
+	font-weight: 1.5em;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2127,15 +2127,15 @@ input, select, textarea {
     background-color: #072d47ff;   /* Color de fondo del botón */
     color: white;                  /* Color del texto */
     width: 150px;                  /* Ancho del botón */
-    height: 75px;                 /* Altura del botón */
+    height: 50px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
-    line-height: 75px;            /* Centra el texto verticalmente */
+    line-height: 50px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
     border-radius: 50px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
 	padding: 0.65em 3em 0.65em 3em;
-	font-weight: 300;
+	font-weight: 1.5em;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
