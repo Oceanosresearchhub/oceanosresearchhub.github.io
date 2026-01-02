@@ -2112,6 +2112,7 @@ input, select, textarea {
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     transition: background-color 0.3s; /* Transición suave para el color de fondo */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
+	padding-top:2em;
 }
 
 .buttonnews:hover {
@@ -2130,6 +2131,7 @@ input, select, textarea {
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
     transition: background-color 0.3s; /* Transición suave para el color de fondo */
     display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
+	padding-bottom:2em;
 }
 
 .buttonfeatures:hover {
