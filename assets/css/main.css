@@ -2103,7 +2103,7 @@ input, select, textarea {
 .buttonnews {
     background-color: white;   /* Color de fondo del botón */
     color: #072d47ff;                  /* Color del texto */
-    width: 150px;                  /* Ancho del botón */
+    width: 200px;                  /* Ancho del botón */
     height: 50px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 50px;            /* Centra el texto verticalmente */
@@ -2126,7 +2126,7 @@ input, select, textarea {
 .buttonfeatures {
     background-color: #072d47ff;   /* Color de fondo del botón */
     color: white;                  /* Color del texto */
-    width: 150px;                  /* Ancho del botón */
+    width: 200px;                  /* Ancho del botón */
     height: 50px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
     line-height: 50px;            /* Centra el texto verticalmente */
