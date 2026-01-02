@@ -2513,9 +2513,7 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-#featuresnews content {
-	background-color: #072d47ff;
-}
+
 	
 
 
@@ -3249,6 +3247,12 @@ input, select, textarea {
     padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
                       /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
 	background-color: white !important;
+}
+
+.wrapper.stylenews {
+    padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
+                      /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
+	background-color: #072d47ff !important;
 }
 
 .wrapper.style2 .container .row .col-12 .actions {
