@@ -2513,6 +2513,12 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+#featuresnews content {
+	background-color: #072d47ff;
+}
+	
+
+
 /* Sidebar */
 
 	#sidebar > hr {
