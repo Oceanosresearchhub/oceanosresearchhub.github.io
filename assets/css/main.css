@@ -2106,7 +2106,7 @@ input, select, textarea {
     width: 150px;                  /* Ancho del botón */
     height: 75px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
-    line-height: 150px;            /* Centra el texto verticalmente */
+    line-height: 75px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
     border-radius: 10px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
@@ -2124,7 +2124,7 @@ input, select, textarea {
     width: 150px;                  /* Ancho del botón */
     height: 75px;                 /* Altura del botón */
     text-align: center;            /* Centra el texto horizontalmente */
-    line-height: 150px;            /* Centra el texto verticalmente */
+    line-height: 75px;            /* Centra el texto verticalmente */
     border: none;                  /* Sin borde */
     border-radius: 10px;           /* Esquinas redondeadas */
     cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
