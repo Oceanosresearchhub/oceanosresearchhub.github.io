@@ -2279,7 +2279,7 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding: 6em 0 6em 0;
 	}
 
@@ -3292,7 +3292,7 @@ input, select, textarea {
 
 
 .wrapper.stylenews {
-    padding-top: 0; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
+    padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
                       /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
 	background-color: #072d47ff !important;
 }
