@@ -66,13 +66,13 @@
 <div class="row">
 
     <!-- PERFIL DR. NATALI LAZZARI -->
-    <article class="col-6 col-12-mobile special">
+    <!-- CAMBIADO: article ahora es col-12 para que ocupe todo el ancho de la fila -->
+    <article class="col-12 col-12-mobile special">
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-            <!-- Contenido de la izquierda: Imagen, Nombre, Contacto (AHORA OCUPANDO EL 25% del ancho) -->
-            <div style="flex: 0 0 25%; max-width: 25%; padding-right: 1em;"> 
+            <!-- Contenido de la izquierda: Imagen, Nombre, Contacto (OCUPANDO APROX. 15% del ancho) -->
+            <div style="flex: 0 0 15%; max-width: 15%; padding-right: 1em;"> 
                 <a href="#" class="image featured" style="margin-bottom: 1em;">
-                    <!-- IMAGEN AHORA OCUPA EL 100% DE SU PEQUEÑO CONTENEDOR -->
-                    <img src="images/natali_large.jpg" alt="Dr. Natali Lazzari" style="width: 100%; height: auto; display: block; margin: 0;" />
+                    <img src="images/pic_natali.jpg" alt="Dr. Natali Lazzari" style="width: 100%; height: auto; display: block; margin: 0;" />
                 </a>
                 <header> 
                     <h3><a href="natali.html">Dr. Natali Lazzari</a></h3>
@@ -84,12 +84,13 @@
                 </p>
             </div>
             
-            <!-- Contenido de la derecha: Bocadillo de texto (AHORA OCUPANDO EL 75% del ancho) -->
-            <div style="flex: 0 0 75%; max-width: 75%; padding-left: 1em;"> 
-                <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Puedes escribir una pequeña biografía, un resumen de su investigación o cualquier otra información relevante aquí. Este texto se mostrará al lado de la imagen y la información de contacto, ahora ocupando mucho más espacio horizontal. Si necesitas más detalle, este espacio es más que suficiente.</p>
+            <!-- Contenido de la derecha: Bocadillo de texto (OCUPANDO EL RESTO DEL ANCHO, CON MARGEN DERECHO) -->
+            <div style="flex: 1; min-width: 0; padding-left: 1em; padding-right: 3cm;"> 
+                <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Este texto ahora se expandirá significativamente hacia la derecha, dejando un margen de aproximadamente 3cm desde el borde final del perfil. Es el espacio perfecto para una biografía extensa o un resumen detallado de su investigación.</p>
             </div>
         </div>
     </article>
+	
 		
   
 </div>
