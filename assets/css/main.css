@@ -3276,6 +3276,7 @@ input, select, textarea {
 /* Para el texto debajo de las imágenes en las columnas especiales */
 .container.special article.special header {
     margin-top: 0; 
+	margin-bottom: 0;
     padding-top: 0; /* Asegura que no haya relleno superior */
 }
 
@@ -3313,7 +3314,7 @@ input, select, textarea {
 .wrapper.style1 {
     padding-bottom: 0 !important; /* Usar !important si no se sobrescribe */
     margin-bottom: 0 !important;
-	background-color: #e2f2f6ff !important;
+	background-color: #f4fbfbff !important;
 }
 
 
