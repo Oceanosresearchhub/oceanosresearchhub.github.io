@@ -1868,6 +1868,11 @@ input, select, textarea {
 				width: auto;
 			}
 
+#features .image.centered {
+    display: block;
+    margin: 0 0 1em 0; /* Ejemplo de cambio en el margen inferior */
+}
+
 /* List */
 
 	ul {
