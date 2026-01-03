@@ -59,37 +59,44 @@
 			<!-- End #header -->
 
 <!--Main-->
-<div class="container" style="padding-top: 2em; margin-top: 2em;">
+<div class="container" style="padding-top: 0.5em; margin-top: 0.5em;">
     </section>
 </article>
 <hr style="margin-top: 0px; margin-bottom: 0px;" />
 <div class="row">
 
     <!-- PERFIL DR. NATALI LAZZARI -->
-    <!-- CAMBIADO: article ahora es col-12 para que ocupe todo el ancho de la fila -->
     <article class="col-12 col-12-mobile special">
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-            <!-- Contenido de la izquierda: Imagen, Nombre, Contacto (OCUPANDO APROX. 15% del ancho) -->
-            <div style="flex: 0 0 25%; max-width: 25%; padding-right: 1em;"> 
-                <a href="#" class="image featured" style="margin-bottom: 1em;">
+        <!-- Contenedor flex principal para las dos columnas (imagen y contenido derecho) -->
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-end;"> 
+            
+            <!-- Columna Izquierda: SOLO IMAGEN -->
+            <div style="flex: 0 0 15%; max-width: 15%; padding-right: 1em;"> 
+                <a href="#" class="image featured" style="margin-bottom: 0;"> <!-- Eliminado margin-bottom para reducir espacio -->
                     <img src="images/natali_large.jpg" alt="Dr. Natali Lazzari" style="width: 100%; height: auto; display: block; margin: 0;" />
                 </a>
-                <header> 
-                    <h3><a href="natali.html">Dr. Natali Lazzari</a></h3>
-                </header>
-                <p style="line-height: 1.5em; text-align: left; font-size: 0.9em;"> 
+            </div>
+            
+            <!-- Columna Derecha: Nombre, Bocadillo de texto, y Contacto al final -->
+            <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; padding-left: 1em; padding-right: 3cm;">
+                <!-- Contenedor para el Nombre y el Bocadillo (flex-grow: 1 para ocupar espacio) -->
+                <div style="flex-grow: 1;"> 
+                    <header style="margin-bottom: 0.5em;"> 
+                        <h3><a href="natali.html">Dr. Natali Lazzari</a></h3>
+                    </header>
+                    <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Este texto ahora se expandirá significativamente hacia la derecha, dejando un margen de aproximadamente 3cm desde el borde final del perfil. Es el espacio perfecto para una biografía extensa o un resumen detallado de su investigación.</p>
+                </div>
+                
+                <!-- Información de contacto, empujada al final de la columna derecha -->
+                <p style="line-height: 1.5em; text-align: left; font-size: 0.9em; margin-top: auto;"> 
                     <a href="https://scholar.google.com/citations?hl=es&user=PWBsrdsAAAAJ" target="_blank">Google Scholar</a> <br>
                     ORCID: <a href="https://orcid.org/0000-0002-5546-3382" target="_blank"> 0000-0002-5546-3382 </a> <br> 
                     E-mail: <a href="mailto:lazzari.natali@gmail.com">lazzari.natali@gmail.com</a> 
                 </p>
             </div>
-            
-            <!-- Contenido de la derecha: Bocadillo de texto (OCUPANDO EL RESTO DEL ANCHO, CON MARGEN DERECHO) -->
-            <div style="flex: 1; min-width: 0; padding-left: 1em; padding-right: 3cm;"> 
-                <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Este texto ahora se expandirá significativamente hacia la derecha, dejando un margen de aproximadamente 3cm desde el borde final del perfil. Es el espacio perfecto para una biografía extensa o un resumen detallado de su investigación.</p>
-            </div>
         </div>
     </article>
+		
 	
 		
   
