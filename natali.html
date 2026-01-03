@@ -67,15 +67,15 @@
 
     <!-- PERFIL DR. NATALI LAZZARI -->
     <article class="col-12 col-12-mobile special">
-        <!-- Contenedor flex principal para las dos columnas (imagen+nombre y bocadillo+contacto) -->
-        <!-- flex-direction: row-reverse; para poner la imagen en la derecha visualmente -->
+        <!-- Contenedor flex principal para las dos columnas (izquierda: imagen+nombre; derecha: bocadillo+contacto) -->
+        <!-- Eliminado flex-direction: row-reverse; para que el orden HTML sea el orden visual -->
         <!-- align-items: flex-start; para que ambas columnas comiencen alineadas por arriba -->
-        <div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; align-items: flex-start;"> 
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start;"> 
             
-            <!-- Columna Derecha (visual): IMAGEN Y NOMBRE -->
+            <!-- Columna Izquierda (visual): IMAGEN Y NOMBRE -->
             <!-- flex: 0 0 60%; max-width: 60%; para que la imagen sea mucho más grande (60% del ancho del artículo) -->
-            <!-- padding-right: 3cm; para el margen derecho del perfil -->
-            <div style="flex: 0 0 60%; max-width: 60%; padding-left: 1em; padding-right: 3cm; display: flex; flex-direction: column;"> 
+            <!-- padding-right: 1em; para crear espacio entre la imagen y el texto -->
+            <div style="flex: 0 0 50%; max-width: 50%; padding-right: 1em; display: flex; flex-direction: column;"> 
                 <a href="#" class="image featured" style="margin-bottom: 0.5em;"> 
                     <!-- La imagen ocupa el 100% de su contenedor (60% del artículo) -->
                     <img src="images/natali_large.jpg" alt="Dr. Natali Lazzari" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
@@ -86,13 +86,14 @@
                 </header>
             </div>
             
-            <!-- Columna Izquierda (visual): Bocadillo de texto y Contacto -->
+            <!-- Columna Derecha (visual): Bocadillo de texto y Contacto -->
             <!-- flex: 1; min-width: 0; para que ocupe el espacio restante (40% del ancho del artículo) -->
             <!-- justify-content: space-between; CLAVE para empujar bocadillo al top y contacto al bottom -->
-            <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; padding-left: 1em;">
+            <!-- padding-left: 1em; para espacio entre imagen y texto, padding-right: 3cm; para el margen del perfil -->
+            <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: space-between; padding-left: 1em; padding-right: 3cm;">
                 
                 <!-- El Bocadillo de texto se alinea al margen superior -->
-                <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Ahora la imagen es mucho más grande y está a la derecha, mientras que este texto se posiciona a la izquierda, expandiéndose a lo largo del espacio disponible. Podrás escribir una biografía extensa o un resumen detallado de su investigación aquí.</p>
+                <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Ahora la imagen es mucho más grande y está a la izquierda, mientras que este texto se posiciona a la derecha, expandiéndose a lo largo del espacio disponible. Podrás escribir una biografía extensa o un resumen detallado de su investigación aquí.</p>
                 
                 <!-- Información de contacto, empujada al margen inferior -->
                 <p style="line-height: 1.5em; text-align: left; font-size: 0.9em; margin-bottom: 0;"> 
