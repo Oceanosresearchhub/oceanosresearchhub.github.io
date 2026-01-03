@@ -3310,6 +3310,12 @@ input, select, textarea {
     padding-top: 0; /* Asegura que no haya relleno superior */
 }
 
+#featuresnumbers .container.special {
+    margin-top: 0; 
+	margin-bottom: 0;
+    padding-top: 0; /* Asegura que no haya relleno superior */
+}
+
 .wrapper.style1 {
     padding-bottom: 0 0!important; /* Usar !important si no se sobrescribe */
     margin-bottom: 0 0!important;
