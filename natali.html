@@ -67,24 +67,28 @@
 
     <!-- PERFIL DR. NATALI LAZZARI -->
     <article class="col-12 col-12-mobile special">
-        <!-- Contenedor flex principal para las dos columnas (imagen y contenido derecho) -->
+        <!-- Contenedor flex principal para las dos columnas (izquierda: imagen+nombre; derecha: bocadillo+contacto) -->
         <div style="display: flex; flex-wrap: wrap; align-items: flex-end;"> 
             
-            <!-- Columna Izquierda: SOLO IMAGEN -->
-            <div style="flex: 0 0 15%; max-width: 15%; padding-right: 1em;"> 
-                <a href="#" class="image featured" style="margin-bottom: 0;"> <!-- Eliminado margin-bottom para reducir espacio -->
-                    <img src="images/natali_large.jpg" alt="Dr. Natali Lazzari" style="width: 100%; height: auto; display: block; margin: 0;" />
+            <!-- Columna Izquierda: IMAGEN Y NOMBRE (Ahora más ancha) -->
+            <!-- Aumentamos el max-width para que la imagen tenga más espacio -->
+            <div style="flex: 0 0 25%; max-width: 25%; padding-right: 1em; display: flex; flex-direction: column;"> 
+                <a href="#" class="image featured" style="margin-bottom: 0.5em;"> 
+                    <!-- La imagen ahora ocupará el 100% de este contenedor más grande -->
+                    <img src="images/natali_large.jpg" alt="Dr. Natali Lazzari" style="width: 100%; height: auto; display: block; margin: 0 auto;" />
                 </a>
+                <!-- El nombre se mueve aquí, justo debajo de la imagen -->
+                <header style="margin-bottom: 0.5em; text-align: center;"> 
+                    <h3><a href="natali.html">Dr. Natali Lazzari</a></h3>
+                </header>
             </div>
             
-            <!-- Columna Derecha: Nombre, Bocadillo de texto, y Contacto al final -->
+            <!-- Columna Derecha: Bocadillo de texto, y Contacto al final -->
+            <!-- Esta columna ahora empieza con el bocadillo y termina con el contacto, alineada con la base de la columna izquierda -->
             <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; padding-left: 1em; padding-right: 3cm;">
-                <!-- Contenedor para el Nombre y el Bocadillo (flex-grow: 1 para ocupar espacio) -->
+                <!-- Contenedor para el Bocadillo de texto, ocupando todo el espacio superior disponible -->
                 <div style="flex-grow: 1;"> 
-                    <header style="margin-bottom: 0.5em;"> 
-                        <h3><a href="natali.html">Dr. Natali Lazzari</a></h3>
-                    </header>
-                    <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Este texto ahora se expandirá significativamente hacia la derecha, dejando un margen de aproximadamente 3cm desde el borde final del perfil. Es el espacio perfecto para una biografía extensa o un resumen detallado de su investigación.                                                                                                                                </p>
+                    <p style="margin-top: 0;">Aquí va el texto del bocadillo para el Dr. Natali Lazzari. Este texto ahora se expandirá significativamente hacia la derecha, dejando un margen de aproximadamente 3cm desde el borde final del perfil. Es el espacio perfecto para una biografía extensa o un resumen detallado de su investigación.</p>
                 </div>
                 
                 <!-- Información de contacto, empujada al final de la columna derecha -->
@@ -96,7 +100,6 @@
             </div>
         </div>
     </article>
-		
 	
 		
   
