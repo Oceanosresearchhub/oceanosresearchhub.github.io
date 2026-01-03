@@ -1878,10 +1878,10 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 1em 0;
 		}
-#news .image.featured {
+#featuresnews .image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 1em 0!mportant;
+			margin: 0 0 1em 0!important;
 		}
 
 /* List */
