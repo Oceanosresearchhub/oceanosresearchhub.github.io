@@ -2640,11 +2640,11 @@ input, select, textarea {
 		}
 
 			#footer .copyright a {
-				color: rgba(255, 255, 255, 0.75);
+				color: #072d47ff!important;
 			}
 
 				#footer .copyright a:hover {
-					color: rgba(255, 255, 255, 0.75);
+					color: #338a98ff!important;
 				}
 
 /* Carousel */
