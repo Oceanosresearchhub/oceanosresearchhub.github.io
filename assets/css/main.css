@@ -3297,6 +3297,14 @@ input, select, textarea {
 	background-color: #072d47ff !important;
 }
 
+/* Para el texto debajo de las imágenes en las columnas especiales */
+#featuresnews .container.special article.special header {
+    margin-top: 0; 
+	margin-bottom: 0;
+    padding-top: 0; /* Asegura que no haya relleno superior */
+}
+
+
 .wrapper.style2 .container .row .col-12 .actions {
     display: flex; /* Contenedor flexbox */
     justify-content: center; /* Centra elementos hijos horizontalmente */
