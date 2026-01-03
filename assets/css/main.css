@@ -311,8 +311,8 @@ input, select, textarea {
 		}
 
 #four .container {
-    height: 100%;               /* Asegura que el contenedor use el 100% de la altura definida */
-}
+		margin: 0 0;
+		}
 
 /* Row */
 
