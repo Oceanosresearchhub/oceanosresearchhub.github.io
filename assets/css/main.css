@@ -3314,11 +3314,12 @@ input, select, textarea {
     margin-top: 0; 
 	margin-bottom: 0;
     padding-top: 0; /* Asegura que no haya relleno superior */
+	padding-bottom: 0;
 }
 
 .wrapper.style1 {
-    padding-bottom: 0 0!important; /* Usar !important si no se sobrescribe */
-    margin-bottom: 0 0!important;
+    padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
+    margin-bottom: 0!important;
 	background-color: #f4fbfbff !important;
 }
 
