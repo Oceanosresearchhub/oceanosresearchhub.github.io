@@ -154,6 +154,20 @@ input, select, textarea {
     color: #fff; margin-top: -50px;
 }
 
+#featuresnumbers h2 {
+    color: #072d47ff; margin-bottom: 40px;
+}
+
+#featuresnumbers p {
+    color: #072d47ff; 
+}
+
+#featuresnumbers h3 {
+    color: #072d47ff; margin-top: -50px;
+}
+
+
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
