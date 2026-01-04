@@ -335,6 +335,12 @@ input, select, textarea {
 		margin: 0 0;
 		}
 
+#four .container p {
+		margin: 0 0;
+		padding-left: 50px;    
+    	padding-right: 50px; 
+		}
+
 /* Row */
 
 	.row {
