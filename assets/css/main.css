@@ -3312,6 +3312,11 @@ input, select, textarea {
     padding-top: 0; /* Asegura que no haya relleno superior */
 }
 
+#featuresnumbers .container.special article.special header {
+    margin-top: 0; 
+	margin-bottom: 0;
+    padding-top: 0; /* Asegura que no haya relleno superior */
+}
 #featuresnumbers .container.special {
     margin-top: 0; 
 	margin-bottom: 0;
