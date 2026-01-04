@@ -3327,7 +3327,6 @@ input, select, textarea {
 
 .wrapper.style1 {
     padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
-    margin-top: 30px!important;
 	margin-bottom: 0!important;
 	background-color: #f4fbfbff !important;
 }
