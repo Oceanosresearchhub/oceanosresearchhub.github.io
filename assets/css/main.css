@@ -129,8 +129,10 @@ input, select, textarea {
 	text-align: center;
 	font-weight: 400;
     padding-left: 3em;    
-    padding-right: 3em; 
-	font-size:1em;
+    padding-right: 3em;
+	marging-right:3em;
+	marging-left:3em;
+	font-size:1.25em;
 }
 
 #features h2 {
