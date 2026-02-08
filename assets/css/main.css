@@ -2169,6 +2169,7 @@ input, select, textarea {
 
 .buttonnews:hover {
     background-color: #338a98ff; /* Cambia el color en estado hover */
+	color: #072d47ff;
 }
 
 .buttonfeatures {
@@ -2192,6 +2193,7 @@ input, select, textarea {
 
 .buttonfeatures:hover {
     background-color: #338a98ff; /* Cambia el color en estado hover */
+	color: #072d47ff;
 }
 
 	input[type="button"],
