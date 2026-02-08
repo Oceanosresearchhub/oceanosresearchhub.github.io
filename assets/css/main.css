@@ -121,6 +121,7 @@ input, select, textarea {
 	padding: 20px 3em 20px 3em;
 	top: 40%;
 	font-weight: 600;
+	font-size:2em;
 }
 
 #four p {
@@ -129,6 +130,7 @@ input, select, textarea {
 	font-weight: 400;
     padding-left: 3em;    
     padding-right: 3em; 
+	font-size:1.75em;
 }
 
 #features h2 {
