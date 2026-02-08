@@ -3321,6 +3321,11 @@ input, select, textarea {
                       /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
 	background-color: #072d47ff !important;
 }
+.wrapper.stylenunmbers {
+    padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
+                      /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
+	background-color: #f4fbfbff !important;
+}
 
 /* Para el texto debajo de las imágenes en las columnas especiales */
 #featuresnews .container.special article.special header {
