@@ -3362,12 +3362,6 @@ input, select, textarea {
     padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
 	margin-bottom: 0!important;
 	background-color: #f4fbfbff !important;
-}
-.wrapper.stylefeatures{
-    padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
-	margin-bottom: 0!important;
-	background-color: #f4fbfbff !important;
-}
 
 .wrapper.style2 .container .row .col-12 .actions {
     display: flex; /* Contenedor flexbox */
