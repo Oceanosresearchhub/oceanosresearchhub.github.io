@@ -3370,6 +3370,10 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
+.wrapper.style1.container {
+	background-color: #f4fbfbff !important;
+}
+
 .wrapper.style2 .container .row .col-12 .actions {
     display: flex; /* Contenedor flexbox */
     justify-content: center; /* Centra elementos hijos horizontalmente */
