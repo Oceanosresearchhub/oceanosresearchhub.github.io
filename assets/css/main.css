@@ -3364,6 +3364,11 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
+.wrapper.style1perfil {
+    padding-top: 0!important; /* Usar !important si no se sobrescribe */
+	margin-top: 0!important;
+}
+
 .wrapper.style1features {
     padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
 	margin-bottom: 0!important;
