@@ -3379,6 +3379,16 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
+.publications-list a {
+  color: #072d47ff;        
+  text-decoration: none; /* opcional: sin subrayado */
+}
+
+.publications-list a:hover {
+  color: #CC5200;        /* color al pasar el mouse */
+}
+
+
 .wrapper.style2 .container .row .col-12 .actions {
     display: flex; /* Contenedor flexbox */
     justify-content: center; /* Centra elementos hijos horizontalmente */
