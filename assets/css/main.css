@@ -3379,13 +3379,14 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
-.year-separator-waves {
-    border: 0;
-    height: 10px;                 /* alto de la franja */
+.wave-separator {
     margin: 20px 0;
-    background:
-      radial-gradient(circle at 10px 0, #072d47ff 6px, transparent 6px) repeat-x;
-    background-size: 20px 10px;   /* ancho y alto del patrón de ola */
+}
+
+.wave-separator svg {
+    width: 100%;
+    height: 20px;
+    display: block;
 }
 
 .year-separator {
