@@ -3381,11 +3381,11 @@ input, select, textarea {
 
 .year-separator-waves {
     border: 0;
-    height: 12px;              /* alto de la “ola” */
+    height: 10px;                 /* alto de la franja */
     margin: 20px 0;
     background:
-        radial-gradient(circle at 10px -6px, transparent 8px, #072d47ff 9px) repeat-x;
-    background-size: 20px 20px; /* ancho y alto del patrón de onda */
+      radial-gradient(circle at 10px 0, #072d47ff 6px, transparent 6px) repeat-x;
+    background-size: 20px 10px;   /* ancho y alto del patrón de ola */
 }
 
 .year-separator {
