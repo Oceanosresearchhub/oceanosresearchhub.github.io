@@ -3387,8 +3387,8 @@ input, select, textarea {
     background-size: auto 20px;  /* ajusta la escala vertical */
     background-image: url("data:image/svg+xml;utf8,\
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 20' preserveAspectRatio='none'>\
-<path d='M0 10 Q 15 -10 30 10 T 60 10 T 90 10 T 120 10' fill='none' stroke='%072d47ff' stroke-width='3' stroke-linecap='round'/>\
-</svg>");
+<path d='M0 10 Q 15 -5 30 10 T 60 10 T 90 10 T 120 10' fill='none' stroke='%072d47ff' stroke-width='3' stroke-linecap='round'/>\
+</svg>"); display: block;
 }
 
 .year-separator {
