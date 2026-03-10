@@ -3385,7 +3385,7 @@ input, select, textarea {
 
 .wave-separator svg {
     width: 100%;
-    height: 20px;
+    height: 40px; /* ola más o menos alta */
     display: block;
 }
 
