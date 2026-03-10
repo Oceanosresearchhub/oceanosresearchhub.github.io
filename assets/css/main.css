@@ -3379,11 +3379,22 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
+
+.year-separator {
+    border: 0;
+    height: 3px;                 /* más ancha (gruesa) */
+    background-color: #072d47ff;   /* color de la línea */
+    border-radius: 999px;        /* terminaciones redondeadas */
+    margin: 20px 0;
+}
+
+
 .wrapper.style2 .container .row .col-12 .actions {
     display: flex; /* Contenedor flexbox */
     justify-content: center; /* Centra elementos hijos horizontalmente */
     flex-wrap: wrap; /* Permite que se envuelvan */
 }
+
 
 .wrapper.style2 .container .row .col-12 .actions .button {
     background-color: #072d47ff;   /* Color de fondo del botón */
