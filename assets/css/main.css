@@ -3386,7 +3386,6 @@ input, select, textarea {
 .publications-list .publication-item,
 .publications-list .publication-number,
 .publications-list .publication-content,
-.publications-list .publication-content a,
 .publications-list strong {
   color: #072d47ff !important;
 }
