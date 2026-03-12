@@ -3379,6 +3379,13 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
+.publication-item,
+.publication-item .publication-number,
+.publication-item .publication-content {
+  color: #072d47ff;
+}
+
+
 .wave-separator {
     margin: 20px 0;
 }
