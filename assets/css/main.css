@@ -3379,10 +3379,13 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
-.publication-item,
-.publication-item .publication-number,
-.publication-item .publication-content {
-  color: #072d47ff!important;
+.publications-list,
+.publications-list .publication-item,
+.publications-list .publication-number,
+.publications-list .publication-content,
+.publications-list .publication-content a,
+.publications-list strong {
+  color: #072d47ff !important;
 }
 
 
