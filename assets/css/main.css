@@ -3382,7 +3382,7 @@ input, select, textarea {
 .publication-item,
 .publication-item .publication-number,
 .publication-item .publication-content {
-  color: #072d47ff;
+  color: #072d47ff!important;
 }
 
 
