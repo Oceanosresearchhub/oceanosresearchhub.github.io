@@ -3379,6 +3379,9 @@ input, select, textarea {
 	background-color: #f4fbfbff !important;
 }
 
+/* Pagina publicaciones */
+
+
 .publications-list,
 .publications-list .publication-item,
 .publications-list .publication-number,
@@ -3388,6 +3391,17 @@ input, select, textarea {
   color: #072d47ff !important;
 }
 
+/* Color normal de los enlaces en la lista de publicaciones */
+.publications-list .publication-content a {
+  color: #338a98ff;          /* azul enlaces */
+  text-decoration: underline;
+}
+
+/* Color al pasar el ratón (hover) */
+.publications-list .publication-content a:hover {
+  color: #072d47ff;          /* color al hacer hover */
+  text-decoration: none;   /* por ejemplo, quitar subrayado en hover */
+}
 
 .wave-separator {
     margin: 20px 0;
