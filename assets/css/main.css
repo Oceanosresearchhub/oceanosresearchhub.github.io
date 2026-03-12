@@ -3392,13 +3392,13 @@ input, select, textarea {
 
 /* Color normal de los enlaces en la lista de publicaciones */
 .publications-list .publication-content a {
-  color: #338a98ff;          /* azul enlaces */
+  color: #338a98ff !important;          /* azul enlaces */
   text-decoration: underline;
 }
 
 /* Color al pasar el ratón (hover) */
 .publications-list .publication-content a:hover {
-  color: #072d47ff;          /* color al hacer hover */
+  color: #072d47ff !important;          /* color al hacer hover */
   text-decoration: none;   /* por ejemplo, quitar subrayado en hover */
 }
 
