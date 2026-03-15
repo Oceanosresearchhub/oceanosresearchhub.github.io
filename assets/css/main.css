@@ -3436,10 +3436,10 @@ input, select, textarea {
 
 /* Títulos de cada proyecto */
 .featured-projects .project-title {
-  margin-top: 0.2em;    /* reduce separación imagen–título */
+  margin-top: 0.1em;    /* reduce separación imagen–título */
   margin-bottom: 0.8em; /* espacio antes del párrafo */
 color: #072d47ff;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 }
 
