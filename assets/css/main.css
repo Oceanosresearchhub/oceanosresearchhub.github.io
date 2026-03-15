@@ -3434,7 +3434,7 @@ input, select, textarea {
 /* Línea debajo del título */
 .featured-projects hr {
   margin-top: 0.3em;
-  margin-bottom: 0.6em; /* espacio con las tarjetas */
+  margin-bottom: 0.1em; /* espacio con las tarjetas */
 }
 
 /* Títulos de cada proyecto */
