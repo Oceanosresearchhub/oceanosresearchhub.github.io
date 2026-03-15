@@ -3420,11 +3420,14 @@ input, select, textarea {
     margin: 20px 0;
 }
 
-/* Pagina publicaciones */
+
+
+
+/* Pagina Proyectos */
 /* Título "Featured projects" */
 .featured-projects .section-title {
   margin-top: 0;        /* o un poco más si lo necesitas */
-  margin-bottom: 0.6em; /* espacio con el hr */
+  margin-bottom: 1.5em; /* espacio con el hr */
   color: #072d47ff;
   font-weight: bold;
   font-size: 1.6em;
@@ -3436,6 +3439,8 @@ input, select, textarea {
   margin-top: 0.2em;    /* reduce separación imagen–título */
   margin-bottom: 0.8em; /* espacio antes del párrafo */
 color: #072d47ff;
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .wrapper.style2 .container .row .col-12 .actions {
