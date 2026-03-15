@@ -3424,23 +3424,18 @@ input, select, textarea {
 /* Título "Featured projects" */
 .featured-projects .section-title {
   margin-top: 0;        /* o un poco más si lo necesitas */
-  margin-bottom: 0.3em; /* espacio con el hr */
+  margin-bottom: 0.6em; /* espacio con el hr */
   color: #072d47ff;
   font-weight: bold;
   font-size: 1.6em;
   text-align: left;
 }
 
-/* Línea debajo del título */
-.featured-projects hr {
-  margin-top: 0.3em;
-  margin-bottom: 0.1em; /* espacio con las tarjetas */
-}
-
 /* Títulos de cada proyecto */
 .featured-projects .project-title {
-  margin-top: 0.4em;    /* reduce separación imagen–título */
+  margin-top: 0.2em;    /* reduce separación imagen–título */
   margin-bottom: 0.8em; /* espacio antes del párrafo */
+color: #072d47ff;
 }
 
 .wrapper.style2 .container .row .col-12 .actions {
