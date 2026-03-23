@@ -116,7 +116,7 @@ input, select, textarea {
 	}
 
 #four h2 {
-    color: #c1ae9dff; 
+    color: #d3beabff; 
 	text-align: center; 
 	padding: 20px 3em 20px 3em;
 	top: 40%;
@@ -130,13 +130,14 @@ input, select, textarea {
 	text-align: center; 
 	padding: 20px 1.5em 20px 1.5em;
 	top: 40%;
-	font-weight: 300;
+	font-weight: 400;
 	font-size:2.5em;
 }
 
 #four p {
     color: white; 
 	text-align: center;
+	padding: 20px 4em 20px 4em;
 	font-weight: 300;
 	font-size:1.1em;
 }
