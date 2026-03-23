@@ -144,6 +144,8 @@ input, select, textarea {
 
 #features h2 {
     color: #072d47ff; margin-bottom: 40px;
+	font-weight: 300;
+	font-size:1.1em;
 }
 
 #features p {
@@ -152,8 +154,8 @@ input, select, textarea {
 
 #features h3 {
     color: #072d47ff; margin-top: -50px;
-	font-weight: 400;
-	font-size:2em;
+	font-weight: 500;
+	font-size:1.5em;
 	letter-spacing: 0.1em;
 }
 
