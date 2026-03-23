@@ -152,6 +152,9 @@ input, select, textarea {
 
 #features h3 {
     color: #072d47ff; margin-top: -50px;
+	font-weight: 400;
+	font-size:1.1em;
+	letter-spacing: 0.1em;
 }
 
 #featuresnews h2 {
