@@ -2180,7 +2180,7 @@ input, select, textarea {
 }
 
 .buttonnews:hover {
-    background-color: #338a98ff; /* Cambia el color en estado hover */
+    background-color: #ddc7b4ff; /* Cambia el color en estado hover */
 	color: #072d47ff;
 }
 
@@ -2204,7 +2204,7 @@ input, select, textarea {
 }
 
 .buttonfeatures:hover {
-    background-color: #338a98ff; /* Cambia el color en estado hover */
+    background-color: #ddc7b4ff; /* Cambia el color en estado hover */
 	color: #072d47ff;
 }
 
@@ -2238,7 +2238,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #338a98ff;
+			background: #ddc7b4ff;
 		}
 
 		input[type="button"].alt,
@@ -2685,7 +2685,7 @@ input, select, textarea {
 			}
 
 				#footer .copyright a:hover {
-					color: #338a98ff!important;
+					color: #ddc7b4ff!important;
 				}
 
 /* Carousel */
@@ -3403,7 +3403,7 @@ input, select, textarea {
 
 /* Color normal de los enlaces en la lista de publicaciones */
 .publications-list .publication-content a {
-  color: #338a98ff !important;          /* azul enlaces */
+  color: #ddc7b4ff !important;          /* azul enlaces */
   text-decoration: underline;
 }
 
@@ -3475,7 +3475,7 @@ color: #072d47ff;
 }
 
 .wrapper.style2 .container .row .col-12 .actions .button:hover {
-    background-color: #338a98ff; /* Color en estado hover */
+    background-color: #ddc7b4ff; /* Color en estado hover */
 }
 
 
