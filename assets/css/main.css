@@ -120,8 +120,18 @@ input, select, textarea {
 	text-align: center; 
 	padding: 20px 3em 20px 3em;
 	top: 40%;
-	font-weight: 600;
+	font-weight: 400;
 	font-size:2em;
+	letter-spacing: 0.1em;
+}
+
+#four h2 {
+    color: white; 
+	text-align: center; 
+	padding: 20px 3em 20px 3em;
+	top: 40%;
+	font-weight: 600;
+	font-size:3em;
 }
 
 #four p {
