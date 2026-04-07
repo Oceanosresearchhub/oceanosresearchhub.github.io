@@ -3495,7 +3495,8 @@ color: #072d47ff;
 /* Imagen colaboraciones */
 
 .collaboration-image {
-  width: 100%;
+  position: relative;
+	width: 100%;
 	margin:0;
 	padding:0;
 }
@@ -3508,7 +3509,7 @@ color: #072d47ff;
 }
 
 .collaboration-text {
-  position: relative;
+  position: absolute;
   top: 10px;          /* distancia desde la parte superior de la imagen */
   left: 50%;
   transform: translateX(-50%);
