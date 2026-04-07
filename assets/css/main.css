@@ -3510,11 +3510,11 @@ color: #072d47ff;
 
 .collaboration-text {
   position: absolute;
-  top: 20px;          /* distancia desde la parte superior de la imagen */
+  top: 40px;          /* distancia desde la parte superior de la imagen */
   left: 50%;
   transform: translateX(-50%);
   color: #072d47ff;       /* color del texto */
-  font-size: 1.6rem;  /* ajusta tamaño */
+  font-size: 2rem;  /* ajusta tamaño */
   font-weight: 600;
 }
 
