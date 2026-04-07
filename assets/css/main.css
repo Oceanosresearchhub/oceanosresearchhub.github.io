@@ -3494,13 +3494,9 @@ color: #072d47ff;
 /* Pagina Team */
 /* Imagen colaboraciones */
 
-.collaboration-image {
-  background-image: url("collaboration.png");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.collaboration-image img{
+  max-width: 100%;
+  height: auto;
 }
 
 
