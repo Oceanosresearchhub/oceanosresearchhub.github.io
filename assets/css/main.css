@@ -3508,12 +3508,12 @@ color: #072d47ff;
 }
 
 .collaboration-text {
-  position: absolute;
+  position: relative;
   top: 10px;          /* distancia desde la parte superior de la imagen */
   left: 50%;
   transform: translateX(-50%);
   color: white;       /* color del texto */
-  font-size: 1.5rem;  /* ajusta tamaño */
+  font-size: 1.6rem;  /* ajusta tamaño */
   font-weight: bold;
 }
 
