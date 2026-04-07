@@ -3491,6 +3491,20 @@ color: #072d47ff;
 	color: #072d47ff; 
 }
 
+/* Pagina Team */
+/* Imagen colaboraciones */
+
+.collaboration-image {
+  background-image: url("collaboration.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
 /* PUBLICACIONES */
 /* --- Estilos para el listado de publicaciones (Publications Page) --- */
 
