@@ -3496,11 +3496,15 @@ color: #072d47ff;
 
 .collaboration-image {
   width: 100%;
+	margin:0;
+	padding:0;
 }
 
 .collaboration-image img{
   max-width: 100%;
   height: auto;
+	margin:0;
+	padding:0;
 }
 
 
