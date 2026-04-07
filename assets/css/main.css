@@ -3494,6 +3494,10 @@ color: #072d47ff;
 /* Pagina Team */
 /* Imagen colaboraciones */
 
+.collaboration-image {
+  width: 100%;
+}
+
 .collaboration-image img{
   max-width: 100%;
   height: auto;
