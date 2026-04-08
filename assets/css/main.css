@@ -180,8 +180,11 @@ input, select, textarea {
 }
 
 #featuresnumbers h3 {
-    color: #072d47ff; margin-top: -50px;
-}
+    color: #072d47ff; margin-top: -20px;
+	font-weight: 700;
+	font-size:1.4em;
+	letter-spacing: 0.05em;
+} 
 
 
 
