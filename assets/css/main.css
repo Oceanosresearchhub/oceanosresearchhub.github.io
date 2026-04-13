@@ -173,7 +173,10 @@ input, select, textarea {
 
 #featuresnumbers h2 {
     color: #072d47ff; margin-bottom: 40px;
+	font-weight: 300;
+	font-size:1.1em;
 }
+
 
 #featuresnumbers p {
     color: #072d47ff; 
