@@ -384,7 +384,7 @@ input, select, textarea {
 #news .row {
     display: flex;                /* Hace que la fila sea un contenedor flexbox */
     justify-content: center;      /* Centra los artículos dentro de la fila */
-    gap: 20px;                   /* Espacio adicional entre los artículos */
+    gap: 10px;                   /* Espacio adicional entre los artículos */
 }
 
 #news article {
@@ -1940,6 +1940,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 1em 0!important;
+			padding-bottom: 10px;
 		}
 #featuresnumbers .image.featured {
 			display: block;
@@ -3366,7 +3367,7 @@ input, select, textarea {
 #featuresnews .container.special article.special header {
     margin-top: 0; 
 	margin-bottom: 0;
-    padding-top: 0; /* Asegura que no haya relleno superior */
+    padding-top: 1.5em; /* Asegura que no haya relleno superior */
 }
 
 #featuresnews .container.special {
