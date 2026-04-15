@@ -162,6 +162,13 @@ input, select, textarea {
 #featuresnews h2 {
     color: #fff; margin-bottom: 40px;
 }
+#featuresnews h3 {
+    color: #072d47ff; margin-top: -20px;
+	font-weight: 700;
+	font-size:1.4em;
+	letter-spacing: 0.05em;
+} 
+
 
 #featuresnews p {
     color: #fff; 
