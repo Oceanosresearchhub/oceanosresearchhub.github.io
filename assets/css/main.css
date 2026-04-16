@@ -3372,6 +3372,10 @@ input, select, textarea {
 }
 
 /* Para el texto debajo de las imágenes en las columnas especiales */
+#featuresnews .container.special article.special header 
+{ margin-top: 0; margin-bottom: 0; padding-top: 1.5em; /* Asegura que no haya relleno superior */ 
+ text-align: left; }
+
 #featuresnews article.special header {
 	 margin-top: 0; 
 	margin-bottom: 0;
