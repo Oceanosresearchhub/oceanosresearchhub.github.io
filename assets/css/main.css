@@ -1955,8 +1955,8 @@ input, select, textarea {
 			margin: 0 0 1em 0!important;
 		}
 #featuresnews.container {
-    width: 95%;
-    max-width: 1500px;
+    width: 100%;
+    max-width: 1700px;
 }
 
 /* List */
