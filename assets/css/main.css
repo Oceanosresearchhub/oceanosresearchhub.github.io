@@ -170,7 +170,7 @@ input, select, textarea {
 }
 
 #featuresnews h3 {
-    color: #072d47ff; margin-top: 20px;
+    color: #072d47ff; margin-top: -20px;
 	font-weight: 700;
 	font-size:1.4em;
 	letter-spacing: 0.05em;
@@ -1952,7 +1952,7 @@ input, select, textarea {
 			margin: 0 0 1em 0!important;
 		}
 #featuresnews.container {
-    width: 98%;
+    width: 95%;
     max-width: 1700px;
 }
 
@@ -3372,16 +3372,12 @@ input, select, textarea {
 }
 
 /* Para el texto debajo de las imágenes en las columnas especiales */
-#featuresnews .container.special article.special header 
-{ margin-top: 0; margin-bottom: 0; padding-top: 1.5em; /* Asegura que no haya relleno superior */ 
- text-align: left; }
 
 #featuresnews article.special header {
 	 margin-top: 0; 
 	margin-bottom: 0;
     padding-top: 1.5em;}
-#featuresnews article.special h
-#featuresnews article.special h3 a {
+#featuresnews article.special h3 {
     text-align: left;
 }
 
