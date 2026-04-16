@@ -3375,12 +3375,12 @@ input, select, textarea {
     text-align: left;
 }
 
-#featuresnews article.special header h3 a {
-    color: inherit;
+#featuresnews article.special h3 a {
+    color: #ffff !important;
 }
 
-#featuresnews article.special h3 {
-    margin-left: 0;
+#featuresnews article.special h3 a:hover {
+    color: #ffff;
 }
 
 #featuresnews .container.special {
