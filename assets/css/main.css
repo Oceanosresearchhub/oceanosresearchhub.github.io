@@ -201,8 +201,6 @@ input, select, textarea {
 	letter-spacing: 0.05em;
 } 
 
-
-
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
@@ -3373,9 +3371,13 @@ input, select, textarea {
 
 /* Para el texto debajo de las imágenes en las columnas especiales */
 
-#featuresnews .container.special article.special header 
-{ margin-top: 0; margin-bottom: 0; padding-top: 1.5em; /* Asegura que no haya relleno superior */ 
- text-align: left; }
+#featuresnews article.special header {
+    text-align: left;
+}
+
+#featuresnews article.special header h3 a {
+    color: inherit;
+}
 
 #featuresnews .container.special {
     margin-top: 0; 
