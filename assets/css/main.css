@@ -3377,10 +3377,13 @@ input, select, textarea {
 
 #featuresnews article.special h3 a {
     color: #ffff !important;
+	text-align: left;
+	display: block;
 }
 
 #featuresnews article.special h3 a:hover {
     color: #ffff;
+	text-align: left;
 }
 
 #featuresnews .container.special {
