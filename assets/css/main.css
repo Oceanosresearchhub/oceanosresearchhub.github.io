@@ -3373,6 +3373,7 @@ input, select, textarea {
 
 #featuresnews article.special header {
     text-align: left;
+	 width: 100%;
 }
 
 #featuresnews article.special h3 a {
