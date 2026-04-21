@@ -182,6 +182,24 @@ input, select, textarea {
     color: #fff; 
 }
 
+#featuresnews .news-date {
+  display: block;
+	text-align: left;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #fbc596ff;
+  margin-bottom: 0.5em;
+letter-spacing: 0.1em;
+}
+
+#featuresnews .news-article {
+  display: block;
+	text-align: left;
+  font-size: 1em;
+  font-weight: 400;
+   color: #072d47ff;
+  margin-bottom: 0.5em;
+}
 
 #featuresnumbers h2 {
     color: #072d47ff; margin-bottom: 40px;
