@@ -192,7 +192,7 @@ input, select, textarea {
 letter-spacing: 0.1em;
 }
 
-#featuresnews .news-article {
+#featuresnews .news-text {
   display: block;
 	text-align: left;
   font-size: 1em;
