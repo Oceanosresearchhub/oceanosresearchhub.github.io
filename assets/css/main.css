@@ -2400,7 +2400,7 @@ letter-spacing: 0.1em;
 			position: relative;
 			z-index: 1;
 			margin: 0;
-			display: block;
+			display: inline-block;
 			vertical-align: middle;
 			min-height: 100vh;
 		}
@@ -2461,7 +2461,7 @@ letter-spacing: 0.1em;
 
 		body.homepage #header:after {
 			content: '';
-			background: #072d47ff;
+			background: #072d47b3;
 			display: block;
 			position: absolute;
 			left: 0;
