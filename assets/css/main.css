@@ -193,16 +193,7 @@ letter-spacing: 0.1em;
 }
 
 #featuresnews .news-text {
-  display: block;
-	width: 100%;
-  padding-right: 0;
-	text-align: left;
-  font-size: 1em;
-  font-weight: 400;
    color: white;
-  margin-bottom: 0.5em;
-	margin-top: 1em;
-	line-height: 1.5;
 }
 
 #featuresnumbers h2 {
