@@ -194,6 +194,7 @@ letter-spacing: 0.1em;
 
 #featuresnews .news-text {
    color: white;
+	line-height: 1.5;
 }
 
 #featuresnumbers h2 {
