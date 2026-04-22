@@ -2386,7 +2386,6 @@ letter-spacing: 0.1em;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
-		min-height: 100vh;
 	}
 
 
@@ -2461,7 +2460,7 @@ letter-spacing: 0.1em;
 
 		body.homepage #header:after {
 			content: '';
-			background: #041023cc;
+			background: #072d47ff;
 			display: block;
 			position: absolute;
 			left: 0;
