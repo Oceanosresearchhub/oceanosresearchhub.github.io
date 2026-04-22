@@ -2400,8 +2400,9 @@ letter-spacing: 0.1em;
 			position: relative;
 			z-index: 1;
 			margin: 0;
-			display: inline-block;
+			display: block;
 			vertical-align: middle;
+			min-height: 100vh;
 		}
 
 		#header header {
