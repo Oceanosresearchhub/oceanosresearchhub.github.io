@@ -3637,7 +3637,7 @@ color: #072d47ff;
 }
 
 .publication-content {
-    flex-grow: 1;          /* Permite que el contenido ocupe el espacio restante */
+    flex: 0 1 auto;          /* Permite que el contenido ocupe el espacio restante */
 }
 
 /* Estilo específico para los coautores en negrita (ej. "Dakos V") */
