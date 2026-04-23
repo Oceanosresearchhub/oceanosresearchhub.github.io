@@ -3643,6 +3643,7 @@ color: #072d47ff;
 /* Estilo específico para los coautores en negrita (ej. "Dakos V") */
 .publication-content strong {
     font-weight: bold;
+	color: #072d47ff;
 }
 
 /* Estilo para nombres de revistas o conferencias (cursiva) */
@@ -3652,7 +3653,7 @@ color: #072d47ff;
 
 /* Estilo para enlaces (DOIs) */
 .publication-content a {
-    color: #007bff;            /* Color azul para los enlaces */
+    color: #072d47ff;            /* Color azul para los enlaces */
     text-decoration: underline; /* Subrayado por defecto */
 }
 
