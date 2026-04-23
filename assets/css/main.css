@@ -188,13 +188,14 @@ input, select, textarea {
   font-size: 1.2em;
   font-weight: 400;
   color: #fbc596ff;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.4em;
 letter-spacing: 0.1em;
 }
 
 #featuresnews .news-text {
    color: white;
 	line-height: 1.5;
+	margin-top: 1.2em;
 }
 .news-text a {
     color: #fbc596ff;
