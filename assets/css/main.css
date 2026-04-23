@@ -2384,8 +2384,9 @@ letter-spacing: 0.1em;
 		background-attachment: fixed;
 		color: #ffffff;
 		text-align: center;
-		padding: 7.5em 0 2em 0;
+		padding: 0;
 		cursor: default;
+		min-height: 100vh;
 	}
 
 
