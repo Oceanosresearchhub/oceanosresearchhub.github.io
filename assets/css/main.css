@@ -196,6 +196,13 @@ letter-spacing: 0.1em;
    color: white;
 	line-height: 1.5;
 }
+.news-text a {
+    color: #fbc596ff;
+}
+
+.news-text a:hover {
+    color: white;
+}
 
 #featuresnumbers h2 {
     color: #072d47ff; margin-bottom: 40px;
