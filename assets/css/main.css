@@ -2376,6 +2376,25 @@ letter-spacing: 0.1em;
 
 /* Header */
 
+/*Header de la portada*/
+
+.home-header {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.home-header:before {
+    display: none;
+}
+
+.home-header .inner {
+    display: block;
+}
+
+/*Header del resto de pagina */
 	#header {
 		position: relative;
 		background-image: url("../../images/pic_publi_background.jpg");
@@ -2384,7 +2403,7 @@ letter-spacing: 0.1em;
 		background-attachment: fixed;
 		color: #ffffff;
 		text-align: center;
-		padding: 0;
+		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
 
