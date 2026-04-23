@@ -2404,7 +2404,7 @@ letter-spacing: 0.1em;
 			vertical-align: middle;
 			justify-content: center;
 			align-items: center;
-			height: 100vh;	
+			height: 100%;	
 		}
 
 			.logo-header {
