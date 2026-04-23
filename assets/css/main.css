@@ -3621,6 +3621,7 @@ color: #072d47ff;
     line-height: 1.6;      /* Altura de línea para mejorar la legibilidad */
     font-size: 0.95em;     /* Texto ligeramente más pequeño que el estándar */
     color: #555;           /* Color de texto más suave */
+	background-color: #f4fbfbff; 
 }
 
 .publication-number {
