@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #f4fbfbff;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -2131,7 +2131,7 @@ letter-spacing: 0.1em;
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #fff;
+			background: #f4fbfbff;
 			border-color: #df7366;
 		}
 
@@ -2372,7 +2372,7 @@ letter-spacing: 0.1em;
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #f4fbfbff;
 		margin: 0 0 0 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2390,7 +2390,7 @@ letter-spacing: 0.1em;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #ffffff;
+		color: #f4fbfbff;
 		text-align: center;
 		padding: 7.5em 0 0 0;
 		cursor: default;
@@ -2633,7 +2633,7 @@ letter-spacing: 0.1em;
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #f4fbfbff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2706,7 +2706,7 @@ letter-spacing: 0.1em;
 	}
 
 		#footer .icon.circled {
-			background: #fff;
+			background: #f4fbfbff;
 			color: #2b252c;
 		}
 
@@ -2832,7 +2832,7 @@ letter-spacing: 0.1em;
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #f4fbfbff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
