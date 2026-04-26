@@ -2013,7 +2013,7 @@ letter-spacing: 0.1em;
     width: 95%;
     max-width: 1700px;
 }
-#featuresnewswhite .container {
+#featuresnewswhite.container {
     width: 95%;
     max-width: 1700px;
 }
