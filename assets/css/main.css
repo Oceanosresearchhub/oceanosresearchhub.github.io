@@ -1998,12 +1998,22 @@ letter-spacing: 0.1em;
 			margin: 1.5em 0 0.75em 0!important;
 			padding-bottom: 10px;
 		}
+#featuresnewswhite .image.featured {
+			display: block;
+			width: 100%;
+			margin: 1.5em 0 0.75em 0!important;
+			padding-bottom: 10px;
+		}
 #featuresnumbers .image.featured {
 			display: block;
 			width: 100%;
 			margin: 0 0 1em 0!important;
 		}
 #featuresnews.container {
+    width: 95%;
+    max-width: 1700px;
+}
+#featuresnewswhite .container {
     width: 95%;
     max-width: 1700px;
 }
