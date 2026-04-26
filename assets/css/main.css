@@ -223,6 +223,31 @@ letter-spacing: 0.1em;
 	letter-spacing: 0.05em;
 } 
 
+
+#featuresnewswhite .news-date {
+  display: block;
+	text-align: left;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #fbc596ff;
+  margin-bottom: 1.4em;
+letter-spacing: 0.1em;
+}
+
+#featuresnewswhite .news-text {
+   color: #072d47ff;
+	line-height: 1.5;
+	margin-top: 1.2em;
+}
+
+#featuresnewswhite .news-text a {
+    color: #fbc596ff;
+}
+
+#featuresnewswhite .news-text a:hover {
+    color: #072d47ff;
+}
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
