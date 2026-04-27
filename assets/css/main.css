@@ -256,40 +256,35 @@ letter-spacing: 0.1em;
     color: #072d47ff;
 }
 
-#featuresscience h2 {
-    color: #fbc596ff; 
-	text-align: center; 
-	padding: 1em 3em 1.5em 3em;
-	top: 40%;
-	font-weight: 400;
-	font-size:1.8em;
-	letter-spacing: 0.1em;
+.feature-card {
+    background: #f4fbfbff;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-#featuresscience h3 {
-    color: #072d47ff; margin-top: -20px;
-	font-weight: 700;
+.feature-card .image.featured {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+   	color: #072d47ff; margin-top: -20px;
+  	font-weight: 700;
 	font-size:1.4em;
 	letter-spacing: 0.05em;
 	text-align: left;
-} 
-
-#featuresscience .title {
-  display: block;
-	text-align: left;
-  font-size: 1.2em;
-  font-weight: 400;
-  color: #fbc596ff;
-  margin-bottom: 1.4em;
-letter-spacing: 0.1em;
 }
 
-#featuresscience .text {
-   color: white;
+.feature-card p {
+    color: white;
 	line-height: 1.5;
 	margin-top: 1.2em;
 }
-
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
