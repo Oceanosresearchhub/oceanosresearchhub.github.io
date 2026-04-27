@@ -205,6 +205,7 @@ letter-spacing: 0.1em;
     color: white;
 }
 
+
 #featuresnumbers h2 {
     color: #072d47ff; margin-bottom: 40px;
 	font-weight: 300;
@@ -253,6 +254,40 @@ letter-spacing: 0.1em;
 
 #featuresnewswhite .news-text a:hover {
     color: #072d47ff;
+}
+
+#featuresscience h2 {
+    color: #fbc596ff; 
+	text-align: center; 
+	padding: 1em 3em 1.5em 3em;
+	top: 40%;
+	font-weight: 400;
+	font-size:1.8em;
+	letter-spacing: 0.1em;
+}
+
+#featuresscience h3 {
+    color: #072d47ff; margin-top: -20px;
+	font-weight: 700;
+	font-size:1.4em;
+	letter-spacing: 0.05em;
+	text-align: left;
+} 
+
+#featuresscience .title {
+  display: block;
+	text-align: left;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #fbc596ff;
+  margin-bottom: 1.4em;
+letter-spacing: 0.1em;
+}
+
+#featuresscience .text {
+   color: white;
+	line-height: 1.5;
+	margin-top: 1.2em;
 }
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3516,6 +3551,11 @@ letter-spacing: 0.1em;
 }
 
 .wrapper.style1features {
+    padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
+	margin-bottom: 0!important;
+	background-color: #f4fbfbff !important;
+}
+.wrapper.style1science {
     padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
 	margin-bottom: 0!important;
 	background-color: #f4fbfbff !important;
