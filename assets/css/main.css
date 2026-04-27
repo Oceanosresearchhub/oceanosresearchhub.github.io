@@ -263,27 +263,35 @@ letter-spacing: 0.1em;
     height: 100%;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+	
 }
 
 .feature-card .image.featured {
+    display: block;
     width: 100%;
-    height: auto;
+    margin: 0 0 15px 0;
     border-radius: 8px;
-    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.feature-card .image.featured img {
+    width: 100%;
+    display: block;
 }
 
 .feature-card h3 {
-   	color: #072d47ff; margin-top: -20px;
+   	color: #072d47ff; 
+	margin-top: -20px;
   	font-weight: 700;
-	font-size:1.4em;
+	font-size:1.2em;
 	letter-spacing: 0.05em;
-	text-align: left;
+	text-align: center;
 }
 
 .feature-card p {
-    color: white;
+    color: #072d47ff;
 	line-height: 1.5;
-	margin-top: 1.2em;
+	margin-top: 1em;
 }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
