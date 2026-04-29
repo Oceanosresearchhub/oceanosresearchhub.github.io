@@ -3774,11 +3774,11 @@ color: #072d47ff;
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
-    padding: 4em 2em;
+    padding: 2em 2em;
 }
 
 .science-header h2 {
-    font-size: 2em;
+    font-size: 3em;
     padding: 0 1em;
     letter-spacing: 0.03em;
     line-height: 1.3;
@@ -3790,6 +3790,7 @@ color: #072d47ff;
     font-size: 1.1em;
     line-height: 1.6;
     margin-top: 1.5em;
+	text-align: center;
 }
 
 
