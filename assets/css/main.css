@@ -3717,6 +3717,8 @@ color: #072d47ff;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
 			color: #072d47ff;
+			border-radius: 5px;
+    		overflow: hidden;
 		}
 
 			.ourscience-card .image.featured {
