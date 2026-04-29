@@ -3697,7 +3697,7 @@ color: #072d47ff;
 	    justify-content: center;   /* centra horizontalmente */
 	    align-items: stretch;      /* misma altura */
 	    gap: 2em;  
-		padding: 0;
+		padding: 2em 0;
 	    background: #072d47ff;
 	    overflow: hidden;
 	}
@@ -3705,7 +3705,7 @@ color: #072d47ff;
 		.ourscience-card article {
 			display: inline-block;
 			width: 18em;
-			background: #f4fbfbff;
+			background: #f4fbfb4d;
 			text-align: center;
 			padding: 0 0 3em 0;
 			margin: 0;
