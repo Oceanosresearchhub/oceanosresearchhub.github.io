@@ -3697,7 +3697,7 @@ color: #072d47ff;
 	    justify-content: center;   /* centra horizontalmente */
 	    align-items: stretch;      /* misma altura */
 	    gap: 2em;  
-		padding: 2em 0;
+		padding: 2em 2em;
 	    background: #072d47ff;
 	    overflow: hidden;
 	}
@@ -3747,7 +3747,7 @@ color: #072d47ff;
 			    margin-inline-end: 0px;
 			    unicode-bidi: isolate;
 				text-align: center;
-				color: #072d47ff;
+				color: #f4fbfbff;
 				font-weight: 700;
 				font-size:1.4em;
 				letter-spacing: 0.05em;
@@ -3761,7 +3761,7 @@ color: #072d47ff;
 			    margin-inline-end: 0px;
 			    unicode-bidi: isolate;
 				text-align: center;
-				color: #072d47ff;
+				color: #f4fbfbff;
 			}
 
 
