@@ -3693,11 +3693,13 @@ color: #072d47ff;
 /* OUR SCIENCE */
 
 .ourscience-card {
-		position: relative;
-		overflow: hidden;
-		padding: 2em 0 2em 0;
-		margin-bottom: 0;
-		background: #072d47ff;
+		display: flex;
+	    justify-content: center;   /* centra horizontalmente */
+	    align-items: stretch;      /* misma altura */
+	    gap: 2em;  
+		padding: 2em 0;
+	    background: #072d47ff;
+	    overflow: hidden;
 	}
 
 		.ourscience-card article {
@@ -3706,7 +3708,7 @@ color: #072d47ff;
 			background: #f4fbfbff;
 			text-align: center;
 			padding: 0 1em 3em 1em;
-			margin: 0 2em 0 0;
+			margin: 0;
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
@@ -3722,7 +3724,6 @@ color: #072d47ff;
 			}
 			.ourscience-card article .image {
 				position: relative;
-				left: -1em;
 				top: 0;
 				width: 100%;
 				margin-right: -2em;
