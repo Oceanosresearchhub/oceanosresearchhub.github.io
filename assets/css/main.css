@@ -13,7 +13,7 @@ pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
+form, label, legend, table, caption, tbody,x
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
@@ -3716,13 +3716,20 @@ color: #072d47ff;
 		}
 
 			.ourscience-card article .image {
+				
 				position: relative;
 				left: -1em;
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 3em;
+				margin-bottom: 2em;
+				border: 0;
+    			outline: 0;
 			}
+			.ourscience-card image.featured {
+			    margin: 0 0 2em 0;
+				display: block;
+			    }
 
 			.ourscience-card article p {
 				display: block;
