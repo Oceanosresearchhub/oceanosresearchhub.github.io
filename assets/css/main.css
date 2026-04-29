@@ -3739,6 +3739,19 @@ color: #072d47ff;
 			    border: 0;
 			}
 
+			.ourscience-card article h3 {
+				display: block;
+			    margin-block-start: 1em;
+			    margin-block-end: 1em;
+			    margin-inline-start: 0px;
+			    margin-inline-end: 0px;
+			    unicode-bidi: isolate;
+				text-align: center;
+				color: #072d47ff;
+				font-weight: 700;
+				font-size:1.4em;
+				letter-spacing: 0.05em;
+			}
 
 			.ourscience-card article p {
 				display: block;
