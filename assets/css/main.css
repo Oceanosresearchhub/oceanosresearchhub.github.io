@@ -3716,11 +3716,15 @@ color: #072d47ff;
 			color: #072d47ff;
 		}
 
+			.ourscience-card .image.featured {
+			    margin: 0 0 2em 0;
+				display: block;
+			}
 			.ourscience-card article .image {
 				position: relative;
 				left: -1em;
 				top: 0;
-				width: auto;
+				width: 100%;
 				margin-right: -2em;
 				margin-bottom: 2em;
 				border: 0;
@@ -3734,10 +3738,6 @@ color: #072d47ff;
 			    border: 0;
 			}
 
-			.ourscience-card image.featured {
-			    margin: 0 0 2em 0;
-				display: block;
-			    }
 
 			.ourscience-card article p {
 				display: block;
