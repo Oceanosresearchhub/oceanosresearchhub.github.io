@@ -3697,7 +3697,7 @@ color: #072d47ff;
 	    justify-content: center;   /* centra horizontalmente */
 	    align-items: stretch;      /* misma altura */
 	    gap: 2em;  
-		padding: 2em 0;
+		padding: 0;
 	    background: #072d47ff;
 	    overflow: hidden;
 	}
@@ -3707,7 +3707,7 @@ color: #072d47ff;
 			width: 18em;
 			background: #f4fbfbff;
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			padding: 0 0 3em 0;
 			margin: 0;
 			white-space: normal;
 			opacity: 1.0;
@@ -3741,8 +3741,8 @@ color: #072d47ff;
 
 			.ourscience-card article h3 {
 				display: block;
-			    margin-block-start: 1em;
-			    margin-block-end: 1em;
+			    margin-block-start: 0.5em;
+			    margin-block-end: 0.5em;
 			    margin-inline-start: 0px;
 			    margin-inline-end: 0px;
 			    unicode-bidi: isolate;
