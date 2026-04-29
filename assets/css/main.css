@@ -3769,6 +3769,29 @@ color: #072d47ff;
 				padding: 0 0.5em;
 			}
 
+.science-intro {
+    color: #072d47ff;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4em 2em;
+}
+
+.science-header h2 {
+    font-size: 2em;
+    padding: 0 1em;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
+    font-weight: 700;
+	color: #f9a862ff;
+}
+
+.science-intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 1.5em;
+}
+
 
 /* PUBLICACIONES */
 /* --- Estilos para el listado de publicaciones (Publications Page) --- */
