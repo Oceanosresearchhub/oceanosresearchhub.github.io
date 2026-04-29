@@ -3700,6 +3700,7 @@ color: #072d47ff;
 		padding: 2em 2em;
 	    background: #072d47ff;
 	    overflow: hidden;
+		position:relative;
 	}
 
 		.ourscience-card article {
