@@ -3690,6 +3690,52 @@ color: #072d47ff;
   font-weight: 600;
 }
 
+/* OUR SCIENCE */
+
+.ourscience-card {
+		position: relative;
+		overflow: hidden;
+		padding: 2em 0 2em 0;
+		margin-bottom: 0;
+	}
+
+		.ourscience-card article {
+			display: inline-block;
+			width: 18em;
+			background: #f4fbfbff;
+			text-align: center;
+			padding: 0 1em 3em 1em;
+			margin: 0 2em 0 0;
+			white-space: normal;
+			opacity: 1.0;
+			-moz-transition: opacity 0.75s ease-in-out;
+			-webkit-transition: opacity 0.75s ease-in-out;
+			-ms-transition: opacity 0.75s ease-in-out;
+			transition: opacity 0.75s ease-in-out;
+			color: #072d47ff;
+		}
+
+			.ourscience-card article .image {
+				position: relative;
+				left: -1em;
+				top: 0;
+				width: auto;
+				margin-right: -2em;
+				margin-bottom: 3em;
+			}
+
+			.ourscience-card article p {
+				display: block;
+			    margin-block-start: 1em;
+			    margin-block-end: 1em;
+			    margin-inline-start: 0px;
+			    margin-inline-end: 0px;
+			    unicode-bidi: isolate;
+				text-align: center;
+				color: #072d47ff;
+			}
+
+
 /* PUBLICACIONES */
 /* --- Estilos para el listado de publicaciones (Publications Page) --- */
 
