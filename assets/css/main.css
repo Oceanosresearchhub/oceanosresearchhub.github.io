@@ -3772,7 +3772,7 @@ color: #072d47ff;
 .science-intro {
     color: #072d47ff;
     text-align: center;
-    max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     padding: 2em 1em;
 }
