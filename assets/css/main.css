@@ -3557,8 +3557,8 @@ letter-spacing: 0.1em;
 	background-color: #f4fbfbff !important;
 }
 .wrapper.style1science {
-    padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
-	margin-bottom: 0!important;
+    padding: 0!important; /* Usar !important si no se sobrescribe */
+	margin: 0!important;
 	background-color: #f4fbfbff !important;
 }
 
@@ -3774,7 +3774,7 @@ color: #072d47ff;
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
-    padding: 1em 1em;
+    padding: 2em 1em;
 }
 
 .science-header h2 {
