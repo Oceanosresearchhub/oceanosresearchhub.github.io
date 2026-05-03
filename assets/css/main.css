@@ -3776,9 +3776,11 @@ color: #072d47ff;
   left: 0;
   width: 100%;
   z-index: 10;
+  background: transparent;
 }
 
 #science-intro {
+	position: relative;
   height: 100vh;
   width: 100%;
 	display: flex;
@@ -3793,8 +3795,21 @@ color: #072d47ff;
   background-position: center;
   background-repeat: no-repeat;
 }
+#science-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.3),
+    transparent
+  );
+  z-index: 0;
+}
 
 .science-content {
+	position: relative;
+  z-index: 1;
   width: 100%;
   max-width: 1000px;
 }
