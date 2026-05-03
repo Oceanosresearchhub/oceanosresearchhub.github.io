@@ -3720,6 +3720,7 @@ color: #072d47ff;
 			color: #072d47ff;
 			border-radius: 5px;
     		overflow: hidden;
+			height: auto;
 		}
 
 			.ourscience-card .image.featured {
