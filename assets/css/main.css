@@ -3792,16 +3792,18 @@ color: #072d47ff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-	background-attachment: fixed;
+	 overflow: hidden;
 }
 
 .science-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .science-header h2 {
-  font-size: 4em;
+	max-width: 1000px;
+  margin: 0 auto;
+  font-size: 3em;
   padding: 0;
   letter-spacing: 0.03em;
   line-height: 1.3;
