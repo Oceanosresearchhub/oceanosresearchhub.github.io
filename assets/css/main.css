@@ -3776,18 +3776,19 @@ color: #072d47ff;
   justify-content: center;
   align-items: center;
   text-align: center;
-	min-height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 2em 1em;
-	background-image: url("../../images/pic_publi_background.jpg");
+  background-image: url("../../images/pic_publi_background.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
 .science-header h2 {
     font-size: 2.5em;
-    padding: 0;
+    padding: 0 2em;
     letter-spacing: 0.03em;
     line-height: 1.3;
     font-weight: 700;
@@ -3796,6 +3797,7 @@ color: #072d47ff;
 
 #science-intro p {
 	color: #fff;
+	padding: 0 2em;
     font-size: 1.1em;
     line-height: 1.6;
     margin-top: 1.5em;
