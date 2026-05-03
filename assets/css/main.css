@@ -3807,6 +3807,7 @@ color: #072d47ff;
     line-height: 1.3;
     font-weight: 700;
 	color: #f9a862ff;
+	margin: 0 auto;
 }
 
 .science-text {
@@ -3816,6 +3817,7 @@ color: #072d47ff;
     line-height: 1.6;
     margin-top: 1.5em;
 	text-align: center;
+	margin: 0 auto;
 }
 
 
