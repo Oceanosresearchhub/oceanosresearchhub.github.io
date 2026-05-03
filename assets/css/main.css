@@ -3792,7 +3792,7 @@ color: #072d47ff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-	background-attachment: fixed
+	background-attachment: fixed;
 	
 }
 
@@ -3814,6 +3814,7 @@ color: #072d47ff;
 
 #science-intro p {
 	max-width: 600px;
+  margin: 1.5em auto 0 auto; 
   font-size: 1.3em;
   line-height: 1.6;
   margin-top: 1.5em;
