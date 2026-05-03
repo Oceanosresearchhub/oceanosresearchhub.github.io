@@ -3800,18 +3800,18 @@ color: #072d47ff;
   margin: 0 auto;
 }
 
-.science-header h2 {
+.science-title {
+	max-width: 1200px;
     font-size: 4em;
-    padding: 0 2em;
     letter-spacing: 0.03em;
     line-height: 1.3;
     font-weight: 700;
 	color: #f9a862ff;
 }
 
-#science-intro p {
+.science-text {
+	max-width: 700px;
 	color: #fff;
-	padding: 0 2em;
     font-size: 1.5em;
     line-height: 1.6;
     margin-top: 1.5em;
