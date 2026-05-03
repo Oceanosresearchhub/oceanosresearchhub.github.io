@@ -3804,6 +3804,13 @@ color: #072d47ff;
 	text-align: center;
 }
 
+.science-page #header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
 
 /* PUBLICACIONES */
 /* --- Estilos para el listado de publicaciones (Publications Page) --- */
