@@ -3707,9 +3707,9 @@ color: #072d47ff;
 		.ourscience-card article {
 			display: inline-block;
 			width: 18em;
-			background: #f4fbfb4d;
+			background: #f4fbfb7f;
 			text-align: center;
-			padding: 0 0 3em 0;
+			padding: 0 0 0 0;
 			margin: 0;
 			white-space: normal;
 			opacity: 1.0;
