@@ -3703,8 +3703,6 @@ color: #072d47ff;
 	    background: #072d47ff;
 	    overflow: hidden;
 		position:relative;
-	 	width: 100vw;
-  		margin-left: calc(50% - 50vw);
 	}
 
 		.ourscience-card article {
@@ -3967,12 +3965,7 @@ body.publications-page #header .inner header h1 {
 }
 
 
-/* Si el body en Our_Science.html tiene la clase 'our-science-page' */
-body.our-science-page #header {
 
-    background-image: url('../images/pic_publi_background.jpg') !important; /* Si es diferente a la del home */
-    
-}
 
 /* --- Ajustes para la página de Noticias (News) --- */
 body.news-page #header {
