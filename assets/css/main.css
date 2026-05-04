@@ -79,7 +79,8 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		box-sizing: inherit;
+		box-sizing: inherit;\
+		color: #072d47ff;
 	}
 
 	body {
