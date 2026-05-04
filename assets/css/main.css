@@ -3696,8 +3696,8 @@ color: #072d47ff;
 .ourscience-card {
 		display: flex;
 		min-height: 100vh;
-	    justify-content: center;   /* centra horizontalmente */
-	    align-items: flex-start;      /* misma altura */
+	    justify-content: center; 
+	    align-items: center;     
 	    gap: 2em;  
 		padding: 3em 2em;
 	    background: #072d47ff;
