@@ -53,6 +53,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background-color: #072d47ff;
 }
 
 mark {
@@ -79,8 +80,7 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		box-sizing: inherit;\
-		background-color: #072d47ff;
+		box-sizing: inherit;
 	}
 
 	body {
