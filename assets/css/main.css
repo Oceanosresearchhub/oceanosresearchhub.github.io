@@ -1952,7 +1952,7 @@ letter-spacing: 0.1em;
 /* Sections/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		margin-bottom: 0;
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -3089,7 +3089,7 @@ letter-spacing: 0.1em;
 		/* Section/Article */
 
 			section, article {
-				margin-bottom: 2em;
+				margin-bottom: 0;
 			}
 
 				section:last-child, article:last-child {
@@ -3097,7 +3097,7 @@ letter-spacing: 0.1em;
 				}
 
 			.row > section, .row > article {
-				margin-bottom: 2em;
+				margin-bottom: 0;
 			}
 
 			header > p {
