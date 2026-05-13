@@ -84,8 +84,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f4fbfbff;
-		color: #5b5b5b;
+		background: #072d47ff;
+		color: #fff;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -3237,7 +3237,7 @@ letter-spacing: 0.1em;
 						font-style: normal;
 						content: '\f0c9';
 						color: #fff;
-						color: rgba(255, 255, 255, 0.75);
+						color: #fff;
 						text-align: center;
 						display: block;
 						font-size: 14px;
@@ -3247,9 +3247,13 @@ letter-spacing: 0.1em;
 						position: absolute;
 						left: 50%;
 						margin-left: -40px;
-						background: rgba(132, 128, 136, 0.75);
+						background: #f4fbfb80;
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
+					}
+
+			body.navPanel-visible #navButton .toggle:before {
+						display: none;
 					}
 
 			#navPanel {
