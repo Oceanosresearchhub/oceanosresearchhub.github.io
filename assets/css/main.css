@@ -3270,7 +3270,6 @@ letter-spacing: 0.1em;
 				-ms-transition: -ms-transform 0.2s ease;
 				transition: transform 0.2s ease;
 				display: block;
-				height: 50vh;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
