@@ -3950,16 +3950,15 @@ body.publications-page #header .inner header h1 {
 }
 
 @media screen and (max-width: 736px) {
-	.header-page-title-container {
-		margin-top: 25px !important;
-	}
-
-	.header-page-title-container h2 {
-		font-size: 26px !important;
-		line-height: 1.15 !important;
-		margin: 0 !important;
-	}
+	.mobile-break {
+	display: none;
 }
+
+@media screen and (max-width: 736px) {
+	.mobile-break {
+		display: block;
+}
+
 
 /* logo como enlace directo */
 
