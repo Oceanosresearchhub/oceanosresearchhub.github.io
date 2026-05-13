@@ -1949,6 +1949,7 @@ letter-spacing: 0.1em;
 
 		}
 
+
 /* Sections/Article */
 
 	section, article {
@@ -3946,6 +3947,18 @@ body.publications-page #header .inner header h1 {
 
 .header-page-title-container {
     margin-top: 45px; /* Ajusta este valor (ej. 10px, 30px, etc.) */
+}
+
+@media screen and (max-width: 736px) {
+	.header-page-title-container {
+		margin-top: 25px !important;
+	}
+
+	.header-page-title-container h2 {
+		font-size: 26px !important;
+		line-height: 1.15 !important;
+		margin: 0 !important;
+	}
 }
 
 /* logo como enlace directo */
