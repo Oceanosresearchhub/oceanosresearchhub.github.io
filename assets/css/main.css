@@ -4091,54 +4091,55 @@ body.team_up-page hr {
 
 @media screen and (max-width: 736px) {
 
-	/* Panel móvil */
 	#navPanel {
+		position: fixed !important;
+		top: 0 !important;
+		left: 0 !important;
+		width: 82vw !important;
+		max-width: 330px !important;
+		height: 100vh !important;
 		background: rgba(7, 45, 71, 0.96) !important;
-		width: 78vw;
-		max-width: 320px;
-		min-height: 100vh;
-		padding: 4.5em 1.4em 2em 1.4em;
-		box-shadow: 12px 0 35px rgba(0, 0, 0, 0.35);
-		border-radius: 0 18px 18px 0;
+		padding: 5em 1.5em 2em 1.5em !important;
+		box-shadow: 12px 0 35px rgba(0, 0, 0, 0.35) !important;
+		border-radius: 0 18px 18px 0 !important;
+		z-index: 10000 !important;
+		overflow-y: auto !important;
 	}
 
-	/* Links del menú */
+	#navPanel nav,
+	#navPanel ul {
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none !important;
+	}
+
 	#navPanel .link {
-		display: block;
+		display: block !important;
 		color: #f4fbfb !important;
-		font-size: 1.05em;
-		font-weight: 600;
-		letter-spacing: 0.02em;
-		text-decoration: none;
+		font-size: 1.1em !important;
+		font-weight: 600 !important;
+		line-height: 1.2 !important;
+		text-decoration: none !important;
 		border: 0 !important;
-		border-bottom: 1px solid rgba(244, 251, 251, 0.16) !important;
-		padding: 1em 0.3em;
-		transition: all 0.25s ease;
+		border-bottom: 1px solid rgba(244, 251, 251, 0.2) !important;
+		padding: 1.1em 0.3em !important;
+		opacity: 1 !important;
+		visibility: visible !important;
 	}
 
 	#navPanel .link:hover {
-		color: white !important;
-		background: rgba(244, 251, 251, 0.08);
-		padding-left: 0.8em;
-		border-radius: 10px;
+		color: #ffffff !important;
+		background: rgba(244, 251, 251, 0.08) !important;
+		padding-left: 0.8em !important;
+		border-radius: 10px !important;
 	}
 
-	/* Primer link un poco más abajo */
 	#navPanel .link:first-child {
-		margin-top: 0.5em;
+		margin-top: 0 !important;
 	}
 
-	/* Botón hamburguesa */
-	#navButton .toggle:before {
-		background: rgba(7, 45, 71, 0.85) !important;
-		color: #f4fbfb !important;
-		border-radius: 0 0 14px 14px;
-		box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
-	}
-
-	/* Ocultar botón cuando el panel está abierto */
 	body.navPanel-visible #navButton {
-		opacity: 0;
-		pointer-events: none;
+		opacity: 0 !important;
+		pointer-events: none !important;
 	}
 }
