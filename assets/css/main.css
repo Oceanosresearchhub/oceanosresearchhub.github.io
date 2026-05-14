@@ -4013,20 +4013,21 @@ body.team_up-page hr {
 }
 
 @media screen and (max-width: 736px) {
-	#navPanel {
-		z-index: 10002 !important;
-		padding-top: 8em !important;
+	.logo-as-button-container {
+		position: absolute !important;
+		z-index: 1001 !important;
 	}
 
-	.logo-as-button-container {
+	body.navPanel-visible .logo-as-button-container {
 		position: fixed !important;
+		top: calc(2em - 6mm) !important;
+		left: calc(2em + 12mm) !important;
 		z-index: 10005 !important;
 		opacity: 1 !important;
 	}
 
-	.logo-as-button-container img {
+	body.navPanel-visible .logo-as-button-container img {
 		opacity: 1 !important;
 	}
 }
-
 
