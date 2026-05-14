@@ -3178,191 +3178,115 @@ letter-spacing: 0.1em;
 
 		/* Nav */
 
-			#page-wrapper {
-				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
-				-moz-transition: -moz-transform 0.5s ease;
-				-webkit-transition: -webkit-transform 0.5s ease;
-				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
-				padding-bottom: 0;
-			
-			}
+	#page-wrapper {
+		transition: none;
+		padding-bottom: 0;
+	}
 
-			#navButton {
-				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
-				-moz-transition: -moz-transform 0.5s ease;
-				-webkit-transition: -webkit-transform 0.5s ease;
-				-ms-transition: -ms-transform 0.5s ease;
-				transition: transform 0.5s ease;
-				display: block;
-				height: 44px;
-				left: 0;
-				position: fixed;
-				top: 0;
-				width: 100%;
-				z-index: 10001;
-			}
+	#navButton {
+		display: block;
+		height: 44px;
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+	}
 
-				#navButton .toggle {
-					text-decoration: none;
-					position: absolute;
-					left: 0;
-					top: 0;
-					width: 100%;
-					height: 100%;
-					border: 0;
-					outline: 0;
-				}
+	#navButton .toggle {
+		text-decoration: none;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border: 0;
+		outline: 0;
+	}
 
-					#navButton .toggle:before {
-						-moz-osx-font-smoothing: grayscale;
-						-webkit-font-smoothing: antialiased;
-						display: inline-block;
-						font-style: normal;
-						font-variant: normal;
-						text-rendering: auto;
-						line-height: 1;
-						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
-						font-weight: 900;
-					}
+	#navButton .toggle:before {
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		content: '\f0c9';
+		color: #fff;
+		text-align: center;
+		display: block;
+		font-size: 16px;
+		width: 46px;
+		height: 42px;
+		line-height: 42px;
+		position: absolute;
+		right: 14px;
+		top: 10px;
+		background: rgba(7, 45, 71, 0.9);
+		border-radius: 12px;
+		box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+	}
 
-					#navButton .toggle:before {
-						text-decoration: none;
-						font-style: normal;
-						content: '\f0c9';
-						color: #fff;
-						color: #fff;
-						text-align: center;
-						display: block;
-						font-size: 14px;
-						width: 80px;
-						height: 30px;
-						line-height: 30px;
-						position: absolute;
-						left: 50%;
-						margin-left: -40px;
-						background: #f4fbfb80;
-						border-top: 0;
-						border-radius: 0 0 0.35em 0.35em;
-					}
+	#navPanel {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 82vw;
+		max-width: 330px;
+		height: 100vh;
+		z-index: 10002;
+		background: rgba(7, 45, 71, 0.96);
+		box-shadow: 12px 0 35px rgba(0, 0, 0, 0.35);
+		border-radius: 0 18px 18px 0;
+		padding: 4.5em 1.4em 2em 1.4em;
+		overflow-y: auto;
 
-			body.navPanel-visible #navButton .toggle:before {
-						display: none;
-					}
+		transform: translateX(-100%);
+		transition: transform 0.3s ease;
+	}
 
-			#navPanel {
-				-moz-backface-visibility: hidden;
-				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
-				-moz-transform: translateY(-50vh);
-				-webkit-transform: translateY(-50vh);
-				-ms-transform: translateY(-50vh);
-				transform: translateY(-50vh);
-				-moz-transition: -moz-transform 0.2s ease;
-				-webkit-transition: -webkit-transform 0.2s ease;
-				-ms-transition: -ms-transform 0.2s ease;
-				transition: transform 0.2s ease;
-				display: block;
-				left: 0;
-				overflow-y: auto;
-				position: fixed;
-				top: 0;
-				width: 100%;
-				z-index: 10002;
-				background: #1f192080;
-				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
-				font-size: 1em;
-			}
+	#navPanel:before {
+		display: none;
+	}
 
-				#navPanel:before {
-					content: '';
-					display: block;
-					position: absolute;
-					left: 0;
-					top: 0;
-					width: 100%;
-					height: 100%;
-					background: #1f192081;
-					background-size: 128px 128px;
-				}
+	#navPanel .link {
+		position: relative;
+		z-index: 1;
+		display: block;
+		color: #f4fbfb;
+		font-size: 1.05em;
+		font-weight: 600;
+		line-height: 1.2;
+		text-decoration: none;
+		border: 0;
+		border-bottom: 1px solid rgba(244, 251, 251, 0.18);
+		padding: 1em 0.3em;
+	}
 
-				#navPanel .link {
-					position: relative;
-					z-index: 1;
-					display: block;
-					text-decoration: none;
-					padding: 0.5em;
-					color: #ddd;
-					border: 0;
-					border-top: dotted 1px rgba(255, 255, 255, 0.05);
-				}
+	#navPanel .link:hover {
+		color: white;
+		background: rgba(244, 251, 251, 0.08);
+		padding-left: 0.8em;
+		border-radius: 10px;
+	}
 
-					#navPanel .link:first-child {
-						border-top: 0;
-					}
+	#navPanel .link:first-child {
+		border-top: 0;
+	}
 
-					#navPanel .link.depth-0 {
-						color: #fff;
-						font-weight: 600;
-					}
+	body.navPanel-visible #navPanel {
+		transform: translateX(0);
+	}
 
-				#navPanel .indent-1 {
-					display: inline-block;
-					width: 1em;
-				}
+	body.navPanel-visible #page-wrapper {
+		transform: none;
+	}
 
-				#navPanel .indent-2 {
-					display: inline-block;
-					width: 2em;
-				}
+	body.navPanel-visible #navButton {
+		transform: none;
+	}
 
-				#navPanel .indent-3 {
-					display: inline-block;
-					width: 3em;
-				}
+	body.navPanel-visible #navButton .toggle:before {
+		display: none;
+	}
 
-				#navPanel .indent-4 {
-					display: inline-block;
-					width: 4em;
-				}
-
-				#navPanel .indent-5 {
-					display: inline-block;
-					width: 5em;
-				}
-
-				#navPanel .depth-0 {
-					color: #fff;
-				}
-
-			body.navPanel-visible #page-wrapper {
-				-moz-transform: translateY(50vh);
-				-webkit-transform: translateY(50vh);
-				-ms-transform: translateY(50vh);
-				transform: translateY(50vh);
-			}
-
-			body.navPanel-visible #navButton {
-				-moz-transform: translateY(50vh);
-				-webkit-transform: translateY(50vh);
-				-ms-transform: translateY(50vh);
-				transform: translateY(50vh);
-			}
-
-			body.navPanel-visible #navPanel {
-				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
-				transform: translateY(0);
-			}
 
 		/* Wrapper */
 
