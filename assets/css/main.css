@@ -3699,6 +3699,12 @@ color: #072d47ff;
 	width: 90%;
 }
 
+@media screen and (max-width: 736px) {
+	.collaboration-text {
+		top: 10px;
+	}
+}
+
 /* OUR SCIENCE */
 
 .ourscience-card {
