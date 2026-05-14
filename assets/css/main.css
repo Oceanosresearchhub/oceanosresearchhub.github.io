@@ -3687,13 +3687,16 @@ color: #072d47ff;
 }
 
 .collaboration-text {
-  position: absolute;
-  top: 40px;          /* distancia desde la parte superior de la imagen */
-  left: 50%;
-  transform: translateX(-50%);
-  color: #072d47ff;       /* color del texto */
-  font-size: 2rem;  /* ajusta tamaño */
-  font-weight: 600;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #072d47ff;
+	font-size: clamp(20px, 5vw, 2rem);
+	font-weight: 600;
+	line-height: 1.15;
+	text-align: center;
+	width: 90%;
 }
 
 /* OUR SCIENCE */
