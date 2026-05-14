@@ -3973,17 +3973,34 @@ body.publications-page #header .inner header h1 {
 
 /* Posiciona el contenedor del logo-enlace */
 .logo-as-button-container {
-    position: absolute;
-    /* Subir 3mm: Restamos 3mm al valor 'top' actual */
-    top: calc(2em - 6mm);
-
-    /* Desplazar a la derecha 5mm: Sumamos 5mm al valor 'left' actual */
-    left: calc(2em + 12mm);
-
-    z-index: 1001;
-    margin: 0 !important;
-    padding: 0 !important;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	z-index: 1001;
+	margin: 0 !important;
+	padding: 0 !important;
 }
+	#logo-button {
+	display: block;
+}
+
+	#logo-button img {
+	display: block;
+	max-width: 150px;
+	height: auto;
+}
+
+@media screen and (max-width: 736px) {
+	.logo-as-button-container {
+		top: 12px;
+		left: 12px;
+	}
+
+	#logo-button img {
+		max-width: 110px;
+	}
+}
+
 
 .publications-list h3 {
     font-weight: bold !important;
