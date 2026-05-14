@@ -4106,16 +4106,18 @@ body.team_up-page hr {
 		overflow-y: auto !important;
 	}
 
-	#navPanel nav,
-	#navPanel ul {
+	#navPanel nav {
+		display: block !important;
 		margin: 0 !important;
 		padding: 0 !important;
-		list-style: none !important;
 	}
 
-	#navPanel .link {
+	#navPanel .link,
+	#navPanel a.link,
+	#navPanel a.link.depth-0 {
 		display: block !important;
 		color: #f4fbfb !important;
+		background: transparent !important;
 		font-size: 1.1em !important;
 		font-weight: 600 !important;
 		line-height: 1.2 !important;
@@ -4125,6 +4127,7 @@ body.team_up-page hr {
 		padding: 1.1em 0.3em !important;
 		opacity: 1 !important;
 		visibility: visible !important;
+		text-shadow: none !important;
 	}
 
 	#navPanel .link:hover {
@@ -4132,10 +4135,6 @@ body.team_up-page hr {
 		background: rgba(244, 251, 251, 0.08) !important;
 		padding-left: 0.8em !important;
 		border-radius: 10px !important;
-	}
-
-	#navPanel .link:first-child {
-		margin-top: 0 !important;
 	}
 
 	body.navPanel-visible #navButton {
