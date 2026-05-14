@@ -3949,14 +3949,14 @@ body.publications-page #header .inner header h1 {
     margin-top: 45px; /* Ajusta este valor (ej. 10px, 30px, etc.) */
 }
 
-@media screen and (max-width: 736px) {
-	.mobile-break {
+.mobile-break {
 	display: none;
 }
 
 @media screen and (max-width: 736px) {
 	.mobile-break {
 		display: block;
+	}
 }
 
 
