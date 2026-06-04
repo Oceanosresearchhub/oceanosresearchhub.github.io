@@ -4051,3 +4051,95 @@ body.team_up-page hr {
 	}
 }
 
+
+/* Approach section */
+
+.approach-section {
+	background-color: #f4fbfbff;
+}
+
+#four .container {
+	max-width: 1200px;
+}
+
+#four header h2 {
+	font-size: 2.2em;
+}
+
+#four header h3 {
+	font-size: 1.25em;
+	line-height: 1.5;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#four .approach-text {
+	max-width: 900px;
+	margin: 2em auto 0 auto;
+	font-size: 1em;
+	line-height: 1.75;
+	text-align: center;
+}
+
+/* Tablet */
+@media screen and (max-width: 980px) {
+	#four header h2 {
+		font-size: 2em;
+	}
+
+	#four header h3 {
+		font-size: 1.15em;
+		max-width: 760px;
+	}
+
+	#four .approach-text {
+		max-width: 760px;
+		font-size: 0.95em;
+	}
+}
+
+/* Móvil */
+@media screen and (max-width: 736px) {
+	#four {
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+	}
+
+	#four header h2 {
+		font-size: 1.65em;
+	}
+
+	#four header h3 {
+		font-size: 1em;
+		line-height: 1.45;
+	}
+
+	#four .approach-text {
+		margin-top: 1.5em;
+		font-size: 0.9em;
+		line-height: 1.6;
+		text-align: left;
+	}
+}
+
+/* Móvil pequeño */
+@media screen and (max-width: 480px) {
+	#four {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#four header h2 {
+		font-size: 1.4em;
+	}
+
+	#four header h3 {
+		font-size: 0.95em;
+	}
+
+	#four .approach-text {
+		font-size: 0.85em;
+	}
+}
+
