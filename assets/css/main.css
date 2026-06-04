@@ -3680,77 +3680,166 @@ color: #072d47ff;
 /* OUR SCIENCE */
 
 .ourscience-card {
-		display: flex;
-		min-height: 100vh;
-	    justify-content: center; 
-	    align-items: center;     
-	    gap: 2em;  
-		padding: 3em 2em;
-	    background: #072d47ff;
-	    overflow: hidden;
-		position:relative;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: stretch;
+	gap: 2em;
+	padding: 5em 2em;
+	background: #072d47ff;
+	overflow: hidden;
+	position: relative;
+}
+
+.ourscience-card article {
+	width: 18em;
+	max-width: 100%;
+	background: #f4fbfb7f;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	white-space: normal;
+	opacity: 1.0;
+	-moz-transition: opacity 0.75s ease-in-out;
+	-webkit-transition: opacity 0.75s ease-in-out;
+	-ms-transition: opacity 0.75s ease-in-out;
+	transition: opacity 0.75s ease-in-out;
+	color: #072d47ff;
+	border-radius: 5px;
+	overflow: hidden;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.ourscience-card .image.featured {
+	margin: 0 0 2em 0;
+	display: block;
+}
+
+.ourscience-card article .image {
+	position: relative;
+	top: 0;
+	width: 100%;
+	margin: 0 0 2em 0;
+	border: 0;
+	outline: 0;
+}
+
+.ourscience-card article .image img {
+	display: block;
+	width: 100%;
+	height: 190px;
+	object-fit: cover;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.ourscience-card article h3 {
+	display: block;
+	margin: 1em 0 0.5em 0;
+	text-align: center;
+	color: #f4fbfbff;
+	font-weight: 700;
+	font-size: 1.4em;
+	letter-spacing: 0.05em;
+	line-height: 1.3;
+	padding: 0 0.8em;
+}
+
+.ourscience-card article p {
+	display: block;
+	padding: 0 1em 1.5em 1em;
+	margin: 0;
+	text-align: center;
+	color: #f4fbfbff;
+	line-height: 1.3;
+	font-size: 1em;
+	flex-grow: 1;
+}
+
+/* Pantallas medianas */
+@media screen and (max-width: 1200px) {
+	.ourscience-card {
+		padding: 4em 2em;
+		gap: 1.5em;
 	}
 
-		.ourscience-card article {
-			display: inline-block;
-			width: 18em;
-			background: #f4fbfb7f;
-			text-align: center;
-			padding: 0 0 0 0;
-			margin: 0;
-			white-space: normal;
-			opacity: 1.0;
-			-moz-transition: opacity 0.75s ease-in-out;
-			-webkit-transition: opacity 0.75s ease-in-out;
-			-ms-transition: opacity 0.75s ease-in-out;
-			transition: opacity 0.75s ease-in-out;
-			color: #072d47ff;
-			border-radius: 5px;
-    		overflow: hidden;
-			height: auto;
-		}
+	.ourscience-card article {
+		width: 16.5em;
+	}
 
-			.ourscience-card .image.featured {
-			    margin: 0 0 2em 0;
-				display: block;
-			}
-			.ourscience-card article .image {
-				position: relative;
-				top: 0;
-				width: 100%;
-				margin-right: -2em;
-				margin-bottom: 2em;
-				border: 0;
-    			outline: 0;
-			}
-			.ourscience-card article .image img {
-			    display: block;
-			    width: 100%;
-			    margin: 0;
-			    padding: 0;
-			    border: 0;
-			}
+	.ourscience-card article h3 {
+		font-size: 1.25em;
+	}
+}
 
-			.ourscience-card article h3 {
-				display: block;
-			    margin: 1em 0 0.5em 0;
-			    unicode-bidi: isolate;
-				text-align: center;
-				color: #f4fbfbff;
-				font-weight: 700;
-				font-size:1.4em;
-				letter-spacing: 0.05em;
-			}
+/* Tablet */
+@media screen and (max-width: 980px) {
+	.ourscience-card {
+		min-height: auto;
+		padding: 4em 1.5em;
+	}
 
-			.ourscience-card article p {
-				display: block;
-			    padding: 0 1em 1.5em 1em;
-  				margin: 0;
-			    unicode-bidi: isolate;
-				text-align: center;
-				color: #f4fbfbff;
-				line-height: 1.3;
-			}
+	.ourscience-card article {
+		width: calc(50% - 1em);
+	}
+
+	.ourscience-card article .image img {
+		height: 180px;
+	}
+}
+
+/* Móvil */
+@media screen and (max-width: 736px) {
+	.ourscience-card {
+		padding: 3em 1.25em;
+		gap: 1.5em;
+	}
+
+	.ourscience-card article {
+		width: 100%;
+		max-width: 360px;
+	}
+
+	.ourscience-card article .image img {
+		height: 170px;
+	}
+
+	.ourscience-card article h3 {
+		font-size: 1.15em;
+	}
+
+	.ourscience-card article p {
+		font-size: 0.9em;
+		line-height: 1.45;
+	}
+}
+
+/* Móvil pequeño */
+@media screen and (max-width: 480px) {
+	.ourscience-card {
+		padding: 2.5em 1em;
+	}
+
+	.ourscience-card article {
+		max-width: 100%;
+	}
+
+	.ourscience-card article .image img {
+		height: 150px;
+	}
+
+	.ourscience-card article h3 {
+		font-size: 1.05em;
+	}
+
+	.ourscience-card article p {
+		font-size: 0.85em;
+	}
+}
 
 .science-page #header {
   position: absolute;
