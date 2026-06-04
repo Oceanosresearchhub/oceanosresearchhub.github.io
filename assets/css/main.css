@@ -3482,9 +3482,37 @@ letter-spacing: 0.1em;
 }
 
 .wrapper.style1features {
-    padding-bottom: 0!important; /* Usar !important si no se sobrescribe */
-	margin-bottom: 0!important;
+	padding-top: 4em;
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
 	background-color: #f4fbfbff !important;
+}
+
+/* Tablet */
+@media screen and (max-width: 980px) {
+	.wrapper.style1features {
+		padding-top: 3em;
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
+}
+
+/* Móvil */
+@media screen and (max-width: 736px) {
+	.wrapper.style1features {
+		padding-top: 2.5em;
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
+}
+
+/* Móvil pequeño */
+@media screen and (max-width: 480px) {
+	.wrapper.style1features {
+		padding-top: 2em;
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
 }
 .wrapper.style1science {
     padding: 0!important; /* Usar !important si no se sobrescribe */
