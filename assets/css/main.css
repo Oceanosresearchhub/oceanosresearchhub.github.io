@@ -3484,16 +3484,25 @@ letter-spacing: 0.1em;
 /* Features responsive */
 
 .wrapper.style1features {
-	padding: 4em 0 3.5em 0;
-	margin-bottom: 0 !important;
+	 padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
+                      /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
 	background-color: #f4fbfbff !important;
 }
 
-#features {
-	height: auto !important;
+#features2 .container.special article.special header {
+    margin-top: 0; 
+	margin-bottom: 0;
+    padding-top: 0; /* Asegura que no haya relleno superior */
+}
+#features2 .container.special {
+    margin-top: 0; 
+	margin-bottom: 0;
+    padding-top: 0; /* Asegura que no haya relleno superior */
+	padding-bottom: 0;
+	color: #f4fbfbff;
 }
 
-#features .features-title {
+#features2 .features-title {
 	max-width: 1000px;
 	margin: 0 auto 1.5em auto;
 	padding: 0 2em;
@@ -3502,28 +3511,6 @@ letter-spacing: 0.1em;
 	text-align: center;
 }
 
-#features .features-row {
-	align-items: flex-start;
-}
-
-#features .feature-item {
-	text-align: center;
-	margin-bottom: 2em;
-}
-
-#features .feature-item .image.featured {
-	display: block;
-	max-width: 160px;
-	width: 100%;
-	height: auto;
-	margin: 0 auto 1.5em auto;
-}
-
-#features .feature-item h3 {
-	font-size: 1.05em;
-	line-height: 1.4;
-	margin-bottom: 0;
-}
 
 #features .features-button-wrap {
 	text-align: center;
