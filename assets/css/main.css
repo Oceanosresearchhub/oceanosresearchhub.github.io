@@ -4225,3 +4225,52 @@ body.team_up-page hr {
 	}
 }
 
+/* Logo principal */
+
+.logo-hero {
+	margin-top: 15vh;
+	text-align: center;
+}
+
+.logo-header {
+	display: block;
+	width: 100%;
+	max-width: 520px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* Tablet */
+@media screen and (max-width: 980px) {
+	.logo-hero {
+		margin-top: 12vh;
+	}
+
+	.logo-header {
+		max-width: 440px;
+	}
+}
+
+/* Móvil */
+@media screen and (max-width: 736px) {
+	.logo-hero {
+		margin-top: 10vh;
+	}
+
+	.logo-header {
+		max-width: 320px;
+		width: 85%;
+	}
+}
+
+/* Móvil pequeño */
+@media screen and (max-width: 480px) {
+	.logo-hero {
+		margin-top: 8vh;
+	}
+
+	.logo-header {
+		max-width: 260px;
+		width: 90%;
+	}
+}
