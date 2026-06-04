@@ -4259,14 +4259,14 @@ body.team_up-page hr {
 /* Tablet */
 @media screen and (max-width: 980px) {
 	.logo-hero {
-		margin-top: 18vh;
+		margin-top: 15vh;
 	}
 }
 
 /* Móvil */
 @media screen and (max-width: 736px) {
 	.logo-hero {
-		margin-top: 16vh;
+		margin-top: 12vh;
 	}
 
 	.logo-header {
@@ -4278,7 +4278,7 @@ body.team_up-page hr {
 /* Móvil pequeño */
 @media screen and (max-width: 480px) {
 	.logo-hero {
-		margin-top: 14vh;
+		margin-top: 10vh;
 	}
 
 	.logo-header {
