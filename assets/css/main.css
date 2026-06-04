@@ -4098,11 +4098,11 @@ body.team_up-page hr {
 }
 
 #four .approach-text {
-	max-width: 900px;
+	width: 80%;
+	max-width: 850px;
 	margin: 2em auto 0 auto;
-	font-size: 1em;
-	line-height: 1.75;
 	text-align: center;
+	line-height: 1.75;
 }
 
 /* Tablet */
@@ -4139,10 +4139,10 @@ body.team_up-page hr {
 	}
 
 	#four .approach-text {
-		margin-top: 1.5em;
+		width: 100%;
+		max-width: 100%;
+		text-align: center;
 		font-size: 0.9em;
-		line-height: 1.6;
-		text-align: left;
 	}
 }
 
