@@ -3511,8 +3511,25 @@ letter-spacing: 0.1em;
 	text-align: center;
 }
 
+#features2 h2 {
+    color: #072d47ff; margin-bottom: 40px;
+	font-weight: 300;
+	font-size:1.1em;
+}
 
-#features .features-button-wrap {
+
+#features2 p {
+    color: #072d47ff; 
+}
+
+#features2 h3 {
+    color: #072d47ff; margin-top: -20px;
+	font-weight: 700;
+	font-size:1.4em;
+	letter-spacing: 0.05em;
+} 
+
+#features2 .features-button-wrap {
 	text-align: center;
 	margin-top: 2em;
 }
