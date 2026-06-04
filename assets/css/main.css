@@ -3481,30 +3481,53 @@ letter-spacing: 0.1em;
 	margin-top: 0!important;
 }
 
-/* Tamaño normal en escritorio */
+/* Features responsive */
+
 .wrapper.style1features {
-	font-size: 1em;
+	padding: 4em 0 3.5em 0;
+	margin-bottom: 0 !important;
+	background-color: #f4fbfbff !important;
 }
 
-/* Tablet */
-@media screen and (max-width: 980px) {
-	.wrapper.style1features {
-		font-size: 0.95em;
-	}
+#features {
+	height: auto !important;
 }
 
-/* Móvil */
-@media screen and (max-width: 736px) {
-	.wrapper.style1features {
-		font-size: 0.9em;
-	}
+#features .features-title {
+	max-width: 1000px;
+	margin: 0 auto 1.5em auto;
+	padding: 0 2em;
+	font-size: 2em;
+	line-height: 1.35;
+	text-align: center;
 }
 
-/* Móvil pequeño */
-@media screen and (max-width: 480px) {
-	.wrapper.style1features {
-		font-size: 0.85em;
-	}
+#features .features-row {
+	align-items: flex-start;
+}
+
+#features .feature-item {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#features .feature-item .image.featured {
+	display: block;
+	max-width: 160px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto 1.5em auto;
+}
+
+#features .feature-item h3 {
+	font-size: 1.05em;
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+
+#features .features-button-wrap {
+	text-align: center;
+	margin-top: 2em;
 }
 .wrapper.style1science {
     padding: 0!important; /* Usar !important si no se sobrescribe */
@@ -4140,6 +4163,78 @@ body.team_up-page hr {
 
 	#four .approach-text {
 		font-size: 0.85em;
+	}
+}
+
+
+/* Features responsive */
+/* Tablet */
+@media screen and (max-width: 980px) {
+	.wrapper.style1features {
+		padding: 3.5em 0 3em 0;
+	}
+
+	#features .features-title {
+		font-size: 1.75em;
+		padding: 0 1.5em;
+	}
+
+	#features .feature-item .image.featured {
+		max-width: 140px;
+	}
+
+	#features .feature-item h3 {
+		font-size: 1em;
+	}
+}
+/* Móvil */
+@media screen and (max-width: 736px) {
+	.wrapper.style1features {
+		padding: 3em 0 2.5em 0;
+	}
+
+	#features .features-title {
+		font-size: 1.4em;
+		line-height: 1.4;
+		padding: 0 1em;
+		margin-bottom: 2em;
+	}
+
+	#features .feature-item {
+		margin-bottom: 2.5em;
+	}
+
+	#features .feature-item .image.featured {
+		max-width: 120px;
+		margin-bottom: 1em;
+	}
+
+	#features .feature-item h3 {
+		font-size: 0.95em;
+		line-height: 1.45;
+	}
+
+	#features .features-button-wrap {
+		margin-top: 1em;
+	}
+}
+/* Móvil pequeño */
+@media screen and (max-width: 480px) {
+	.wrapper.style1features {
+		padding: 2.5em 0 2em 0;
+	}
+
+	#features .features-title {
+		font-size: 1.2em;
+		padding: 0 0.75em;
+	}
+
+	#features .feature-item .image.featured {
+		max-width: 100px;
+	}
+
+	#features .feature-item h3 {
+		font-size: 0.9em;
 	}
 }
 
