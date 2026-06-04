@@ -4245,7 +4245,7 @@ body.team_up-page hr {
 /* Logo principal */
 
 .logo-hero {
-	margin-top: 15vh;
+	margin-top: 22vh;
 	text-align: center;
 }
 
@@ -4260,18 +4260,14 @@ body.team_up-page hr {
 /* Tablet */
 @media screen and (max-width: 980px) {
 	.logo-hero {
-		margin-top: 12vh;
-	}
-
-	.logo-header {
-		max-width: 440px;
+		margin-top: 18vh;
 	}
 }
 
 /* Móvil */
 @media screen and (max-width: 736px) {
 	.logo-hero {
-		margin-top: 10vh;
+		margin-top: 16vh;
 	}
 
 	.logo-header {
@@ -4283,7 +4279,7 @@ body.team_up-page hr {
 /* Móvil pequeño */
 @media screen and (max-width: 480px) {
 	.logo-hero {
-		margin-top: 8vh;
+		margin-top: 14vh;
 	}
 
 	.logo-header {
