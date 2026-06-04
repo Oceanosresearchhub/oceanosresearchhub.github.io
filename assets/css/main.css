@@ -3759,27 +3759,7 @@ color: #072d47ff;
 	font-size: 1em;
 	flex-grow: 1;
 }
-/* Pantalla grande */
-@media screen and (min-width: 981px) {
-	.ourscience-card article {
-		width: 18em;
-	}
 
-	.ourscience-card article .image img {
-		height: 150px;
-	}
-
-	.ourscience-card article h3 {
-		font-size: 1.15em;
-		margin: 0.8em 0 0.4em 0;
-	}
-
-	.ourscience-card article p {
-		font-size: 0.9em;
-		line-height: 1.3;
-		padding: 0 1em 1.2em 1em;
-	}
-}
 /* Pantallas medianas */
 @media screen and (max-width: 1200px) {
 	.ourscience-card {
