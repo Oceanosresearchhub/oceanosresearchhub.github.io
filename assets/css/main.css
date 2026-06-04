@@ -460,7 +460,6 @@ letter-spacing: 0.1em;
 		}
 
 #four .container p {
-		margin: 0 0;
 		padding-left: 50px;    
     	padding-right: 50px; 
 		}
@@ -2007,7 +2006,7 @@ letter-spacing: 0.1em;
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			margin: 0 0 2em 0;
 		}
 
 		.image.left {
@@ -3484,9 +3483,9 @@ letter-spacing: 0.1em;
 /* Features responsive */
 
 .wrapper.style1features {
-	 padding-top: 3em; /* Puedes ajustar este valor (por ejemplo, 2em, 1em, 0.5em, o incluso 0) */
-                      /* Lo he puesto a 3em como punto de partida, que es la mitad del original */
+	 padding: 3em 0 1em 0;
 	background-color: #f4fbfbff !important;
+	
 }
 
 #features2 .container.special article.special header {
@@ -4104,7 +4103,7 @@ body.team_up-page hr {
 #four .approach-text {
 	width: 80%;
 	max-width: 850px;
-	margin: 2em auto 0 auto;
+	margin: 0 auto 0 auto;
 	text-align: center;
 	line-height: 1.75;
 }
