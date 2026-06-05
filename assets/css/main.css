@@ -3680,31 +3680,26 @@ color: #072d47ff;
 /* OUR SCIENCE */
 
 .ourscience-card {
-	display: flex;
-	flex-wrap: wrap;
-	min-height: 100vh;
-	justify-content: center;
-	align-items: stretch;
-	gap: 2em;
-	padding: 5em 2em;
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 1.5em;
+	padding: 4em 2em;
 	background: #072d47ff;
 	overflow: hidden;
 	position: relative;
+	align-items: stretch;
 }
 
+
 .ourscience-card article {
-	width: 18em;
-	max-width: 100%;
+	width: auto;
+	max-width: none;
 	background: #f4fbfb7f;
 	text-align: center;
 	padding: 0;
 	margin: 0;
 	white-space: normal;
 	opacity: 1.0;
-	-moz-transition: opacity 0.75s ease-in-out;
-	-webkit-transition: opacity 0.75s ease-in-out;
-	-ms-transition: opacity 0.75s ease-in-out;
-	transition: opacity 0.75s ease-in-out;
 	color: #072d47ff;
 	border-radius: 5px;
 	overflow: hidden;
@@ -3712,7 +3707,6 @@ color: #072d47ff;
 	display: flex;
 	flex-direction: column;
 }
-
 .ourscience-card .image.featured {
 	margin: 0 0 2em 0;
 	display: block;
@@ -3760,49 +3754,40 @@ color: #072d47ff;
 	flex-grow: 1;
 }
 
-/* Ordenadores medianos: 4 cards en una fila */
+/* Ordenador mediano: 4 cards en una fila */
 @media screen and (max-width: 1200px) {
 	.ourscience-card {
-		padding: 4em 2em;
-		gap: 1.5em;
-	}
-
-	.ourscience-card article {
-		flex: 0 1 calc(25% - 1.2em);
-		max-width: calc(25% - 1.2em);
-	}
-
-	.ourscience-card article h3 {
-		font-size: 1.25em;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		padding: 4em 1.5em;
+		gap: 1.25em;
 	}
 }
+
 /* Tablet: 2 cards por fila */
 @media screen and (max-width: 980px) {
 	.ourscience-card {
-		min-height: auto;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 		padding: 4em 1.5em;
 		gap: 1.5em;
-	}
-
-	.ourscience-card article {
-		flex: 0 1 calc(50% - 0.75em);
-		max-width: calc(50% - 0.75em);
 	}
 
 	.ourscience-card article .image img {
 		height: 180px;
 	}
 }
+
 /* Móvil: 1 card por fila */
 @media screen and (max-width: 736px) {
 	.ourscience-card {
+		grid-template-columns: 1fr;
 		padding: 3em 1.25em;
 		gap: 1.5em;
 	}
 
 	.ourscience-card article {
-		flex: 0 1 100%;
 		max-width: 360px;
+		width: 100%;
+		justify-self: center;
 	}
 
 	.ourscience-card article .image img {
@@ -3818,6 +3803,7 @@ color: #072d47ff;
 		line-height: 1.45;
 	}
 }
+
 /* Móvil pequeño: 1 card por fila */
 @media screen and (max-width: 480px) {
 	.ourscience-card {
@@ -3825,7 +3811,6 @@ color: #072d47ff;
 	}
 
 	.ourscience-card article {
-		flex: 0 1 100%;
 		max-width: 100%;
 	}
 
