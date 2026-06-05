@@ -2287,28 +2287,63 @@ letter-spacing: 0.1em;
 
 /* Button */
 
+.news-button-wrap {
+  margin-top: 40px;
+  position: relative;
+  z-index: 30;
+  width: 100%;
+  text-align: center;
+  pointer-events: auto;
+}
+
 .buttonnews {
-    background-color: white;   /* Color de fondo del botón */
-    color: #072d47ff;                  /* Color del texto */
-    width: 150px;                  /* Ancho del botón */
-    height: 50px;                 /* Altura del botón */
-    text-align: center;            /* Centra el texto horizontalmente */
-    line-height: 50px;            /* Centra el texto verticalmente */
-    border: none;                  /* Sin borde */
-    border-radius: 50px;           /* Esquinas redondeadas */
-    cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
-    display: inline-block;         /* Asegura que el botón se comporte como un elemento en línea */
-	margin-top: 20px;
-	font-weight: 1.5em;
-		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  background-color: #072d47ff;
+  color: white;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+
+  position: relative;
+  z-index: 50;
+  pointer-events: auto;
+
+  transition: background-color 0.35s ease-in-out, 
+              color 0.35s ease-in-out, 
+              border-bottom-color 0.35s ease-in-out;
 }
 
 .buttonnews:hover {
-    background-color: #f9a862ff; /* Cambia el color en estado hover */
-	color: #072d47ff;
+  background-color: #f9a862ff;
+  color: #072d47ff;
+}
+
+@media screen and (max-width: 736px) {
+  .news-button-wrap {
+    margin-top: 30px;
+    position: relative;
+    z-index: 80;
+    width: 100%;
+    text-align: center;
+    pointer-events: auto;
+  }
+
+  .buttonnews {
+    position: relative;
+    z-index: 100;
+    pointer-events: auto;
+    width: auto;
+    min-width: 150px;
+    max-width: 90%;
+  }
 }
 
 .buttonfeatures {
