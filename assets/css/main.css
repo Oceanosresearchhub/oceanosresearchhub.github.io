@@ -4383,3 +4383,135 @@ body.team_up-page hr {
 		width: 90%;
 	}
 }
+
+.profile-section {
+  background-color: #f4fbfbff;
+}
+
+.profile-container {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 2.5em;
+  background-color: #f4fbfbff;
+}
+
+.profile-divider {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.profile-image-column {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.profile-image-wrapper {
+  margin-bottom: 0.5em;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.profile-text-column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 3cm;
+  color: #072d47ff;
+}
+
+.profile-header {
+  margin-bottom: 1.5em;
+  text-align: left;
+}
+
+.profile-header h3,
+.profile-header h3 a {
+  color: #072d47ff;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+.profile-description {
+  margin-top: 0;
+  text-indent: 2em;
+  color: #072d47ff;
+}
+
+.profile-contact {
+  line-height: 1.5em;
+  text-align: left;
+  font-size: 0.9em;
+  margin-bottom: 3em;
+  color: #072d47ff;
+}
+
+.profile-contact a {
+  color: #072d47ff;
+}
+
+/* Tablets */
+@media screen and (max-width: 980px) {
+  .profile-content {
+    gap: 1.5em;
+  }
+
+  .profile-image-column {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .profile-text-column {
+    padding-right: 1em;
+  }
+
+  .profile-header h3,
+  .profile-header h3 a {
+    font-size: 1.5em;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+  .profile-content {
+    flex-direction: column;
+  }
+
+  .profile-image-column,
+  .profile-text-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .profile-header {
+    margin-bottom: 1em;
+  }
+
+  .profile-header h3,
+  .profile-header h3 a {
+    font-size: 1.4em;
+  }
+
+  .profile-description {
+    text-indent: 0;
+  }
+
+  .profile-contact {
+    margin-bottom: 1.5em;
+  }
+}
