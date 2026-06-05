@@ -4198,20 +4198,21 @@ body.team_up-page hr {
 }
 
 @media screen and (max-width: 736px) {
-  .logo-as-button-container {
-    position: absolute !important;
-    z-index: 1001 !important;
+  .logo-as-button-container { 
+	  position: absolute !important;
+		z-index: 1001 !important; 
   }
 
   body.navPanel-visible .logo-as-button-container {
-    opacity: 0 !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
-  }
+  position: fixed !important;
+  top: calc(2em - 6mm) !important;
+  left: calc(2em + 12mm) !important;
+  z-index: 10005 !important;
+  opacity: 1 !important;
+}
 
   body.navPanel-visible .logo-as-button-container img {
-    opacity: 0 !important;
-    visibility: hidden !important;
+    opacity: 1 !important;
   }
 }
 
