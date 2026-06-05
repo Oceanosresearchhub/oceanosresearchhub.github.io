@@ -4439,10 +4439,14 @@ body.team_up-page hr {
   text-align: left;
 }
 
-.profile-header h3,
-.profile-header h3 a {
+.profile-header h3 {
   color: #072d47ff;
-  font-size: 1.7em;
+  font-size: 3 em;
+  text-decoration: none;
+}
+
+.profile-header h3 a {
+  color: inherit;
   text-decoration: none;
 }
 
