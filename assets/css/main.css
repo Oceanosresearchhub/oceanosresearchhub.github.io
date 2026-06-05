@@ -117,7 +117,7 @@ input, select, textarea {
 	}
 
 #four h2 {
-    color: #fbc596ff; 
+    color: #f9a862ff; 
 	text-align: center; 
 	padding: 20px 3em 20px 3em;
 	top: 40%;
@@ -161,7 +161,7 @@ input, select, textarea {
 }
 
 #featuresnews h2 {
-    color: #fbc596ff; 
+    color: #f9a862ff; 
 	text-align: center; 
 	padding: 1em 3em 1.5em 3em;
 	top: 40%;
@@ -188,7 +188,7 @@ input, select, textarea {
 	text-align: left;
   font-size: 1.2em;
   font-weight: 400;
-  color: #fbc596ff;
+  color: #f9a862ff;
   margin-bottom: 1.4em;
 letter-spacing: 0.1em;
 }
@@ -199,7 +199,7 @@ letter-spacing: 0.1em;
 	margin-top: 1.2em;
 }
 .news-text a {
-    color: #fbc596ff;
+    color: #f9a862ff;
 }
 
 .news-text a:hover {
@@ -2307,7 +2307,7 @@ letter-spacing: 0.1em;
 }
 
 .buttonnews:hover {
-    background-color: #fbc596ff; /* Cambia el color en estado hover */
+    background-color: #f9a862ff; /* Cambia el color en estado hover */
 	color: #072d47ff;
 }
 
@@ -2331,7 +2331,7 @@ letter-spacing: 0.1em;
 }
 
 .buttonfeatures:hover {
-    background-color: #fbc596ff; /* Cambia el color en estado hover */
+    background-color: #f9a862ff; /* Cambia el color en estado hover */
 	color: #072d47ff;
 }
 
@@ -2365,7 +2365,7 @@ letter-spacing: 0.1em;
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #fbc596ff;
+			background: #f9a862ff;
 		}
 
 		input[type="button"].alt,
@@ -2823,7 +2823,7 @@ letter-spacing: 0.1em;
 			}
 
 				#footer .copyright a:hover {
-					color: #fbc596ff!important;
+					color: #f9a862ff!important;
 				}
 
 /* Carousel */
@@ -3557,7 +3557,7 @@ letter-spacing: 0.1em;
 
 /* Color normal de los enlaces en la lista de publicaciones */
 .publications-list .publication-content a {
-  color: #fbc596ff !important;          /* azul enlaces */
+  color: #f9a862ff !important;          /* azul enlaces */
   text-decoration: underline;
 }
 
@@ -3629,7 +3629,7 @@ color: #072d47ff;
 }
 
 .wrapper.style2 .container .row .col-12 .actions .button:hover {
-    background-color: #fbc596ff; /* Color en estado hover */
+    background-color: #f9a862ff; /* Color en estado hover */
 }
 
 
@@ -4170,7 +4170,7 @@ body.team_up-page hr {
 }
 
 #four header h3 {
-	font-size: 1.25em;
+	font-size: 1.6em;
 	line-height: 1.5;
 	max-width: 900px;
 	margin-left: auto;
@@ -4183,6 +4183,7 @@ body.team_up-page hr {
 	margin: 0 auto 0 auto;
 	text-align: center;
 	line-height: 1.75;
+	font-size: 1.25em;
 }
 
 /* Tablet */
