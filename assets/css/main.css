@@ -3760,7 +3760,7 @@ color: #072d47ff;
 	flex-grow: 1;
 }
 
-/* Pantallas medianas */
+/* Ordenadores medianos: 4 cards en una fila */
 @media screen and (max-width: 1200px) {
 	.ourscience-card {
 		padding: 4em 2em;
@@ -3768,31 +3768,32 @@ color: #072d47ff;
 	}
 
 	.ourscience-card article {
-		width: 16.5em;
+		flex: 0 1 calc(25% - 1.2em);
+		max-width: calc(25% - 1.2em);
 	}
 
 	.ourscience-card article h3 {
 		font-size: 1.25em;
 	}
 }
-
-/* Tablet */
+/* Tablet: 2 cards por fila */
 @media screen and (max-width: 980px) {
 	.ourscience-card {
 		min-height: auto;
 		padding: 4em 1.5em;
+		gap: 1.5em;
 	}
 
 	.ourscience-card article {
-		width: calc(50% - 1em);
+		flex: 0 1 calc(50% - 0.75em);
+		max-width: calc(50% - 0.75em);
 	}
 
 	.ourscience-card article .image img {
 		height: 180px;
 	}
 }
-
-/* Móvil */
+/* Móvil: 1 card por fila */
 @media screen and (max-width: 736px) {
 	.ourscience-card {
 		padding: 3em 1.25em;
@@ -3800,7 +3801,7 @@ color: #072d47ff;
 	}
 
 	.ourscience-card article {
-		width: 100%;
+		flex: 0 1 100%;
 		max-width: 360px;
 	}
 
@@ -3817,14 +3818,14 @@ color: #072d47ff;
 		line-height: 1.45;
 	}
 }
-
-/* Móvil pequeño */
+/* Móvil pequeño: 1 card por fila */
 @media screen and (max-width: 480px) {
 	.ourscience-card {
 		padding: 2.5em 1em;
 	}
 
 	.ourscience-card article {
+		flex: 0 1 100%;
 		max-width: 100%;
 	}
 
