@@ -4188,6 +4188,16 @@ body.team_up-page hr {
 
 /* Tablet */
 @media screen and (max-width: 980px) {
+	#four {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#four .container {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
 	#four header h2 {
 		font-size: 2em;
 	}
@@ -4206,8 +4216,13 @@ body.team_up-page hr {
 /* Móvil */
 @media screen and (max-width: 736px) {
 	#four {
-		padding-left: 1.25em;
-		padding-right: 1.25em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+	}
+
+	#four .container {
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
 
 	#four header h2 {
@@ -4230,8 +4245,13 @@ body.team_up-page hr {
 /* Móvil pequeño */
 @media screen and (max-width: 480px) {
 	#four {
-		padding-left: 1em;
-		padding-right: 1em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+
+	#four .container {
+		padding-left: 0.25em;
+		padding-right: 0.25em;
 	}
 
 	#four header h2 {
@@ -4246,7 +4266,6 @@ body.team_up-page hr {
 		font-size: 0.85em;
 	}
 }
-
 
 /* Features responsive */
 /* Tablet */
