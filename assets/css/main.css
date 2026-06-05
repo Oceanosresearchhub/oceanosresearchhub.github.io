@@ -4182,6 +4182,10 @@ body.team_up-page hr {
 
 /* Approach section */
 
+.wrapper.approach-section {
+  padding: 0 !important;
+}
+
 .approach-section {
 	background-color: #f4fbfbff;
 }
