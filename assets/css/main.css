@@ -4407,19 +4407,15 @@ body.team_up-page hr {
 }
 
 @media screen and (max-width: 736px) {
-  .image.featured {
+  #features2 .image.featured {
+    display: block;
     width: 80%;
     max-width: 260px;
+    height: auto;
     margin: 0 auto 2em auto;
   }
-
-  .image.featured img {
-	display: block;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
 }
+
 /* Móvil pequeño */
 @media screen and (max-width: 480px) {
 	.wrapper.style1features {
