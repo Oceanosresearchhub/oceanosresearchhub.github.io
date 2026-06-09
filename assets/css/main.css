@@ -4206,23 +4206,21 @@ body.team_up-page hr {
 
 @media screen and (max-width: 736px) {
   .logo-as-button-container { 
-	  position: absolute !important;
-		z-index: 1001 !important; 
+    position: absolute !important;
+    z-index: 1001 !important; 
   }
 
   body.navPanel-visible .logo-as-button-container {
-  position: fixed !important;
-  top: calc(2em - 6mm) !important;
-  left: calc(2em + 12mm) !important;
-  z-index: 10005 !important;
-  opacity: 1 !important;
-}
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
 
   body.navPanel-visible .logo-as-button-container img {
-    opacity: 1 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
   }
 }
-
 /* Approach section */
 
 .wrapper.approach-section {
@@ -4765,6 +4763,7 @@ font-weight: 500;
 @media screen and (max-width: 736px) {
   body.homepage #header {
     min-height: 100vh !important;
+    background-image: url("images/header.jpg") !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
