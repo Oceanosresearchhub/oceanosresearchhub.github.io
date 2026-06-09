@@ -4551,7 +4551,7 @@ body.team_up-page hr {
 
 .teamup-content {
   display: flex;
-  align-items: stretch;
+  align-items: center;
 }
 
 .teamup-content > div {
