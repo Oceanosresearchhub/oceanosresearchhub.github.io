@@ -4540,3 +4540,100 @@ body.team_up-page hr {
     margin-bottom: 1.5em;
   }
 }
+
+/* TeamUp section */
+
+.teamup-section {
+  position: relative;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: #072d47ff;
+}
+
+.teamup-content {
+  align-items: center;
+}
+
+.teamup-image-wrap {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 18px 40px rgba(7, 45, 71, 0.18);
+}
+
+.teamup-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.teamup-text {
+  color: #072d47ff;
+  padding-left: 2em;
+}
+
+.teamup-label {
+  margin-bottom: 0.5em;
+  color: #f9a862ff;
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.teamup-text h2 {
+  color: #072d47ff;
+  font-size: 2em;
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+
+.teamup-text p {
+  color: #072d47ff;
+  margin-bottom: 1.2em;
+}
+
+.teamup-options {
+  margin-top: 1.2em;
+}
+
+.teamup-options p {
+  margin-bottom: 0.4em;
+}
+
+.teamup-options ul {
+  margin-left: 1.2em;
+  margin-bottom: 1.5em;
+  color: #072d47ff;
+}
+
+.teamup-options li {
+  margin-bottom: 0.35em;
+}
+
+.teamup-button {
+  margin-top: 0.5em;
+}
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+  .teamup-section {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .teamup-text {
+    padding-left: 0;
+    margin-top: 2em;
+  }
+
+  .teamup-text h2 {
+    font-size: 1.6em;
+  }
+
+  .teamup-image-wrap {
+    box-shadow: 0 10px 25px rgba(7, 45, 71, 0.14);
+  }
+}
+
+
