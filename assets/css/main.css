@@ -4760,4 +4760,50 @@ font-weight: 500;
   }
 }
 
+/* Para que la portada de Mobile sea mas parecida a la de web normal*/
 
+@media screen and (max-width: 736px) {
+  body.homepage #header {
+    min-height: 100vh !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body.homepage #header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(7, 45, 71, 0.25);
+    z-index: 0;
+  }
+
+  body.homepage #header .inner,
+  body.homepage #header .logo-hero {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh !important;
+    width: 100%;
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-header {
+    max-width: 290px;
+    width: 78%;
+    height: auto;
+  }
+
+  body.homepage #header h1,
+  body.homepage #header p,
+  body.homepage #header .hero-button,
+  body.homepage #header .scroll-cue {
+    display: none !important;
+  }
+}
