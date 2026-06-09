@@ -2558,8 +2558,16 @@ letter-spacing: 0.1em;
 
 			.logo-header {
 			    max-width: 450px;
+				width: 100%;
 			    height: auto;
 			}
+
+		@media screen and (max-width: 480px) {
+		  .logo-header {
+		    max-width: 220px;
+		    width: 65%;
+		  }
+		}
 
 		#header header {
 			display: inline-block;
