@@ -4766,26 +4766,22 @@ align-self: center;
 /* Para que la portada de Mobile sea mas parecida a la de web normal*/
 
 @media screen and (max-width: 736px) {
-  body.homepage > #page-wrapper > #header {
-    height: 100svh !important;
-    min-height: 100svh !important;
-    max-height: 100svh !important;
-    width: 100% !important;
+  body.homepage #page-wrapper #header {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    overflow: hidden !important;
 
-    background-image: url("images/pic_publi_background.jpg") !important;
+    background-image: url("../../images/pic_publi_background.jpg") !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-attachment: scroll !important;
   }
 
-  body.homepage > #page-wrapper > #header > .inner.logo-hero {
-    height: 100svh !important;
-    min-height: 100svh !important;
-    width: 100% !important;
+  body.homepage #page-wrapper #header .inner.logo-hero {
+    height: 100vh !important;
+    min-height: 100vh !important;
     padding: 0 1.5em !important;
     margin: 0 !important;
 
@@ -4794,9 +4790,20 @@ align-self: center;
     justify-content: center !important;
   }
 
-  body.homepage > #page-wrapper > #header .logo-header {
-    max-width: 260px !important;
-    width: 70% !important;
+  body.homepage #page-wrapper #header .inner.logo-hero header {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.homepage #page-wrapper #header .inner.logo-hero h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.homepage #page-wrapper #header .logo-header {
+    max-width: 270px !important;
+    width: 72% !important;
     height: auto !important;
   }
 }
+
