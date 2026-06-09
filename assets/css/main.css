@@ -4590,7 +4590,7 @@ body.team_up-page hr {
 .teamup-label {
   margin-bottom: 0.5em;
   color: #f9a862ff !important;
-  font-size: 0.85em;
+  font-size: 1em;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -4598,7 +4598,7 @@ body.team_up-page hr {
 
 .teamup-text h2 {
   color: #072d47ff;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.2;
   margin-bottom: 1em;
 text-align: left !important;
@@ -4617,6 +4617,7 @@ text-align: left !important;
   margin-bottom: 0.4em;
 color: #f9a862ff !important;
 font-weight: 500;
+	font-size: 1em;
 }
 
 .teamup-options ul {
