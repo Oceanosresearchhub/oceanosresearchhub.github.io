@@ -4342,15 +4342,15 @@ body.team_up-page hr {
 	}
 
 	#four header h2 {
-		font-size: 1.4em;
+		font-size: 1.6em;
 	}
 
 	#four header h3 {
-		font-size: 0.95em;
+		font-size: 1.2em;
 	}
 
 	#four .approach-text {
-		font-size: 0.85em;
+		font-size: 1em;
 	}
 }
 
@@ -4414,6 +4414,7 @@ body.team_up-page hr {
   }
 
   .image.featured img {
+	display: block;
     width: 100%;
     height: auto;
     margin: 0 auto;
