@@ -4763,7 +4763,7 @@ font-weight: 500;
 @media screen and (max-width: 736px) {
   body.homepage #header {
     min-height: 100vh !important;
-    background-image: url("images/header.jpg") !important;
+    background-image: url("images/pic_publi_background.jpg") !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
