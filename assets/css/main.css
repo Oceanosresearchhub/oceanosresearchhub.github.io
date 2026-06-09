@@ -4551,7 +4551,7 @@ body.team_up-page hr {
 }
 
 .teamup-content {
-  align-items: center;
+  align-items: left;
 }
 
 .teamup-image-wrap {
@@ -4614,6 +4614,38 @@ body.team_up-page hr {
 .teamup-button {
   margin-top: 0.5em;
 }
+
+.teamup-button {
+  background-color: #072d47ff;
+  color: white;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+
+  position: relative;
+  z-index: 20;
+  pointer-events: auto;
+
+  -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+}
+
+.teamup-button:hover {
+  background-color: #f9a862ff;
+  color: #072d47ff;
+}
+
 
 /* Mobile */
 @media screen and (max-width: 736px) {
