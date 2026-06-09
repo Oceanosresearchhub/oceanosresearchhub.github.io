@@ -4548,6 +4548,7 @@ body.team_up-page hr {
   padding-top: 4em;
   padding-bottom: 4em;
   color: #072d47ff;
+	align-items: left;
 }
 
 .teamup-content {
@@ -4574,7 +4575,7 @@ body.team_up-page hr {
 
 .teamup-label {
   margin-bottom: 0.5em;
-  color: #f9a862ff;
+  color: #f9a862ff !important;
   font-size: 0.85em;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -4599,6 +4600,7 @@ body.team_up-page hr {
 
 .teamup-options p {
   margin-bottom: 0.4em;
+color: #f9a862ff !important;
 }
 
 .teamup-options ul {
