@@ -4762,15 +4762,19 @@ font-weight: 500;
 /* Para que la portada de Mobile sea mas parecida a la de web normal*/
 
 @media screen and (max-width: 736px) {
-  body.homepage #header {
+  body.homepage > #page-wrapper > #header {
+    height: 100vh !important;
     min-height: 100vh !important;
+    max-height: 100vh !important;
+    overflow: hidden !important;
     background-image: url("images/pic_publi_background.jpg") !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
   }
 
-  body.homepage #header .inner.logo-hero {
+  body.homepage > #page-wrapper > #header > .inner.logo-hero {
+    height: 100vh !important;
     min-height: 100vh !important;
     display: flex !important;
     align-items: center !important;
@@ -4778,7 +4782,7 @@ font-weight: 500;
     padding: 0 1.5em !important;
   }
 
-  body.homepage .logo-header {
+  body.homepage > #page-wrapper > #header .logo-header {
     max-width: 260px !important;
     width: 70% !important;
     height: auto !important;
