@@ -4564,9 +4564,8 @@ body.team_up-page hr {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 18px 40px rgba(7, 45, 71, 0.18);
-	margin-bottom: 2em;
+	padding-bottom: 2em;
 }
-
 
 .teamup-image {
  width: 100%;
